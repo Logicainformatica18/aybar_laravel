@@ -9,7 +9,7 @@
     <link rel="icon" type="image/jpg" href="{{ asset('ayba/favicon.png') }}" />
     <!-- Core Css -->
     <link rel="stylesheet" href="{{ asset('assets/css/styles.css') }}" />
-    <title>AybarCorp</title>
+    <title>ComexLat</title>
     <!-- Owl Carousel  -->
     <link rel="stylesheet" href="{{ asset('assets/libs/owl.carousel/dist/assets/owl.carousel.min.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/libs/aos/dist/aos.css') }}" />
@@ -290,10 +290,10 @@
                     ['history', ['undo', 'redo']]
                 ],
                 fontNames: ['Arial', 'Arial Black', 'Comic Sans MS', 'Courier New', 'Helvetica', 'Impact',
-                    'Tahoma', 'Times New Roman', 'Verdana', 'Manrope', 'Montserrat', 'Montserrat-Bold',
+                    'Tahoma', 'Times New Roman', 'Verdana', 'Manrope', 'Montserrat', 'RALEWAY-BOLD',
                     'Montserrat-SemiBold', 'Montserrat-Regular'
                 ], // Agrega Montserrat aquí
-                fontNamesIgnoreCheck: ['Montserrat', 'Montserrat-Regular', 'Montserrat-Bold',
+                fontNamesIgnoreCheck: ['Montserrat', 'Montserrat-Regular', 'RALEWAY-BOLD',
                     'Montserrat-SemiBold'
                 ] // Ignora el chequeo para la fuente personalizada
 

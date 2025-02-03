@@ -204,7 +204,7 @@
                             <div class="text-center"><span style="font-size: 9px;">
 
                                 </span><button type="button" class="btn btn-warning btn-block" onclick="CustomerStorePublic();" style="color: white; border-radius: 100px; background-color: #F6A42C; width: 180px;"><span style="font-size: 9px;">
-                                        <span style="font-family: Montserrat-Bold; font-size: 12px;">Enviar mis
+                                        <span style="font-family: RALEWAY-BOLD; font-size: 12px;">Enviar mis
                                             datos</span>
                                     </span></button><span style="font-size: 9px;">
                                 </span></div><span style="font-size: 9px;">

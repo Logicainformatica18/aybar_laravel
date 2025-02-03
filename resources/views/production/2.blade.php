@@ -2,10 +2,10 @@
 
 <style>
     .bg-responsive {
-        background-image: url('../resource/1738080045_portada-inicio-1-escritorio.jpg');
+        background-image: url('../resource/1738618824_67a137c8cbe2fbanner-comexlat.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
+        background-size: 100%;
+        height: 100vh;
 
         /* height: 85vh; */
     }
@@ -14,10 +14,11 @@
     @media (max-width: 1292px) {
         .bg-responsive {
             width: 100%;
+            height: 80vh;
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            background-image: url('../resource/1738247474_679b8d32253e5portada-inicio-1-tablet.jpg');
+            background-image: url('../../resource/1738619096_67a138d8b8f8fbanner-comexlat-tablet.jpg');
         }
     }
 
@@ -25,11 +26,12 @@
     @media (max-width: 987px) {
         .bg-responsive {
             width: 10%;
+            height: 40vh;
             /* height: 90vh; */
             background-position: center;
             background-repeat: no-repeat;
             /* background-size: contain; */
-            background-image: url('../resource/1738247025_679b8b712800cportada-inicio-1-celular.jpg');
+            background-image: url('../../resource/1738619153_67a13911c95a7banner-comexlat-celular.jpg');
         }
     }
 </style>
@@ -45,159 +47,7 @@
         
                 <!-- Diapositiva 1 -->
                 <div class=" carousel-item text-center pb-5 active bg-responsive">
-                    <div class="container-fluid " style=" background-color: transparent;">
-                        <p>&nbsp; </p>
-                        <p>&nbsp; </p>
-                        <p>&nbsp; </p>
-                        <p>&nbsp; </p>
-
-                       
-
-                        <div class="row h-100 ">
-                            <!-- Columna izquierda con imagen -->
-                            <div class="col-lg-6 col-xl-4 col-md-12 justify-content-center text-center align-content-center" data-aos="slide-right" data-aos-duration="700" data-aos-delay="500">
-
-
-                                <div class="d-lg-none">
-                                    <img src="../ayba/4.png" alt="" style="width: 80px;margin-top:-30px"> <br>
-                                   
-                                   
-                                </div>
-
-                                <div>
-                                    <div class="d-xl-none d-lg-none ">
-                                        <p>&nbsp;</p>
-                                        
-                                        
-                                        <p>&nbsp;</p>
-                                        <p>&nbsp;</p>
-                                        <p>&nbsp;</p>
-                                        <p>&nbsp;</p>
-                                      
-                                    </div>
-                                    <div class="d-sm-none ">
-                                        <p>&nbsp;</p>
-                                        <p>&nbsp;</p>
-                                        
-                                        <p>&nbsp;</p>
-                                        <p>&nbsp;</p>
-                                    </div>
-                                    <!-- Contenido encima -->
-                                    <div class="d-none d-lg-block mt-5">
-
-                                        <img src="../ayba/4.png" alt="" style="width: 50px;"> <br>
-                                        
-                                    </div>
-                                  <div class="d-sm-none">
-                                    <span class=" text-white  fs-3" style="letter-spacing: 10px;font-family:Montserrat-Medium">HACIENDO
-                                        REALIDAD</span>
-                                    <h4 class=" text-warning fs-3" style="letter-spacing: 10px;font-family:Montserrat-Medium;margin-top:-5px">TU HOGAR
-                                    </h4>
-                                  </div>
-                                  
-                                    <div class="d-none d-sm-block">
-                                        <span class=" text-white  fs-6" style="letter-spacing: 10px;font-family:Montserrat-Medium">HACIENDO
-                                            REALIDAD</span>
-                                        <h4 class=" text-warning fs-5" style="letter-spacing: 10px;font-family:Montserrat-Medium;margin-top:-5px">TU HOGAR
-                                        </h4>
-                                        <div class="mt-2 mb-3 subrayado mx-auto"></div>
-                                       
-                                    </div>
-                                    ¡No pierdas más tiempo y asegura el lote de tus <br class="d-none d-lg-block"> sueños hoy mismo, con
-                                    facilidades de pago y <br class="d-none d-lg-block"> ubicaciones estratégicas!
-                                  
-                                    
-                                      
-                                
-                                    <p></p>
-                                    <div class="d-none d-lg-block">
-                                        <span style="color:#F6A42C;font-family:Montserrat-Medium;letter-spacing: 8px;font-size:18px;">¿DUDAS O CONSULTAS?</span>
-                                       <br>  Nuestros números de atención al cliente: <br>
-                                        <a href="tel:+5101-9049838" style="font-family:Montserrat-Regular;color:white">
-                                            <span class="fs-7">(51) 01-9049838</span>
-                                        </a>
-                                    </div>
-                                  
-                                </div>
-                            </div>
-                            <!-- Columna central con imagen adicional -->
-                            <div class="d-none d-lg-block col-lg-1 d-xl-block col-xl-4  align-content-center">
-
-                            </div>
-
-                            <!-- Columna derecha con formulario -->
-                            <div class="col col-md-12 col-lg-4 col-xl-3 col-sm-12" data-aos="flip-left" data-aos-duration="700" data-aos-delay="400">
-
-                                <div class="p-7 mb-2 rounded" style="background-color: #ffffff; color: rgb(100, 100, 100); box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);">
-                                    <p class="text-center text-light mb-4"><b> <span style="font-size: 16px;color:#055261">QUIERO
-                                                INFORMACIÓN DE UN LOTE</span></b></p>
-
-
-                                    <select class="form-control" name="project_id" id="project_id" style="color: white; background-color:rgb(230, 230, 230);
-                                    color:rgb(124, 124, 124);font-family:Montserrat-SemiBold">
-                                        <option value="">Seleccione un proyecto</option>
-                                    </select>
-                                    <br>
-
-                                    <div class="mb-3">
-                                        <input type="text" class="form-control" name="names" placeholder="Nombres y Apellidos:" style="width:100%; background-color:rgb(230, 230, 230);color:rgb(124, 124, 124);font-family:Montserrat-SemiBold">
-                                    </div>
-                                    <div class=" mb-3">
-                                        <input type="text" id="phone" class="form-control" name="cellphone" placeholder="Número de Teléfono" style="width:100%; background-color:rgb(230, 230, 230);color:rgb(124, 124, 124);font-family:Montserrat-SemiBold">
-                                    </div>
-                                    <div class=" mb-3">
-                                        <input type="number" class="form-control" id="dni" name="dni" placeholder="Número de DNI" style="width:100%; background-color:rgb(230, 230, 230);color:rgb(124, 124, 124);font-family:Montserrat-SemiBold">
-
-                                    </div>
-
-                                    <div class="form-floating mb-3">
-                                       
-                                        <input type="text" class="form-control" id="message" name="message" placeholder="Mensaje" style="width:100%; background-color:rgb(230, 230, 230);color:rgb(124, 124, 124);font-family:Montserrat-SemiBold" maxlength="200" oninput="updateCounter()">
-                                        <div class="form-text text-white">
-                                            <p><span id="charCount"><span style="font-size: 8px;">0</span></span><span style="font-size: 8px;">/200 caracteres</span></p>
-                                        </div>
-                                    </div>
-
-
-
-                                    <div class="form-check text-start">
-                                        <input class="form-check-input" type="checkbox" id="txtTratamientoDatos" name="data_aprobed_1" value="true">
-                                        <label class="form-check-label fs-3" for="txtTratamientoDatos">
-                                            <span class="fs-2">He leído y acepto la </span>
-                                            <a class="text-warning fs-2" data-bs-toggle="modal" data-bs-target="#bs-example-modal-xlg2" style="cursor: pointer;">
-                                                Política para envío de comunicaciones comerciales.
-                                            </a>
-                                        </label>
-                                    </div>
-
-                                    <div class="form-check text-start ">
-                                        <input class="form-check-input" type="checkbox" id="txtTratamientoDatos2" name="data_aprobed_2" value="true">
-                                        <label class="form-check-label fs-3" for="txtTratamientoDatos2">
-                                            <span class="fs-2">He leído y acepto el </span>
-                                            <a class="text-warning fs-2" data-bs-toggle="modal" data-bs-target="#bs-example-modal-xlg" style="cursor: pointer;">
-                                                Tratamiento de mis datos personales.
-                                            </a>
-                                        </label>
-                                    </div>
-
-
-
-
-                                    <div class="text-center"><span style="font-size: 9px;">
-
-                                        </span><button type="button" class=" w-xs-100 mt-3  btn btn-warning btn-block" onclick="CustomerStorePublic();" style="color: white; border-radius: 100px; background-color: #F6A42C; width: 180px;"><span style="font-size: 9px;">
-                                                <span style="font-family: Montserrat-Bold; font-size: 12px;">Enviar mis
-                                                    datos</span>
-                                            </span></button><span style="font-size: 9px;">
-                                        </span></div><span style="font-size: 9px;">
-                                    </span>
-                                </div>
-
-                            </div>
-                        </div><span style="font-size: 9px;">
-                        </span>
-                    </div><span style="font-size: 9px;">
-                    </span>
+                    
                 </div>
                 <span style="font-size: 9px;">
 
@@ -208,168 +58,128 @@
 
                             <iframe src="https://www.youtube.com/embed/68tbz0AyBUs?autoplay=1&amp;mute=1&amp;loop=1&amp;playlist=68tbz0AyBUs&amp;controls=0&amp;showinfo=0&amp;modestbranding=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="" style="object-fit: cover;width:100%;height:773px"></iframe>
                         </div>
-                        <div class="d-none d-sm-block col-xl-4 col-12 container py-5   text-center align-content-center d-flex" style="background-image:url('../resource/1738091479_portada-descubre-nuestros-proyectos-escritorio.jpg');">
-                            <div class="p-5 rounded" style="background-color: #ffffff; color: rgb(100, 100, 100); box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);margin-top:50px">
-                                <p class="text-center text-light mb-4"><b> <span style="font-size: 16px;color:#055261">QUIERO
-                                            INFORMACIÓN DE UN LOTE</span></b></p>
-
-
-                                <select class="form-control" name="project_id" id="project_id_2" style="color: white; background-color:rgb(230, 230, 230);
-                                color:rgb(124, 124, 124);font-family:Montserrat-SemiBold">
-                                    <option value="">Seleccione un proyecto</option>
-                                </select>
-                                <br>
-
-                                <div class="mb-3">
-                                    <input type="text" class="form-control" name="names" placeholder="Nombres y Apellidos:" style="width:100%; background-color:rgb(230, 230, 230);color:rgb(124, 124, 124);font-family:Montserrat-SemiBold">
-                                </div>
-                                <div class=" mb-3">
-                                    <input type="text" id="phone_2" class="form-control" name="cellphone" placeholder="Número de Teléfono" style="width:100%; background-color:rgb(230, 230, 230);color:rgb(124, 124, 124);font-family:Montserrat-SemiBold">
-                                </div>
-                                <div class=" mb-3">
-                                    <input type="number" class="form-control" id="dni" name="dni" placeholder="Número de DNI" style="width:100%; background-color:rgb(230, 230, 230);color:rgb(124, 124, 124);font-family:Montserrat-SemiBold">
-
-                                </div>
-
-                                <div class="form-floating mb-3">
-                               
-                                    <input type="text" class="form-control" id="message" name="message" placeholder="Mensaje" style="width:100%; background-color:rgb(230, 230, 230);color:rgb(124, 124, 124);font-family:Montserrat-SemiBold" maxlength="200" oninput="updateCounter()">
-                                    <div class="form-text text-white">
-                                        <p><span id="charCount"><span style="font-size: 8px;">0</span></span><span style="font-size: 8px;">/200 caracteres</span></p>
-                                    </div>
-                                </div>
-
-
-
-                                <div class="form-check text-start">
-                                    <input class="form-check-input" type="checkbox" id="txtTratamientoDatos" name="data_aprobed_1" value="true">
-                                    <label class="form-check-label fs-3" for="txtTratamientoDatos">
-                                        <span class="fs-2">He leído y acepto la </span>
-                                        <a class="text-warning fs-2" data-bs-toggle="modal" data-bs-target="#bs-example-modal-xlg2" style="cursor: pointer;">
-                                            Política para envío de comunicaciones comerciales.
-                                        </a>
-                                    </label>
-                                </div>
-
-                                <div class="form-check text-start ">
-                                    <input class="form-check-input" type="checkbox" id="txtTratamientoDatos2" name="data_aprobed_2" value="true">
-                                    <label class="form-check-label fs-3" for="txtTratamientoDatos2">
-                                        <span class="fs-2">He leído y acepto el </span>
-                                        <a class="text-warning fs-2" data-bs-toggle="modal" data-bs-target="#bs-example-modal-xlg" style="cursor: pointer;">
-                                            Tratamiento de mis datos personales.
-                                        </a>
-                                    </label>
-                                </div>
-
-
-
-
-                                <div class="text-center"><span style="font-size: 9px;">
-
-                                    </span><button type="button" class="w-xs-100 mt-3 btn btn-warning btn-block" onclick="CustomerStorePublic();" style="color: white; border-radius: 100px; background-color: #F6A42C; width: 180px;"><span style="font-size: 9px;">
-                                            <span style="font-family: Montserrat-Bold; font-size: 12px;">Enviar mis
-                                                datos</span>
-                                        </span></button><span style="font-size: 9px;">
-                                    </span></div><span style="font-size: 9px;">
-                                </span>
-                            </div>
-                           
-                        </div>
+                      
                     </div>
                 </div>
-                <div class="carousel-item text-center py-5 " style="
-    background-image: url('../resource/1734733260_fondo-.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100vw;height: 756px;
-">
-                    <div class="container-fluid" style=" background-color: transparent;">
-                        <div class="row h-100 text-center align-content-center  justify-content-center">
-                            <!-- Columna izquierda con imagen -->
-                            <div class="mt-5 ml-5 col-lg-6 col-xl-3 col-md-6   text-center align-content-center">
-
-
-
-
-                                <div style="" class="pt-sm-1">
-
-                                    <!-- Contenido encima -->
-                                    <img src="../ayba/4.png" alt="" width="50px">
-                                    <h4 class="font-weight-bold text-warning fs-5" style="letter-spacing: 10px;">LOTES
-                                        ENTREGADOS </h4>
-
-
-                                    <h4 class="text-white font-weight-bold fs-5" style="letter-spacing: 10px;"> TIERRA
-                                        GALICIA <br> Y LUGO</h4>
-
-
-                                    <p class="lead mb-4 fs-3">
-                                    </p>
-                                    <div class="container">
-                                        ¡Así como cambiamos la vida de muchas <br> familias podemos cambiar la tuya!
-                                    </div>
-                                    <img src="../resource/1735944556_logos.png" width="250px" alt="">
-                                    <p></p>
-
-                                </div>
-                            </div>
-                            <!-- Columna central con imagen adicional -->
-                            <div class="d-none d-lg-block d-md-block  d-xl-block col-xl-7 col-lg-6 col-md-6  align-content-center">
-                                <p>&nbsp;</p>
-                                <p>&nbsp;</p>
-
-                                <img src="../resource/1735568084_imagenes.png" alt="Imagen central" width="100%" class="note-float-right" style="float: right; width: 100%;padding-bottom:38px;padding-top:38px">
-                                <p></p>
-                            </div>
-
-                            <span style="font-size: 9px;">
-
-                            </span>
-                        </div><span style="font-size: 9px;">
-                        </span>
-                    </div><span style="font-size: 9px;">
-                    </span>
-                </div>
+               
             </div>
           <!-- Indicadores del Carrusel -->
-            <div class="carousel-indicators mb-3">
-                <button type="button" style=" background-color: transparent; 
-        border: solid 3px orange; 
-        width: 15px; 
-        height: 15px; 
-        border-top: none; 
-        border-right: none;
-        transform: rotate(135deg); margin-right: 20px;" data-bs-target="#carouselExample" data-bs-slide-to="0" aria-label="Diapositiva 2" class="active" aria-current="true"></button>
-                <button type="button" style="background-color: transparent; 
-        border: solid 3px orange; 
-        width: 15px; 
-        height: 15px; 
-        border-top: none; 
-        border-right: none;
-        transform: rotate(135deg);margin-right: 20px;" data-bs-target="#carouselExample" data-bs-slide-to="1" class="" aria-label="Diapositiva 1"></button>
-                <button type="button" style="background-color: transparent; 
-        border: solid 3px orange; 
-        width: 15px; 
-        height: 15px; 
-        border-top: none; 
-        border-right: none;
-        transform: rotate(135deg);margin-right: 20px;" data-bs-target="#carouselExample" data-bs-slide-to="2" class="" aria-label="Diapositiva 3"></button>
-
-            </div>
+          <div class="carousel-indicators" style="margin-top:-100px; position: relative;">
+            <!-- Indicador Activo (Relleno) -->
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" 
+                class="active"
+                aria-current="true"
+                aria-label="Diapositiva 1"
+                style="background-color: white; 
+                       border: solid 3px white; 
+                       width: 15px; 
+                       height: 15px; 
+                       border-radius: 50%; 
+                       margin-right: 10px;">
+            </button>
+        
+            <!-- Indicador Inactivo (Borde) -->
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" 
+                class=""
+                aria-label="Diapositiva 2"
+                style="background-color: transparent; 
+                       border: solid 3px white; 
+                       width: 15px; 
+                       height: 15px; 
+                       border-radius: 50%; 
+                       margin-right: 10px;">
+            </button>
+        
+          
+        </div>
+        
             
         </div>
         <p></p>
+
+
+        <div class=" text-center mt-5"style="background-color:#E8ECF3;">
+            <div class="container py-5">
+
+   
+            <!-- Título -->
+            <h2 class="fw-bold text-uppercase display-1" style="color: #F7931E; margin-bottom: 30px;">
+             <b> SÉ NUESTRO <br> SOCIO COMERCIAL</b>   
+            </h2>
+        
+            <div class="row g-4">
+                <!-- Tarjeta 1 -->
+                <div class="col-lg-4">
+                    <div class="p-4 text-center" style="border-radius: 0px 80px 0px 80px; background-color: white; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+                        <img src="../../resource/1738620627_67a13ed3427a1altas%20comisiones.svg" alt="Altas Comisiones" class="mb-3" width="100">
+                        <h4 class="fw-bold" style="color: #F7931E;">ALTAS COMISIONES</h4>
+                        <hr style="width: 50px; margin: auto; border: 1px solid #F7931E;">
+                        <p style="color: #b6b6b6;" class="px-3 mt-4 fs-3 ">
+                            ¡Gana por tus resultados! El sector inmobiliario te ofrece una de las  mejores oportunidades 
+                            para generar ingresos extraordinarios en base a tus ventas.
+                        </p>
+                        <a href="#" class="d-inline-block text-white fw-bold fs-5 px-5 py-3 mt-3" 
+                           style="background-color: #F7931E; border-radius: 30px; text-decoration: none;">
+                          <b>  Regístrate ahora +</b>
+                        </a>
+                    </div>
+                </div>
+        
+                <!-- Tarjeta 2 -->
+                <div class="col-lg-4">
+                    <div class="p-4 text-center" style="border-radius: 0px 80px 0px 80px; background-color: #F7931E;color: white; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+              
+                        <img src="../../resource/1738620627_67a13ed3427a1altas%20comisiones.svg" alt="Crecimiento Profesional" class="mb-3" width="100">
+                        <h4 class="fw-bold text-white">CRECIMIENTO PROFESIONAL</h4>
+                        <hr style="width: 50px; margin: auto; border: 1px solid white;">
+                        <p class="px-3 mt-4 fs-4 text-justify">
+                            Desarrolla habilidades de negociación, ventas y networking. ¡Conviértete en un experto en un sector con alta demanda!
+                        </p>
+                        <a href="#" class="mt-5 d-inline-block fw-bold fs-5 px-5 py-3 mt-3" 
+                           style="background-color: white; color: #F7931E; border-radius: 30px; text-decoration: none;">
+                           <b>  Regístrate ahora +</b> 
+                        </a>
+                    </div>
+                </div>
+        
+                <!-- Tarjeta 3 -->
+                <div class="col-lg-4 h-100">
+                    <div class="p-4 text-center" style="border-radius: 0px 80px 0px 80px; background-color: white; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+                        <img src="../../resource/1738620627_67a13ed3427a1altas%20comisiones.svg" alt="Flexibilidad y Autonomía" class="mb-3" width="100">
+                        <h4 class="fw-bold" style="color: #F7931E;">FLEXIBILIDAD Y AUTONOMÍA</h4>
+                        <hr style="width: 50px; margin: auto; border: 1px solid #F7931E;">
+                        <p style="color: #b6b6b6;" class="px-3 mt-4 fs-4 text-justify">
+                            Organiza tu tiempo como desees. Sé dueño de tu agenda y trabaja desde cualquier lugar, 
+                            mientras construyes <br>tu  carrera profesional.
+                        </p>
+                        <a href="#" class="mt-4 d-inline-block text-white fs-5 fw-bold px-5 py-3 mt-3" 
+                           style="background-color: #F7931E; border-radius: 30px; text-decoration: none;">
+                         <b>  Regístrate ahora +</b> 
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
 <div class="container-fluid text-light py-3 bg-white" data-aos="slide-up" data-aos-delay="300" data-aos-duration="1500">
             <div class="text-center">
                 <div class="container py-1">
-                    <h4 class="d-sm-none text-center display-10" style="margin:20px; font-family: Montserrat-SemiBold;">
+                    <h4 class="d-sm-none text-center display-10" style="margin:20px; font-family: RALEWAY-SEMIBOLD;">
                         <span style="color:#03424E; word-spacing: 10px; letter-spacing: 5px;">VIVE EN LA</span><br>
-                        <b style="font-family: Montserrat-SemiBold; word-spacing: 10px; letter-spacing: 5px;">MEJOR
+                        <b style="font-family: RALEWAY-SEMIBOLD; word-spacing: 10px; letter-spacing: 5px;">MEJOR
                             ZONA</b>
                     </h4>
-                    <h4 class="d-none d-sm-block text-center display-6" style="margin:20px; font-family: Montserrat-SemiBold;">
+                    <h4 class="d-none d-sm-block text-center display-6" style="margin:20px; font-family: RALEWAY-SEMIBOLD;">
                         <span style="color:#03424E; word-spacing: 10px; letter-spacing: 15px;">VIVE EN LA</span><br>
-                        <b style="font-family: Montserrat-SemiBold; word-spacing: 10px; letter-spacing: 15px;">MEJOR
+                        <b style="font-family: RALEWAY-SEMIBOLD; word-spacing: 10px; letter-spacing: 15px;">MEJOR
                             ZONA</b>
                     </h4>
                     <div class="subrayado mx-auto"></div>
@@ -451,10 +261,10 @@
         </div>
 <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="500" class=" py-4" style="background-color:#f7f7f7">
             <div class="container">
-                <h4 class="d-sm-none text-center display-10" style="margin:20px;font-family:Montserrat-SemiBold;letter-spacing:2px">
+                <h4 class="d-sm-none text-center display-10" style="margin:20px;font-family:RALEWAY-SEMIBOLD;letter-spacing:2px">
                     <span style="color:#03424E">¿POR QUÉ</span><br> COMPRAR UN LOTE?
                 </h4>
-                <h4 class="d-none d-sm-block text-center display-6" style="margin:20px;font-family:Montserrat-SemiBold;letter-spacing:15px">
+                <h4 class="d-none d-sm-block text-center display-6" style="margin:20px;font-family:RALEWAY-SEMIBOLD;letter-spacing:15px">
                     <span style="color:#03424E">¿POR QUÉ</span><br> COMPRAR UN LOTE?
                 </h4>
                 <div class="subrayado mx-auto my-md-1 mb-sm-0"></div>
@@ -595,10 +405,10 @@
                background-repeat: no-repeat; 
                background-size: auto 100%; 
                background-position: center;">
-               <h4 class="d-none d-sm-block text-center display-6 pt-3 pb-2" style="margin:15px;font-family:Montserrat-SemiBold;letter-spacing:15px">
+               <h4 class="d-none d-sm-block text-center display-6 pt-3 pb-2" style="margin:15px;font-family:RALEWAY-SEMIBOLD;letter-spacing:15px">
                 <span style="color:#ffffff">DESCUBRE</span><br> NUESTROS PROYECTOS
             </h4>
-    <h4 class="d-sm-none text-center display-10 pt-3" style="margin:15px;font-family:Montserrat-SemiBold;letter-spacing:5px">
+    <h4 class="d-sm-none text-center display-10 pt-3" style="margin:15px;font-family:RALEWAY-SEMIBOLD;letter-spacing:5px">
         <span style="color:#ffffff">DESCUBRE</span><br> NUESTROS PROYECTOS
     </h4>
     <div class="subrayado mx-auto mb-5"></div>
@@ -627,7 +437,7 @@
                            
                             {{-- <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Proyecto" style="width: 100%; height: 220px; object-fit: cover;"> --}}
                             <div class="card-body bg-white" style="height:120px;width:85%;border-top-right-radius: 10px;border-bottom-right-radius: 10px;">
-                                <h5 class=" fs-6  text-uppercase" style="color:#005563;margin-top:-13px">Proyecto <br> San Andrés</h5>
+                                <h6 class=" fs-6  text-uppercase" style="color:#005563;margin-top:-13px">Proyecto <br> San Andrés</h6>
                                 <p class="" style="color:#a3a3a3;">Lotes desde 120 m2</p>
                             </div>
                             <a href="../../proyectos/nuevo_huaral">
@@ -658,8 +468,8 @@
                            
                             {{-- <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Proyecto" style="width: 100%; height: 220px; object-fit: cover;"> --}}
                             <div class="card-body bg-white" style="height:120px;width:85%;border-top-right-radius: 10px;border-bottom-right-radius: 10px;">
-                                <h5 class=" fs-6  text-uppercase" style="color:#005563;margin-top:-13px">PROYECTO
-                                     <br> LAGOON VILLAGE</h5>
+                                <h6 class=" fs-6  text-uppercase" style="color:#005563;margin-top:-13px">PROYECTO
+                                     <br> LAGOON VILLAGE</h6>
                                 <p class="" style="color:#a3a3a3;">Lotes desde 120 m2</p>
                             </div>
                             <a href="../../proyectos/nuevo_huaral">
@@ -689,8 +499,8 @@
                            
                             {{-- <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Proyecto" style="width: 100%; height: 220px; object-fit: cover;"> --}}
                             <div class="card-body bg-white" style="height:120px;width:85%;border-top-right-radius: 10px;border-bottom-right-radius: 10px;">
-                                <h5 class=" fs-6  text-uppercase" style="color:#005563;margin-top:-13px">PROYECTO
-                                     <br> JUMEIRAH LAKE</h5>
+                                <h6 class=" fs-6  text-uppercase" style="color:#005563;margin-top:-13px">PROYECTO
+                                     <br> JUMEIRAH LAKE</h6>
                                 <p class="" style="color:#a3a3a3;">Lotes desde 120 m2</p>
                             </div>
                             <a href="../../proyectos/jumeirah">
@@ -735,7 +545,7 @@
                    
                     {{-- <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Proyecto" style="width: 100%; height: 220px; object-fit: cover;"> --}}
                     <div class="card-body bg-white" style="height:120px;width:85%;border-top-right-radius: 10px;border-bottom-right-radius: 10px;">
-                        <h5 class=" fs-6  text-uppercase" style="color:#005563;margin-left:10px;margin-top:-10px">Proyecto <br> San Andrés</h5>
+                        <h6 class=" fs-6  text-uppercase" style="color:#005563;margin-left:10px;margin-top:-10px">Proyecto <br> San Andrés</h6>
                         <p class="" style="color:#a3a3a3;margin-left:10px">Lotes desde 120 m2</p>
                     </div>
                     <a href="../../proyectos/nuevo_huaral">
@@ -763,8 +573,8 @@
                    
                     {{-- <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Proyecto" style="width: 100%; height: 220px; object-fit: cover;"> --}}
                     <div class="card-body bg-white" style="height:120px;width:85%;border-top-right-radius: 10px;border-bottom-right-radius: 10px;">
-                        <h5 class=" fs-6  text-uppercase" style="color:#005563;margin-left:10px;margin-top:-10px">PROYECTO
-                             <br> LAGOON VILLAGE</h5>
+                        <h6 class=" fs-6  text-uppercase" style="color:#005563;margin-left:10px;margin-top:-10px">PROYECTO
+                             <br> LAGOON VILLAGE</h6>
                         <p class="" style="color:#a3a3a3;margin-left:10px">Lotes desde 120 m2</p>
                     </div>
                     <a href="../../proyectos/nuevo_huaral">
@@ -791,8 +601,8 @@
                    
                     {{-- <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Proyecto" style="width: 100%; height: 220px; object-fit: cover;"> --}}
                     <div class="card-body bg-white" style="height:120px;width:85%;border-top-right-radius: 10px;border-bottom-right-radius: 10px;">
-                        <h5 class=" fs-6  text-uppercase" style="color:#005563;margin-left:10px;margin-top:-10px">PROYECTO
-                             <br> JUMEIRAH LAKE</h5>
+                        <h6 class=" fs-6  text-uppercase" style="color:#005563;margin-left:10px;margin-top:-10px">PROYECTO
+                             <br> JUMEIRAH LAKE</h6>
                         <p class="" style="color:#a3a3a3;margin-left:10px">Lotes desde 120 m2</p>
                     </div>
                     <a href="../../proyectos/jumeirah">
@@ -829,10 +639,10 @@
 
                     <div class="p-5 rounded" style="background-color: #ffffff; color: rgb(100, 100, 100); box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);">
                        
-                        <h4 class="d-sm-none text-center display-10 aos-init aos-animate" style="margin:20px;font-family:Montserrat-SemiBold;letter-spacing:5px">
+                        <h4 class="d-sm-none text-center display-10 aos-init aos-animate" style="margin:20px;font-family:RALEWAY-SEMIBOLD;letter-spacing:5px">
                             <span style="color:#03424E" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">CONFÍA EN</span><br> AYBAR CORP
                         </h4>
-                        <h4 class="d-none d-sm-block text-center display-6 aos-init aos-animate" style="margin:20px;font-family:Montserrat-SemiBold;letter-spacing:15px">
+                        <h4 class="d-none d-sm-block text-center display-6 aos-init aos-animate" style="margin:20px;font-family:RALEWAY-SEMIBOLD;letter-spacing:15px">
                             <span style="color:#03424E" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">CONFÍA EN</span><br> AYBAR CORP
                         </h4>
                         <div class="subrayado mx-auto mb-5"></div>
@@ -1006,28 +816,12 @@
             /* Color del placeholder */
             opacity: 1 !important;
             /* Asegura visibilidad */
-            font-family: Montserrat-SemiBold;
+            font-family: RALEWAY-SEMIBOLD;
         }
     </style>
 
 
-<div class="modal fade" id="autoModal" tabindex="-1" aria-labelledby="autoModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg" >
-      <div class="modal-content ">
-            <img src="../../resource/1738616165_67a12d6545f1bWhatsApp%20Image%202025-02-03%20at%202.54.21%20PM.jpeg"width="100%"style="height:70vh">
-        <div class="modal-footer">
-          <button type="button" class="btn bg-dark" data-bs-dismiss="modal">Cerrar</button>
-        </div>
-      </div>
-    </div>
-  </div>
 
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        var myModal = new bootstrap.Modal(document.getElementById('autoModal'), {});
-        myModal.show();
-    });
-    </script>
 
 
 
@@ -1092,7 +886,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <h5 class="text-warning text-center" style="font-size: 1.65rem">TRATAMIENTOS DE DATOS PERSONALES</h5>
+                    <h6 class="text-warning text-center" style="font-size: 1.65rem">TRATAMIENTOS DE DATOS PERSONALES</h6>
               
                     <p style="text-align: justify; font-size: 15px;">
                         Declaro haber sido informado, conforme a Ley N° 29733 - Ley de Protección de Datos Personales
@@ -1157,8 +951,8 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <h5 class="text-warning text-center" style="font-size: 1.65rem">CLÁUSULA PARA ENVÍO DE PROMOCIONES
-                        COMERCIALES</h5>
+                    <h6 class="text-warning text-center" style="font-size: 1.65rem">CLÁUSULA PARA ENVÍO DE PROMOCIONES
+                        COMERCIALES</h6>
                   
                     <p style="text-align: justify; font-size: 15px;">
                         Autorizo a <strong>AYBAR S.A.C.</strong> a utilizar mis Datos Personales y que los mismos sean

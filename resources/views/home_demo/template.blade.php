@@ -9,7 +9,7 @@
     <link rel="icon" type="image/jpg" href="{{ asset('ayba/favicon.png') }}" />
     <!-- Core Css -->
     <link rel="stylesheet" href="{{ asset('assets/css/styles.css') }}" />
-    <title>AybarCorp</title>
+    <title>ComexLat</title>
     <!-- Owl Carousel  -->
     <link rel="stylesheet" href="{{ asset('assets/libs/owl.carousel/dist/assets/owl.carousel.min.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/libs/aos/dist/aos.css') }}" />
@@ -45,8 +45,8 @@
  
 
     @font-face {
-        font-family: "Montserrat-Bold";
-        src: url("{{ asset('fuente_montserrat/Montserrat-Bold.ttf') }}");
+        font-family: "RALEWAY-BOLD";
+        src: url("{{ asset('fuente_montserrat/RALEWAY-BOLD.ttf') }}");
         font-weight: 600;
         font-style: bold;
     }
@@ -82,7 +82,7 @@
   <style>
     .dt-buttons button {
         border-radius: 10px !important;
-        font-family: Montserrat-Bold;
+        font-family: RALEWAY-BOLD;
 
     }
 

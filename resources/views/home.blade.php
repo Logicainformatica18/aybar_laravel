@@ -10,7 +10,7 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1 style="font-family:Montserrat-Bold;color:#1b3d6d">Roles</h1>
+                    <h1 style="font-family:RALEWAY-BOLD;color:#1b3d6d">Roles</h1>
                     {{ session('success') }}
                 </div>
                 <div class="col-sm-6">

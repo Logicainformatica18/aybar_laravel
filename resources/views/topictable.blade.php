@@ -7,7 +7,7 @@
 
 
                         <div class="card-header">
-                            <h3 class="card-title"style="font-family:Montserrat-Bold">Tabla de mantenimiento</h3>
+                            <h3 class="card-title"style="font-family:RALEWAY-BOLD">Tabla de mantenimiento</h3>
                         </div>
                         <!-- /.card-header -->
                         <div class="card-body">

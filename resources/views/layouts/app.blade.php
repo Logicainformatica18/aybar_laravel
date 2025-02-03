@@ -31,8 +31,8 @@
         }
 
         @font-face {
-            font-family: "Montserrat-Bold";
-            src: url("{{ asset('fuente_one/Montserrat-Bold.ttf') }}");
+            font-family: "RALEWAY-BOLD";
+            src: url("{{ asset('fuente_one/RALEWAY-BOLD.ttf') }}");
             font-weight: 600;
             font-style: bold;
         }
@@ -198,7 +198,7 @@
 
                     <p class="text-justify" style="color:#023039;font-family:Montserrat-Semibold;font-size:100%">
                         Somos una empresa de capacitaciones y consultoría en herramientas digitales, inteligencia de
-                        negocio y analítica de datos, <b style="font-family: Montserrat-Bold">Asesoramos, capacitamos y
+                        negocio y analítica de datos, <b style="font-family: RALEWAY-BOLD">Asesoramos, capacitamos y
                             formamos</b>
                         profesionales mediante el uso de los softwares más requeridos del mercado.
                     </p>

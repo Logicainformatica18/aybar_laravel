@@ -2292,10 +2292,10 @@
                     ['history', ['undo', 'redo']]
                 ],
                 fontNames: ['Arial', 'Arial Black', 'Comic Sans MS', 'Courier New', 'Helvetica', 'Impact',
-                    'Tahoma', 'Times New Roman', 'Verdana', 'Manrope', 'Montserrat', 'Montserrat-Bold',
+                    'Tahoma', 'Times New Roman', 'Verdana', 'Manrope', 'Montserrat', 'RALEWAY-BOLD',
                     'Montserrat-SemiBold', 'Montserrat-Regular'
                 ], // Agrega Montserrat aquí
-                fontNamesIgnoreCheck: ['Montserrat', 'Montserrat-Regular', 'Montserrat-Bold',
+                fontNamesIgnoreCheck: ['Montserrat', 'Montserrat-Regular', 'RALEWAY-BOLD',
                     'Montserrat-SemiBold'
                 ] // Ignora el chequeo para la fuente personalizada
 

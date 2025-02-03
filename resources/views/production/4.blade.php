@@ -269,7 +269,7 @@
 
                                                 <img src="../resource/1736195210_Mesa%20de%20trabajo%202%20copia%2031.png" width="90%" alt="" srcset="" style="border-radius: 20px">
                                                 <button type="button" class="btn btn-warning btn-block" style="margin-top:-40%;color: white; border-radius: 100px; background-color: #F6A42C; width: 160px;"><span style="font-size: 9px;">
-                                                        <span style="font-family: Montserrat-Bold; font-size: 12px;">Conocer
+                                                        <span style="font-family: RALEWAY-BOLD; font-size: 12px;">Conocer
                                                             más</span>
                                                     </span></button>
                                             </a>
@@ -278,7 +278,7 @@
                                             <a href="../proyectos/rivera">
                                                 <img src="../resource/1736196462_rivera%20del%20camp.png" width="90%" alt="" srcset="" style="border-radius: 20px">
                                                 <button type="button" class="btn btn-warning btn-block" style="margin-top:-40%;color: white; border-radius: 100px; background-color: #F6A42C; width: 160px;"><span style="font-size: 9px;">
-                                                        <span style="font-family: Montserrat-Bold; font-size: 12px;">Conocer
+                                                        <span style="font-family: RALEWAY-BOLD; font-size: 12px;">Conocer
                                                             más</span>
                                                     </span></button>
                                             </a>
@@ -343,7 +343,7 @@
 
                                                 <img src="../resource/1736197086_jumeirah.png" width="90%" alt="" srcset="" style="border-radius: 20px">
                                                 <button type="button" class="btn btn-warning btn-block" style="margin-top:-40%;color: white; border-radius: 100px; background-color: #F6A42C; width: 160px;"><span style="font-size: 9px;">
-                                                        <span style="font-family: Montserrat-Bold; font-size: 12px;">Conocer
+                                                        <span style="font-family: RALEWAY-BOLD; font-size: 12px;">Conocer
                                                             más</span>
                                                     </span></button>
                                             </a>
@@ -352,7 +352,7 @@
                                             <a href="../proyectos/palmilla">
                                                 <img src="../resource/1736198278_Mesa%20de%20trabajo%202%20copia%2032.png" width="90%" alt="" srcset="" style="border-radius: 20px">
                                                 <button type="button" class="btn btn-warning btn-block" style="margin-top:-40%;color: white; border-radius: 100px; background-color: #F6A42C; width: 160px;"><span style="font-size: 9px;">
-                                                        <span style="font-family: Montserrat-Bold; font-size: 12px;">Conocer
+                                                        <span style="font-family: RALEWAY-BOLD; font-size: 12px;">Conocer
                                                             más</span>
                                                     </span></button>
                                             </a>
@@ -361,7 +361,7 @@
                                             <a href="../proyectos/villa">
                                                 <img src="../resource/1736198419_villa-porton.png" width="90%" alt="" srcset="" style="border-radius: 20px">
                                                 <button type="button" class="btn btn-warning btn-block" style="margin-top:-40%;color: white; border-radius: 100px; background-color: #F6A42C; width: 160px;"><span style="font-size: 9px;">
-                                                        <span style="font-family: Montserrat-Bold; font-size: 12px;">Conocer
+                                                        <span style="font-family: RALEWAY-BOLD; font-size: 12px;">Conocer
                                                             más</span>
                                                     </span></button>
                                             </a>
@@ -430,7 +430,7 @@
 
                                                 <img src="../resource/1736199258_Mesa%20de%20trabajo%202%20copia%2029.png" width="90%" alt="" srcset="" style="border-radius: 20px">
                                                 <button type="button" class="btn btn-warning btn-block" style="margin-top:-40%;color: white; border-radius: 100px; background-color: #F6A42C; width: 160px;"><span style="font-size: 9px;">
-                                                        <span style="font-family: Montserrat-Bold; font-size: 12px;">Conocer
+                                                        <span style="font-family: RALEWAY-BOLD; font-size: 12px;">Conocer
                                                             más</span>
                                                     </span></button>
                                             </a>
@@ -439,7 +439,7 @@
                                             <a href="../proyectos/valle_huaral">
                                                 <img src="../resource/1736199294_Mesa%20de%20trabajo%202%20copia%2030.png" width="90%" alt="" srcset="" style="border-radius: 20px">
                                                 <button type="button" class="btn btn-warning btn-block" style="margin-top:-40%;color: white; border-radius: 100px; background-color: #F6A42C; width: 160px;"><span style="font-size: 9px;">
-                                                        <span style="font-family: Montserrat-Bold; font-size: 12px;">Conocer
+                                                        <span style="font-family: RALEWAY-BOLD; font-size: 12px;">Conocer
                                                             más</span>
                                                     </span></button>
                                             </a>
@@ -504,7 +504,7 @@
 
                                                 <img src="../resource/1736199453_mariadrago.png" width="90%" alt="" srcset="" style="border-radius: 20px">
                                                 <button type="button" class="btn btn-warning btn-block" style="margin-top:-40%;color: white; border-radius: 100px; background-color: #F6A42C; width: 160px;"><span style="font-size: 9px;">
-                                                        <span style="font-family: Montserrat-Bold; font-size: 12px;">Conocer
+                                                        <span style="font-family: RALEWAY-BOLD; font-size: 12px;">Conocer
                                                             más</span>
                                                     </span></button>
                                             </a>

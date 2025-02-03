@@ -18,7 +18,7 @@
 
 
                 <div class="col col-lg-2 col-md-4 col-sm-12">
-                    <h1 style="font-family:Montserrat-Bold;color:#1b3d6d">Usuarios</h1>
+                    <h1 style="font-family:RALEWAY-BOLD;color:#1b3d6d">Usuarios</h1>
                     {{ session('success') }}
                 </div>
 
@@ -26,7 +26,7 @@
                     <button type="button"style="border-radius:20px;background-color:#023039;color:white;width:150px"
                         class="btn" data-toggle="modal" data-target="#exampleModal"
                         onclick="New();$('#user')[0].reset();">
-                        <span style="font-family: Montserrat-Bold;font-size:15px">+</span> Agregar
+                        <span style="font-family: RALEWAY-BOLD;font-size:15px">+</span> Agregar
                     </button>
 
                 </div>
@@ -130,7 +130,7 @@
                             <div class="col-lg-12 col-md-12 col-sm-12 ml-3">
                                 <button type="button"class="btn btn-success" style="border-radius:20px" class="btn"
                         onclick='userImportGoogle()'>
-                        <span style="font-family: Montserrat-Bold;font-size:15px">+</span> Importar Google
+                        <span style="font-family: RALEWAY-BOLD;font-size:15px">+</span> Importar Google
                     </button>
                                 <p></p>
                            
@@ -165,8 +165,8 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel"style="font-color:#1b3d6d;font-family:Montserrat-Bold"
-                        style="font-color:#1b3d6d;font-family:Montserrat-Bold">Mantenimiento</h5>
+                    <h5 class="modal-title" id="exampleModalLabel"style="font-color:#1b3d6d;font-family:RALEWAY-BOLD"
+                        style="font-color:#1b3d6d;font-family:RALEWAY-BOLD">Mantenimiento</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -267,7 +267,7 @@
 
 
                 </div>
-                <div class="modal-footer"style="font-family:Montserrat-Bold">
+                <div class="modal-footer"style="font-family:RALEWAY-BOLD">
                     <input type="button" value="Nuevo" class="btn"
                         style="font-family:Montserrat-SemiBold;background-color:#023039;color:#ffffff"
                         onclick="New();$('#user')[0].reset();"   name="new">
@@ -287,7 +287,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel"style="font-color:#1b3d6d;font-family:Montserrat-Bold">
+                    <h5 class="modal-title" id="exampleModalLabel"style="font-color:#1b3d6d;font-family:RALEWAY-BOLD">
                         Gestionar Roles</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
@@ -304,7 +304,7 @@
                             @endforeach
                         </select>
                         <br>
-                        <input type="button" style="color:#ffffff;background-color:#023039;font-family:Montserrat-Bold"
+                        <input type="button" style="color:#ffffff;background-color:#023039;font-family:RALEWAY-BOLD"
                             value="Agregar" class="btn" onclick="userRoleStore()" name="create">@endcanany
 
 
@@ -319,7 +319,7 @@
 
 
                 </div>
-                <div class="modal-footer"style="font-family:Montserrat-Bold">
+                <div class="modal-footer"style="font-family:RALEWAY-BOLD">
 
 
                     <button type="button" class="btn"

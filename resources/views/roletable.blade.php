@@ -7,14 +7,14 @@
 
 
                         <div class="card-header">
-                            <h3 class="card-title"style="font-family:Montserrat-Bold">Tabla de mantenimiento</h3>
+                            <h3 class="card-title"style="font-family:RALEWAY-BOLD">Tabla de mantenimiento</h3>
                         </div>
                         <!-- /.card-header -->
                         <div class="card-body">
 
                             <!-- DataTables -->
                             <table id="example1" class="table table-bordered table-striped table-responsive">
-                                <thead style="font-family:Montserrat-Bold">
+                                <thead style="font-family:RALEWAY-BOLD">
                                     <th></th>
                                     <th ><img width="20" src="https://cdn-icons-png.flaticon.com/512/6671/6671938.png" alt="" srcset=""></th>
                                     <th class="sorting">ID</th>

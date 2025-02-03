@@ -9,49 +9,57 @@ html {
         font-family:Montserrat-Regular
     }
     body .navbar{
-        font-family:Montserrat-Bold
+        font-family:RALEWAY-EXTRABOLD
     }
     body h1, h2, h3, h4, h5, h6, b{
-        font-family:Montserrat-Bold
+        font-family:RALEWAY-BLACK
     }
     .card-title{
-      font-family:Montserrat-Bold !important
+      font-family:RALEWAY-EXTRABOLD !important
     }
     
     @font-face {
-      font-family: "Montserrat-Bold";
-      src: url("../fuente_montserrat/Montserrat-Bold.ttf");
+      font-family: "RALEWAY-SEMIBOLD";
+      src: url("../../fuente/RALEWAY-SEMIBOLD.ttf");
       font-weight: 600;
-      font-style: bold;
+  }
+  @font-face {
+      font-family: "RALEWAY-EXTRABOLD";
+      src: url("../../fuente/RALEWAY-EXTRABOLD.ttf");
+      font-weight: 600;
+  }
+  @font-face {
+      font-family: "RALEWAY-BOLD";
+      src: url("../../fuente/RALEWAY-BOLD.ttf");
+      font-weight: 600;
   }
 
   @font-face {
-      font-family: 'Montserrat-Regular';
-      src: url("../fuente_montserrat/Montserrat-Regular.ttf") format('truetype');
+      font-family: 'RALEWAY-LIGHT';
+      src: url("../../fuente/RALEWAY-LIGHT.ttf") format('truetype');
       font-weight: normal;
       font-style: normal;
   }
 
   @font-face {
-      font-family: 'Montserrat-BoldItalic';
-      src: url("../fuente_montserrat/Montserrat-BoldItalic.ttf") format('truetype');
+      font-family: 'COOLVETICA CONDENSED RG';
+      src: url("../../fuente/COOLVETICA CONDENSED RG.otf") format('truetype');
+      font-weight: normal;
+      font-style: normal;
+  }
+  @font-face {
+      font-family: 'RALEWAY-BLACK';
+      src: url("../../fuente/RALEWAY-BLACK.ttf") format('truetype');
       font-weight: normal;
       font-style: normal;
   }
 
   @font-face {
-      font-family: 'Montserrat-Medium';
-      src: url("../fuente_montserrat/Montserrat-Medium.ttf") format('truetype');
-      font-weight: normal;
-      font-style: normal;
-  }
-
-  @font-face {
-      font-family: 'Montserrat-SemiBold';
-      src: url("../fuente_montserrat/Montserrat-SemiBold.ttf") format('truetype');
-      font-weight: normal;
-      font-style: normal;
-  }
+    font-family: 'RALEWAY-REGULAR';
+    src: url("../../fuente/RALEWAY-REGULAR.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 .social-container {
  
   position: fixed;

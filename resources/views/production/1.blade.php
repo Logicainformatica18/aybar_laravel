@@ -9,7 +9,7 @@
     <link rel="icon" type="image/jpg" href="{{ asset('ayba/favicon.png') }}" />
     <!-- Core Css -->
     <link rel="stylesheet" href="{{ asset('assets/css/styles.css') }}" />
-    <title>AybarCorp</title>
+    <title>ComexLat</title>
     <!-- Owl Carousel  -->
     <link rel="stylesheet" href="{{ asset('assets/libs/owl.carousel/dist/assets/owl.carousel.min.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/libs/aos/dist/aos.css') }}" />
@@ -42,44 +42,53 @@
 
 <style type="text/css">
     @font-face {
-        font-family: "Montserrat-Bold";
-        src: url("{{ asset('fuente_montserrat/Montserrat-Bold.ttf') }}");
+        font-family: "RALEWAY-SEMIBOLD";
+        src: url("{{ asset('fuente/RALEWAY-SEMIBOLD.ttf') }}");
         font-weight: 600;
-        font-style: bold;
+    }
+    @font-face {
+        font-family: "RALEWAY-EXTRABOLD";
+        src: url("{{ asset('fuente/RALEWAY-EXTRABOLD.ttf') }}");
+        font-weight: 600;
+    }
+    @font-face {
+        font-family: "RALEWAY-BOLD";
+        src: url("{{ asset('fuente/RALEWAY-BOLD.ttf') }}");
+        font-weight: 600;
     }
 
     @font-face {
-        font-family: 'Montserrat-Regular';
-        src: url("{{ asset('fuente_montserrat/Montserrat-Regular.ttf') }}") format('truetype');
+        font-family: 'RALEWAY-LIGHT';
+        src: url("{{ asset('fuente/RALEWAY-LIGHT.ttf') }}") format('truetype');
         font-weight: normal;
         font-style: normal;
     }
 
     @font-face {
-        font-family: 'Montserrat-BoldItalic';
-        src: url("{{ asset('fuente_montserrat/Montserrat-BoldItalic.ttf') }}") format('truetype');
+        font-family: 'COOLVETICA CONDENSED RG';
+        src: url("{{ asset('fuente/COOLVETICA CONDENSED RG.otf') }}") format('truetype');
         font-weight: normal;
         font-style: normal;
     }
-
     @font-face {
-        font-family: 'Montserrat-Medium';
-        src: url("{{ asset('fuente_montserrat/Montserrat-Medium.ttf') }}") format('truetype');
-        font-weight: normal;
-        font-style: normal;
-    }
-
+      font-family: 'RALEWAY-BLACK';
+      src: url("../../fuente/RALEWAY-BLACK.ttf") format('truetype');
+      font-weight: normal;
+      font-style: normal;
+  }
+   
     @font-face {
-        font-family: 'Montserrat-SemiBold';
-        src: url("{{ asset('fuente_montserrat/Montserrat-SemiBold.ttf') }}") format('truetype');
-        font-weight: normal;
-        font-style: normal;
-    }
+      font-family: 'RALEWAY-REGULAR';
+      src: url("../../fuente/RALEWAY-REGULAR.ttf") format('truetype');
+      font-weight: normal;
+      font-style: normal;
+  }
+   
 </style>
 <style>
     .dt-buttons button {
         border-radius: 10px !important;
-        font-family: Montserrat-Bold;
+        font-family: RALEWAY-BOLD;
 
     }
 
@@ -128,12 +137,12 @@
                         </a>
                     </li>
                     <li class="nav-item" style="letter-spacing: 1px;">
-                        <a class="nav-link" aria-current="page" href="../nosotros" style="color: white;word-spacing: 9px;font-family:Montserrat-Regular;"><b>
+                        <a class="nav-link" aria-current="page" href="../nosotros" style="color: white;word-spacing: 9px;font-family:RALEWAY-REGULAR;"><b>
                             <span style="font-family: Montserrat-SemiBold;" id="nosotros">NOSOTROS</span>
                         </b></a>
                     </li>
                     <li class="nav-item" style="letter-spacing: 1px;">
-                        <a class="nav-link" aria-current="page" href="../proyectos" style="color: white;word-spacing: 9px;font-family:Montserrat-Regular;"><b>
+                        <a class="nav-link" aria-current="page" href="../proyectos" style="color: white;word-spacing: 9px;font-family:RALEWAY-REGULAR;"><b>
                             <span style="font-family: Montserrat-SemiBold;" id="proyectos">PROYECTOS</span>
                         </b></a>
                     </li>
@@ -149,7 +158,7 @@
                     </li>
 
                     <li class="nav-item ms-2" style="letter-spacing: 1px;">
-                        <a data-aos="fade-down" data-aos-delay="200" data-aos-duration="1000" class="btn btn-sm btn-hover-shadow fs-3 p-1" href="https://pagos.aybarcorp.com" style="color:white;font-family: Montserrat-SemiBold; border-radius:5px; background-color:#FFA726; width: 148px;">
+                        <a data-aos="fade-down" data-aos-delay="200" data-aos-duration="1000" class="btn btn-sm btn-hover-shadow fs-3 p-1" href="https://pagos.ComexLat.com" style="color:white;font-family: Montserrat-SemiBold; border-radius:5px; background-color:#FFA726; width: 148px;">
                             PAGA TU LOTE
                         </a>
                     </li>
@@ -178,7 +187,7 @@
                                     <img src="../resource/1738175771_679a751b0390btelefono.svg" class="note-float-left" style="width: 38.5px; height: 47.6503px;">
                                     <br class=" d-sm-none">
                                    
-                                    <span class="" style="color: rgba(var(--bs-white-rgb),var(--bs-text-opacity)); font-family: Montserrat-Regular; font-size: 14px; font-weight: var(--bs-body-font-weight);">
+                                    <span class="" style="color: rgba(var(--bs-white-rgb),var(--bs-text-opacity)); font-family: RALEWAY-REGULAR; font-size: 14px; font-weight: var(--bs-body-font-weight);">
                                         (51)
                                         01-9049838</span>
                         
@@ -193,9 +202,9 @@
                             Circunvalación Del Golf Los Incas Av. 134
                          
                             <br class=" d-sm-none">
-                                <span class="" style="color: rgba(var(--bs-white-rgb),var(--bs-text-opacity)); font-family: Montserrat-Regular; font-size: 14px; font-weight: var(--bs-body-font-weight);">
+                                <span class="" style="color: rgba(var(--bs-white-rgb),var(--bs-text-opacity)); font-family: RALEWAY-REGULAR; font-size: 14px; font-weight: var(--bs-body-font-weight);">
                                 Patio Panorama,&nbsp; Piso 19.&nbsp; Santiago de Surco.</span>
-                            <span style="color: rgba(var(--bs-white-rgb),var(--bs-text-opacity)); font-family: Montserrat-Regular; font-size: 14px; font-weight: var(--bs-body-font-weight);">
+                            <span style="color: rgba(var(--bs-white-rgb),var(--bs-text-opacity)); font-family: RALEWAY-REGULAR; font-size: 14px; font-weight: var(--bs-body-font-weight);">
                                 </span>
                     
                     </li>
@@ -208,13 +217,13 @@
                 <div class="row">
                     <div class="col-6">
                         <ul class="text-white mt-4">
-                            <li><a href="../" style="font-family: Montserrat, sans-serif; font-weight: var(--bs-body-font-weight); color: white;"><span style="font-family: Montserrat-Regular; font-size: 14px;">Inicio</span></a>
+                            <li><a href="../" style="font-family: Montserrat, sans-serif; font-weight: var(--bs-body-font-weight); color: white;"><span style="font-family: RALEWAY-REGULAR; font-size: 14px;">Inicio</span></a>
                             </li>
-                            <li><a style="color:white" href="../../contacto"><span style="font-family: Montserrat-Regular; font-size: 14px;">Contáctanos</span></a>
+                            <li><a style="color:white" href="../../contacto"><span style="font-family: RALEWAY-REGULAR; font-size: 14px;">Contáctanos</span></a>
                             </li>
-                            <li><a style="color:white" href="../../nosotros"><span style="font-family: Montserrat-Regular; font-size: 14px;">Quiénes
+                            <li><a style="color:white" href="../../nosotros"><span style="font-family: RALEWAY-REGULAR; font-size: 14px;">Quiénes
                                         somos</span></a></li>
-                            <li><a style="color:white" href="#"><span style="font-family: Montserrat-Regular; font-size: 14px;">Preguntas
+                            <li><a style="color:white" href="#"><span style="font-family: RALEWAY-REGULAR; font-size: 14px;">Preguntas
                                         frecuentes</span></a></li>
 
 
@@ -222,13 +231,13 @@
                     </div>
                     <div class="col-6">
                         <ul class="text-white mt-4">
-                            <li><a style="color:white" href="../blog"><span style="font-family: Montserrat-Regular; font-size: 14px;">Blog</span></a>
+                            <li><a style="color:white" href="../blog"><span style="font-family: RALEWAY-REGULAR; font-size: 14px;">Blog</span></a>
                             </li>
-                            <li><a style="color:white" href="../proyectos"><span style="font-family: Montserrat-Regular; font-size: 14px;">Proyectos</span></a>
+                            <li><a style="color:white" href="../proyectos"><span style="font-family: RALEWAY-REGULAR; font-size: 14px;">Proyectos</span></a>
                             </li>
-                            <li><a style="color:white" href="#"><span style="font-family: Montserrat-Regular; font-size: 14px;">Términos y
+                            <li><a style="color:white" href="#"><span style="font-family: RALEWAY-REGULAR; font-size: 14px;">Términos y
                                         condiciones</span></a></li>
-                            <li><a style="color:white" href="#"><span style="font-family: Montserrat-Regular; font-size: 14px;">Libro de
+                            <li><a style="color:white" href="#"><span style="font-family: RALEWAY-REGULAR; font-size: 14px;">Libro de
                                         reclamaciones</span></a></li>
 
 
@@ -245,13 +254,13 @@
                 <div class="col-lg-7 col-xl-12 col-md-7 col-6 aos-init aos-animate" data-aos="slide-up" data-aos-delay="300" data-aos-duration="1000">                     
                 
                
-                <a href="https://www.facebook.com/aybarcorpoficial" target="_blank"> <img src="../resource/1738176383_679a777f397fdfacebook.svg" width="45px" alt="">
+                <a href="https://www.facebook.com/ComexLatoficial" target="_blank"> <img src="../resource/1738176383_679a777f397fdfacebook.svg" width="45px" alt="">
                 </a>
-                <a href="https://www.tiktok.com/@aybarcorpoficial" target="_blank"> <img src="../resource/1738176406_679a7796a9e96tiktok.svg" width="45px" alt="">
+                <a href="https://www.tiktok.com/@ComexLatoficial" target="_blank"> <img src="../resource/1738176406_679a7796a9e96tiktok.svg" width="45px" alt="">
                 </a>
-                <a href="https://www.instagram.com/aybarcorpoficial/" target="_blank"> <img src="../resource/1738176389_679a77852f7d9instagram.svg" width="45px" alt="">
+                <a href="https://www.instagram.com/ComexLatoficial/" target="_blank"> <img src="../resource/1738176389_679a77852f7d9instagram.svg" width="45px" alt="">
                 </a>
-                <a href="https://www.linkedin.com/company/aybarcorpoficial" target="_blank"> <img src="../resource/1738176399_679a778f7de17linkedin.svg" width="45px" alt=""></a>
+                <a href="https://www.linkedin.com/company/ComexLatoficial" target="_blank"> <img src="../resource/1738176399_679a778f7de17linkedin.svg" width="45px" alt=""></a>
                     </div>   
             </div>
         </div>

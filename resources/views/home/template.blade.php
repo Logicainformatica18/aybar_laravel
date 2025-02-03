@@ -9,7 +9,7 @@
     <link rel="icon" type="image/jpg" href="{{ asset('ayba/favicon.png') }}" />
     <!-- Core Css -->
     <link rel="stylesheet" href="{{ asset('assets/css/styles.css') }}" />
-    <title>AybarCorp</title>
+    <title>ComexLat</title>
     <!-- Owl Carousel  -->
     <link rel="stylesheet" href="{{ asset('assets/libs/owl.carousel/dist/assets/owl.carousel.min.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/libs/aos/dist/aos.css') }}" />
@@ -108,7 +108,7 @@
 
 
                             <li class="nav-item ms-2">
-                                <a class="btn btn-hover-shadow" href="https://pagos.aybarcorp.com"
+                                <a class="btn btn-hover-shadow" href="https://pagos.ComexLat.com"
                                     style="color:white;border-radius:100px;background-color:#F6A42C;width: 190px;">
                                     <b>PAGA TU LOTE</b>
                                 </a>
@@ -333,13 +333,13 @@
         <div class="social-container   p-2 pt-3 pb-3"
             style="background-color: #F6A42C;border-top-right-radius: 20px;border-bottom-right-radius: 20px;">
 
-            <a href="https://www.facebook.com/aybarcorpoficial" target="_blank" class="social-button">
+            <a href="https://www.facebook.com/ComexLatoficial" target="_blank" class="social-button">
                 <img src="https://logodownload.org/wp-content/uploads/2014/09/facebook-logo-0.png" alt="Facebook">
             </a>
-            <a href="https://www.instagram.com/aybarcorpoficial" target="_blank" class="social-button">
+            <a href="https://www.instagram.com/ComexLatoficial" target="_blank" class="social-button">
                 <img src="https://logodownload.org/wp-content/uploads/2014/09/facebook-logo-0.png" alt="Instagram">
             </a>
-            <a href="https://www.linkedin.com/company/aybarcorpoficial" target="_blank" class="social-button">
+            <a href="https://www.linkedin.com/company/ComexLatoficial" target="_blank" class="social-button">
                 <img src="https://logodownload.org/wp-content/uploads/2014/09/facebook-logo-0.png" alt="LinkedIn">
             </a>
 

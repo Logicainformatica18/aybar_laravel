@@ -192,7 +192,7 @@ function certificationDetail(id) {
        
        ctx.fillText(hour, x+411, 730);
        
-       ctx.font = "bold 45px Montserrat-Bold";
+       ctx.font = "bold 45px RALEWAY-BOLD";
        ctx.fillStyle = "#0a2262";
        
   

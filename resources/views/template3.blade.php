@@ -127,8 +127,8 @@
         }
 
         @font-face {
-            font-family: "Montserrat-Bold";
-            src: url("{{ asset('fuente_one/Montserrat-Bold.ttf') }}");
+            font-family: "RALEWAY-BOLD";
+            src: url("{{ asset('fuente_one/RALEWAY-BOLD.ttf') }}");
             font-weight: 600;
             font-style: bold;
         }
@@ -164,7 +164,7 @@
       <style>
         .dt-buttons button {
             border-radius: 10px !important;
-            font-family: Montserrat-Bold;
+            font-family: RALEWAY-BOLD;
 
         }
 
@@ -236,7 +236,7 @@
 
                         <a href="{{ route('home') }}">
 
-                            <h5 style="color:white;font-family:Montserrat-Bold">{{ Auth::user()->names }}</h5>
+                            <h5 style="color:white;font-family:RALEWAY-BOLD">{{ Auth::user()->names }}</h5>
                         </a>
                     </div>
                     <br>
@@ -471,7 +471,7 @@
                                 <a href="#" class="nav-link">
                                     {{-- <i class="nav-icon fas fa-table"></i> --}}
                                     <img src="{{ asset('Recurso 22.png') }}" alt="" srcset="" width="25px">
-                                    <p style="font-family:Montserrat-Bold">
+                                    <p style="font-family:RALEWAY-BOLD">
                                         Coordinador
                                         <i class="fas fa-angle-left right"></i>
                                     </p>
@@ -563,7 +563,7 @@
                                     {{-- <i class="nav-icon fas fa-table"></i> --}}
                                     <img src="{{ asset('Recurso 22.png') }}" alt="" srcset=""
                                         width="25px">
-                                    <p style="font-family:Montserrat-Bold">
+                                    <p style="font-family:RALEWAY-BOLD">
                                         Socio Comercial
                                         <i class="fas fa-angle-left right"></i>
                                     </p>
@@ -606,7 +606,7 @@
                                     {{-- <i class="nav-icon fas fa-table"></i> --}}
                                     <img src="{{ asset('Recurso 22.png') }}" alt="" srcset=""
                                         width="25px">
-                                    <p style="font-family:Montserrat-Bold">
+                                    <p style="font-family:RALEWAY-BOLD">
                                         Coach
                                         <i class="fas fa-angle-left right"></i>
                                     </p>
