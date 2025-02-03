@@ -114,13 +114,13 @@
                         <img src="../../resource/1738620627_67a13ed3427a1altas%20comisiones.svg" alt="Altas Comisiones" class="mb-3" width="100">
                         <h4 class="fw-bold" style="color: #F7931E;">ALTAS COMISIONES</h4>
                         <hr style="width: 50px; margin: auto; border: 1px solid #F7931E;">
-                        <p style="color: #b6b6b6;" class="px-3 mt-4 fs-3 ">
+                        <p style="color: #b6b6b6;font-family:RALEWAY-REGULAR" class="px-3 mt-4 fs-3 ">
                             ¡Gana por tus resultados! El sector inmobiliario te ofrece una de las  mejores oportunidades 
                             para generar ingresos extraordinarios en base a tus ventas.
                         </p>
-                        <a href="#" class="d-inline-block text-white fw-bold fs-5 px-5 py-3 mt-3" 
-                           style="background-color: #F7931E; border-radius: 30px; text-decoration: none;">
-                          <b>  Regístrate ahora +</b>
+                        <a href="#" class="d-inline-block text-white  fs-6 px-5 py-3 mt-3" 
+                           style="background-color: #F7931E; border-radius: 30px; text-decoration: none;font-family:COOLVETICA-RG">
+                          Regístrate ahora +
                         </a>
                     </div>
                 </div>
@@ -132,12 +132,12 @@
                         <img src="../../resource/1738620627_67a13ed3427a1altas%20comisiones.svg" alt="Crecimiento Profesional" class="mb-3" width="100">
                         <h4 class="fw-bold text-white">CRECIMIENTO PROFESIONAL</h4>
                         <hr style="width: 50px; margin: auto; border: 1px solid white;">
-                        <p class="px-3 mt-4 fs-4 text-justify">
+                        <p class="px-3 mt-4 fs-3 text-justify"style="font-family:RALEWAY-REGULAR">
                             Desarrolla habilidades de negociación, ventas y networking. ¡Conviértete en un experto en un sector con alta demanda!
                         </p>
-                        <a href="#" class="mt-5 d-inline-block fw-bold fs-5 px-5 py-3 mt-3" 
-                           style="background-color: white; color: #F7931E; border-radius: 30px; text-decoration: none;">
-                           <b>  Regístrate ahora +</b> 
+                        <a href="#" class="mt-5 d-inline-block fs-6 px-5 py-3 mt-3" 
+                           style="background-color: white; color: #F7931E; border-radius: 30px; text-decoration: none;font-family:COOLVETICA-RG">
+                           Regístrate ahora + 
                         </a>
                     </div>
                 </div>
@@ -148,13 +148,13 @@
                         <img src="../../resource/1738620627_67a13ed3427a1altas%20comisiones.svg" alt="Flexibilidad y Autonomía" class="mb-3" width="100">
                         <h4 class="fw-bold" style="color: #F7931E;">FLEXIBILIDAD Y AUTONOMÍA</h4>
                         <hr style="width: 50px; margin: auto; border: 1px solid #F7931E;">
-                        <p style="color: #b6b6b6;" class="px-3 mt-4 fs-4 text-justify">
+                        <p style="color: #b6b6b6;font-family:RALEWAY-REGULAR" class="px-3 mt-4 fs-3 text-justify">
                             Organiza tu tiempo como desees. Sé dueño de tu agenda y trabaja desde cualquier lugar, 
                             mientras construyes <br>tu  carrera profesional.
                         </p>
-                        <a href="#" class="mt-4 d-inline-block text-white fs-5 fw-bold px-5 py-3 mt-3" 
-                           style="background-color: #F7931E; border-radius: 30px; text-decoration: none;">
-                         <b>  Regístrate ahora +</b> 
+                        <a href="#" class="mt-4 d-inline-block text-white fs-6 px-5 py-3 mt-3" 
+                           style="background-color: #F7931E; border-radius: 30px; text-decoration: none;font-family:COOLVETICA-RG">
+                         Regístrate ahora +
                         </a>
                     </div>
                 </div>
