@@ -43,49 +43,49 @@
 <style type="text/css">
     @font-face {
         font-family: "RALEWAY-SEMIBOLD";
-        src: url("{{ asset('fuente/RALEWAY-SEMIBOLD.ttf') }}");
+        src: url("{{ asset('fuente/RALEWAY-SEMIBOLD.TTF') }}");
         font-weight: 600;
     }
     @font-face {
         font-family: "RALEWAY-EXTRABOLD";
-        src: url("{{ asset('fuente/RALEWAY-EXTRABOLD.ttf') }}");
+        src: url("{{ asset('fuente/RALEWAY-EXTRABOLD.TTF') }}");
         font-weight: 600;
     }
     @font-face {
         font-family: "RALEWAY-BOLD";
-        src: url("{{ asset('fuente/RALEWAY-BOLD.ttf') }}");
+        src: url("{{ asset('fuente/RALEWAY-BOLD.TTF') }}");
         font-weight: 600;
     }
 
     @font-face {
         font-family: 'RALEWAY-LIGHT';
-        src: url("{{ asset('fuente/RALEWAY-LIGHT.ttf') }}") format('truetype');
+        src: url("{{ asset('fuente/RALEWAY-LIGHT.TTF') }}") format('truetype');
         font-weight: normal;
         font-style: normal;
     }
 
     @font-face {
         font-family: 'COOLVETICA-CONDENSED-RG';
-        src: url("{{ asset('fuente/COOLVETICA-CONDENSED-RG.otf') }}") format('truetype');
+        src: url("{{ asset('fuente/COOLVETICA-CONDENSED-RG.OTF') }}") format('truetype');
         font-weight: normal;
         font-style: normal;
     }
     @font-face {
       font-family: 'RALEWAY-BLACK';
-      src: url("../../fuente/RALEWAY-BLACK.ttf") format('truetype');
+      src: url("../../fuente/RALEWAY-BLACK.TTF") format('truetype');
       font-weight: normal;
       font-style: normal;
   }
    
     @font-face {
       font-family: 'RALEWAY-REGULAR';
-      src: url("../../fuente/RALEWAY-REGULAR.ttf") format('truetype');
+      src: url("../../fuente/RALEWAY-REGULAR.TTF") format('truetype');
       font-weight: normal;
       font-style: normal;
   }
     @font-face {
       font-family: 'COOLVETICA-RG';
-      src: url("../../fuente/COOLVETICA-RG.otf") format('truetype');
+      src: url("../../fuente/COOLVETICA-RG.OTF") format('truetype');
       font-weight: normal;
       font-style: normal;
   }

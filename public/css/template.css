@@ -20,49 +20,49 @@ html {
     
     @font-face {
       font-family: "RALEWAY-SEMIBOLD";
-      src: url("../../fuente/RALEWAY-SEMIBOLD.ttf");
+      src: url("../../fuente/RALEWAY-SEMIBOLD.TTF");
       font-weight: 600;
   }
   @font-face {
       font-family: "RALEWAY-EXTRABOLD";
-      src: url("../../fuente/RALEWAY-EXTRABOLD.ttf");
+      src: url("../../fuente/RALEWAY-EXTRABOLD.TTF");
       font-weight: 600;
   }
   @font-face {
       font-family: "RALEWAY-BOLD";
-      src: url("../../fuente/RALEWAY-BOLD.ttf");
+      src: url("../../fuente/RALEWAY-BOLD.TTF");
       font-weight: 600;
   }
 
   @font-face {
       font-family: 'RALEWAY-LIGHT';
-      src: url("../../fuente/RALEWAY-LIGHT.ttf") format('truetype');
+      src: url("../../fuente/RALEWAY-LIGHT.TTF") format('truetype');
       font-weight: normal;
       font-style: normal;
   }
 
   @font-face {
       font-family: 'COOLVETICA-CONDENSED-RG';
-      src: url("../../fuente/COOLVETICA-CONDENSED-RG.otf") format('truetype');
+      src: url("../../fuente/COOLVETICA-CONDENSED-RG.OTF") format('truetype');
       font-weight: normal;
       font-style: normal;
   }
   @font-face {
       font-family: 'RALEWAY-BLACK';
-      src: url("../../fuente/RALEWAY-BLACK.ttf") format('truetype');
+      src: url("../../fuente/RALEWAY-BLACK.TTF") format('truetype');
       font-weight: normal;
       font-style: normal;
   }
 
   @font-face {
     font-family: 'RALEWAY-REGULAR';
-    src: url("../../fuente/RALEWAY-REGULAR.ttf") format('truetype');
+    src: url("../../fuente/RALEWAY-REGULAR.TTF") format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
   font-family: 'COOLVETICA-RG';
-  src: url("../../fuente/COOLVETICA-RG.otf") format('truetype');
+  src: url("../../fuente/COOLVETICA-RG.OTF") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
