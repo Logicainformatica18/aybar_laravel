@@ -109,7 +109,7 @@
             <div class="row g-4">
                 <!-- Tarjeta 1 -->
                 <div class="col-lg-4">
-                    <div class="p-4 text-center" style="border-radius: 0px 80px 0px 80px; background-color: white; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+                    <div class="p-4 text-center" style="border-radius: 0px 40% 0px 40%; background-color: white; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
                         <img src="../../resource/1738620627_67a13ed3427a1altas%20comisiones.svg" alt="Altas Comisiones" class="mb-3" width="100">
                         <h4 class="fw-bold" style="color: #F7931E;">ALTAS COMISIONES</h4>
                         <hr style="width: 50px; margin: auto; border: 1px solid #F7931E;">
@@ -126,7 +126,7 @@
         
                 <!-- Tarjeta 2 -->
                 <div class="col-lg-4">
-                    <div class="p-4 text-center" style="border-radius: 0px 80px 0px 80px; background-color: #F7931E;color: white; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+                    <div class="p-4 text-center" style="border-radius: 0px 40% 0px 40%; background-color: #F7931E;color: white; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
               
                         <img src="../../resource/1738620627_67a13ed3427a1altas%20comisiones.svg" alt="Crecimiento Profesional" class="mb-3" width="100">
                         <h4 class="fw-bold text-white">CRECIMIENTO PROFESIONAL</h4>
@@ -143,7 +143,7 @@
         
                 <!-- Tarjeta 3 -->
                 <div class="col-lg-4 h-100">
-                    <div class="p-4 text-center" style="border-radius: 0px 80px 0px 80px; background-color: white; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+                    <div class="p-4 text-center" style="border-radius: 0px 40% 0px 40%; background-color: white; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
                         <img src="../../resource/1738620627_67a13ed3427a1altas%20comisiones.svg" alt="Flexibilidad y Autonomía" class="mb-3" width="100">
                         <h4 class="fw-bold" style="color: #F7931E;">FLEXIBILIDAD Y AUTONOMÍA</h4>
                         <hr style="width: 50px; margin: auto; border: 1px solid #F7931E;">
@@ -161,10 +161,10 @@
         </div>
     </div>
 
-    <section class="d-none d-sm-block py-5 d-flex align-items-center justify-content-center" style="position: relative; background: url('../../resource/1738681624_67a22d18ea304banner-socio-comercial.jpg') no-repeat center center/cover; height: 100vh; color: white;">
+    <section class="d-none d-md-block py-5 d-flex align-items-center justify-content-center" style="position: relative; background: url('../../resource/1738681624_67a22d18ea304banner-socio-comercial.jpg') no-repeat center center/cover; height: 100vh; color: white;">
         <div class="container mt-5">
         <div class="row mt-5 mt-md-1">
-            <div class=" col-lg-6 col-12">
+            <div class=" col-lg-8 col-12 col-xl-6">
                 <div class="container text-justify text-white" style="position: relative; z-index: 2; ">
                     <h1 class="fw-bold text-uppercase display-5  text-justify"><b style="color: #F7931E;">Oportunidades de ser un socio  comercial</b> </h1>
                     <p class="mb-4 fs-6">Aprovecha nuestros más de 5 años de experiencia en el sector inmobiliario para convertirte en un experto y generar ingresos con cada proyecto.</p>
@@ -185,7 +185,7 @@
                         </div>
                     </div>
                     <div class="mt-4 d-flex justify-content-start">
-                        <a href="#" class="btn text-white w-100" style="background: #F7941D; border: none; padding: 12px 40px; font-size: 1.2rem; border-radius: 80px;"><h1 class="pt-1 ">Conoce más</h1> </a>
+                        <a href="#" class="btn text-white w-100" style="background: #F7941D; border: none; padding: 12px 40px; font-size: 1.2rem; border-radius: 40px;"><h1 class="pt-1 ">Conoce más</h1> </a>
                     </div>
                 </div>
             </div>
@@ -196,10 +196,10 @@
     </div>
     </section>
 
-    <section class="d-sm-none py-0 d-flex align-items-center justify-content-center" style="position: relative; background: url('../../resource/1738686719_67a240ff56695banner-socio-comercial-celular.jpg') no-repeat center center/cover; height: 100vh; color: white;">
+    <section class="d-md-none py-0 d-flex align-items-center justify-content-center" style="position: relative; background: url('../../resource/1738686719_67a240ff56695banner-socio-comercial-celular.jpg') no-repeat center center/cover; height: 100vh; color: white;">
         <div class="container mt-0">
         <div class="row mt-0 mt-md-1">
-            <div class=" col-lg-6 col-12">
+            <div class=" col-lg-8 col-12">
                 <div class="container text-justify text-white" style="position: relative; z-index: 2; ">
                     <h1 class="fw-bold text-uppercase fs-9  text-center"><b style="color: #F7931E;">Oportunidades de ser un socio  comercial</b> </h1>
                     <div class="text-justify">
@@ -224,7 +224,7 @@
                         
                     </div>
                     <div class="mt-1 d-flex justify-content-start">
-                        <a href="#" class="btn text-white w-100" style="background: #F7941D; border: none; padding: 12px 40px; font-size: 1.2rem; border-radius: 80px;"><h1 class="pt-1 ">Conoce más</h1> </a>
+                        <a href="#" class="btn text-white w-100" style="background: #F7941D; border: none; padding: 12px 40px; font-size: 1.2rem; border-radius: 40px;"><h1 class="pt-1 ">Conoce más</h1> </a>
                     </div>
                 </div>
             </div>
@@ -236,7 +236,100 @@
     </section>
 
 
+    <section class="text-center  py-5" style="background: url('../../resource/1738692212_67a256741dddabanner-naranja.jpg'); color: white;">
+        <h1 class="fw-bold text-uppercase display-3 mb-5 mb-1">¿Qué ofrecemos?</h1>
+        <div id="carouselExample" class="carousel slide d-sm-none" data-bs-ride="carousel" data-bs-interval="3000">
+            <div class="carousel-inner container">
+                <div class="carousel-item active">
+                    <div class="d-flex align-items-center px-4 py-4" style="background: white; color: black; border-radius: 0px 80px 0px 80px;">
+                        <img src="../../resource/1738690870_67a2513661ed2mayores%20comisiones.svg" alt="Mayores comisiones" style="width: 40%; height: 40%; margin-right: 15px;">
+                        <div>
+                            <h3 class="text-uppercase text-warning text-start fs-4">Mayores comisiones</h3>
+                            <p class=" fs-3" style=" text-align:justify;font-family:RALEWAY-REGULAR">Gana más por cada venta exitosa.</p>
+                        </div>
+                    </div>
 
+                    <div class="d-flex align-items-center px-4 py-4 mt-4" style="background: white; color: black; border-radius: 0px 80px 0px 80px;">
+                        <img src="../../resource/1738691122_67a25232b0268venta%20en%20feria.svg" alt="Venta en feria inmobiliaria" style="width: 40%; height: 40%; margin-right: 15px;">
+                        <div>
+                            <h3 class="text-uppercase text-warning text-start fs-4">Venta en feria inmobiliaria</h3>
+                            <p class=" fs-3"style="text-align:justify;font-family:RALEWAY-REGULAR">Accede a más oportunidades y multiplica tus ventas.</p>
+                        </div>
+                    </div>
+                </div>
+           
+                <div class="carousel-item ">
+                    <div class="d-flex align-items-center px-4 py-4" style="background: white; color: black; border-radius: 0px 80px 0px 80px;">
+                        <img src="../../resource/1738691184_67a25270f269dacceso%20a%20sorteos.svg" alt="Acceso a sorteos y descuentos" style="width: 40%; height: 40%; margin-right: 15px;">
+                        <div>
+                            <h3 class="text-uppercase text-warning text-start fs-4">Acceso a sorteos y descuentos</h3>
+                            <p class=" fs-3"style="text-align:justify;font-family:RALEWAY-REGULAR">Disfruta de beneficios exclusivos por formar parte de nuestra empresa.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center px-4 py-4 mt-4" style="background: white; color: black; border-radius: 0px 80px 0px 80px;">
+                        <img src="../../resource/1738620804_67a13f8433153bonos%20por%20meta.svg" alt="Bono por metas" style="width: 40%; height: 40%; margin-right: 15px;">
+                        <div>
+                            <h3 class="text-uppercase text-warning text-start fs-4">Bono por metas</h3>
+                            <p class=" fs-3"style="text-align:justify;font-family:RALEWAY-REGULAR">Reconocemos tu esfuerzo y te premiamos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="container mt-4 d-none d-sm-block">
+            <div class="row g-4 text-center align-content-center justify-content-center">
+                <div class="col-12 col-md-12 col-lg-8 col-xl-6">
+                    <div class="d-flex align-items-center px-4 py-4 py-sm-0" style="background: white; color: black; border-radius: 0px 80px 0px 80px;">
+                        <img src="../../resource/1738690870_67a2513661ed2mayores%20comisiones.svg" alt="Mayores comisiones"
+                         style="width: 40%; height: 40%; margin-right: 15px;">
+                        <div>
+                            <h3 class="text-uppercase text-warning text-start">Mayores comisiones</h3>
+                            <p class="text-start">Gana más por cada venta exitosa.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-8 col-xl-6">
+                    <div class="d-flex align-items-center px-4 py-4 py-sm-0" style="background: white; color: black; border-radius: 0px 80px 0px 80px;">
+                        <img src="../../resource/1738691122_67a25232b0268venta%20en%20feria.svg" alt="Venta en feria inmobiliaria"
+                         style="width: 40%; height: 40%; margin-right: 15px;">
+                        <div>
+                            <h3 class="text-uppercase text-warning text-start">Venta en feria inmobiliaria</h3>
+                            <p class="text-start">Accede a más oportunidades y multiplica tus ventas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-8 col-xl-6">
+                    <div class="d-flex align-items-center px-4 py-4 py-sm-0" style="background: white; color: black; border-radius: 0px 80px 0px 80px;">
+                        <img src="../../resource/1738691184_67a25270f269dacceso%20a%20sorteos.svg" alt="Acceso a sorteos y descuentos"
+                         style="width: 40%; height: 40%; margin-right: 15px;">
+                        <div>
+                     
+                            <h3 class="text-uppercase text-warning text-start">Acceso a sorteos y descuentos</h3>
+                            <p class="text-start">Disfruta de beneficios exclusivos por formar parte de nuestra empresa.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-8 col-xl-6">
+                    <div class="d-flex align-items-center px-4 py-4 py-sm-0" style="background: white; color: black; border-radius: 0px 80px 0px 80px;">
+                        <img src="../../resource/1738620804_67a13f8433153bonos%20por%20meta.svg" alt="Bono por metas"
+                         style="width: 40%; height: 40%; margin-right: 15px;">
+                        <div>
+                            <h3 class="text-uppercase text-warning text-start">Bono por metas</h3>
+                            <p class="text-start">Reconocemos tu esfuerzo y te premiamos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 <div class="container-fluid text-light py-3 bg-white" data-aos="slide-up" data-aos-delay="300" data-aos-duration="1500">
             <div class="text-center">
@@ -691,7 +784,7 @@
  
                background-position: center;">
 
-<img src="../resource/1738168541_679a58dd6cbc9portada-confiaenaybar-celular.jpg" class="d-lg-none" alt="" style="border:solid white 5px;margin-bottom:-180px;margin-top:-4px;border-radius:10px" width="100%">
+<img src="../resource/1738168541_679a58dd6cbc9portada-confiaenaybar-celular.jpg" class="d-lg-none" alt="" style="border:solid white 5px;margin-bottom:-140%;margin-top:-4px;border-radius:10px" width="100%">
 
         <div class="row">
             <!-- Imagen -->
