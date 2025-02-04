@@ -122,11 +122,11 @@
 
    
     <nav class="navbar navbar-expand-lg py-0 row">
-        <div class="col-9 py-3  py-md-0 py-lg-3  py-xl-0 col-lg-3 text-center " style="background-color:#FFA726">
+        <div class="col-9 py-3  py-md-0 py-lg-3  py-xl-0 col-lg-3 text-center " style="background-color:#F49A1A">
    
 
             <a data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" class="position-relative navbar-brand me-0 py-0 m-2 " href="/"> 
-                <img src="../../resource/1738678985_67a222c98b11alogo%20comexlat%20rengo%20y%20blanco.svg" alt="img-fluid" width="80%" style="margin-left:0%">
+                <img data-aos="flip-right" data-aos-duration="1000" data-aos-delay="500" src="../../resource/1738678985_67a222c98b11alogo%20comexlat%20rengo%20y%20blanco.svg" alt="img-fluid" width="80%" style="margin-left:0%">
             </a>
         </div>
         <div class="container col-3 col-lg-9 text-start">
@@ -144,24 +144,32 @@
                     <li class="nav-item" style="letter-spacing: 1px;"></li>
                     <li class="nav-item" style="letter-spacing: 1px;">
                         <a class="nav-link fs-7" aria-current="page" href="../" style="color: white">
-                            <b style="word-spacing: 9px;font-family: COOLVETICA-RG;" id="inicio">+Inicio</b>
+                            <b 
+                            data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"
+                            style="word-spacing: 9px;font-family: COOLVETICA-RG;" id="inicio">+Inicio</b>
                         </a>
                     </li>
                     <li class="nav-item" style="letter-spacing: 1px;">
                         <a class="nav-link fs-7" aria-current="page" href="#" style="color: white;word-spacing: 9px;font-family:RALEWAY-REGULAR;">
-                            <span style="font-family: COOLVETICA-RG;" id="nosotros">Nosotros</span>
+                            <span 
+                            data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500"
+                            style="font-family: COOLVETICA-RG;" id="nosotros">Nosotros</span>
                        </a>
                     </li>
                     <li class="nav-item" style="letter-spacing: 1px;">
                         <a class="nav-link fs-7" aria-current="page" href="#" style="color: white;word-spacing: 9px;font-family:RALEWAY-REGULAR;">
-                            <span style="font-family: COOLVETICA-RG;" id="proyectos">Oportunidades</span>
+                            <span 
+                            data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"
+                            style="font-family: COOLVETICA-RG;" id="proyectos">Oportunidades</span>
                        </a>
                     </li>
                     
                  
                     <li class="nav-item" style="letter-spacing: 1px;">
                         <a class="nav-link fs-7" aria-current="page" href="#trabaja" style="color: white">
-                           <span style="font-family: COOLVETICA-RG;word-spacing: 9px;" id="contacto">Contacto</span>
+                           <span 
+                           data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500"
+                           style="font-family: COOLVETICA-RG;word-spacing: 9px;" id="contacto">Contacto</span>
                         </a>
                     </li>
 
@@ -175,7 +183,7 @@
 </header>
 @yield('content')
 
-<footer class="text-center py-4" style="background: linear-gradient(to right, #F7941D 80%, #ffac47); color: black;">
+<footer class="text-center py-4" style="background: linear-gradient(to right, #F49A1A 80%, #ffac47); color: black;">
 
 <div class="container">
         <div class="row text-start p-5">
@@ -223,9 +231,9 @@
                 <a class="nav-link fs-3  active" aria-current="page" href="#trabaja" id="contacto_2">Contacto</a>
             </li>
         </ul>
-        <a href="../../login" class="btn  w-100 py-2 mt-2 text-white" style="background-color: #FFA726">Administrar</a>
+        <a href="../../login" class="btn  w-100 py-2 mt-2 text-white" style="background-color: #F49A1A">Administrar</a>
         <br>
-        <a href="../../logout" class="btn  w-100 py-2 mt-2 text-white" style="background-color: #FFA726">Salir</a>
+        <a href="../../logout" class="btn  w-100 py-2 mt-2 text-white" style="background-color: #F49A1A">Salir</a>
     </div>
 </div>
 <!-- FIN SECCION -->
@@ -254,7 +262,7 @@
                 const element = document.getElementById(id);
                 if (element) {
                     element.style.textDecoration = "underline";
-                    element.style.color = "#FFA726";
+                    element.style.color = "#F49A1A";
                     element.style.textDecorationThickness = "3px"; // Grosor del subrayado
                     element.style.textDecorationColor = "white"; // Color blanco
                     element.style.textUnderlineOffset = "5px"; // Espaciado del subrayado
