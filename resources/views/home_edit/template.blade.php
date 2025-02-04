@@ -33,50 +33,92 @@
     <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/js/intlTelInput.min.js"></script>
 </head>
 
-<style>
-    
-    .bg-responsive {
-    background-image: url('../resource/1738080045_portada-inicio-1-escritorio.jpg');
-    background-repeat: no-repeat;
-    width: 100%;
-
-    /* height: 85vh; */
-}
-
-/* Para pantallas medianas (tablets) */
-@media (max-width: 1292px) {
-    .bg-responsive {
-        width: 100%;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-image: url('../resource/1738247474_679b8d32253e5portada-inicio-1-tablet.jpg');
+<style type="text/css">
+    @font-face {
+        font-family: "RALEWAY-SEMIBOLD";
+        src: url("{{ asset('fuente/RALEWAY-SEMIBOLD.TTF') }}");
+        font-weight: 600;
     }
-}
-
-/* Para pantallas pequeñas (móviles) */
-@media (max-width: 418px) {
-    .bg-responsive {
-        width: 100%;
-        height: 70vh;
-        background-position: center;
-        background-repeat: no-repeat;
-        /* background-size: contain; */
-        background-image: url('../resource/1738247025_679b8b712800cportada-inicio-1-celular.jpg');
+    @font-face {
+        font-family: "RALEWAY-EXTRABOLD";
+        src: url("{{ asset('fuente/RALEWAY-EXTRABOLD.TTF') }}");
+        font-weight: 600;
     }
-}
+    @font-face {
+        font-family: "RALEWAY-BOLD";
+        src: url("{{ asset('fuente/RALEWAY-BOLD.TTF') }}");
+        font-weight: 600;
+    }
+
+    @font-face {
+        font-family: 'RALEWAY-LIGHT';
+        src: url("{{ asset('fuente/RALEWAY-LIGHT.TTF') }}") format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'COOLVETICA-CONDENSED-RG';
+        src: url("{{ asset('fuente/COOLVETICA-CONDENSED-RG.OTF') }}") format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+    @font-face {
+      font-family: 'RALEWAY-BLACK';
+      src: url("../../fuente/RALEWAY-BLACK.TTF") format('truetype');
+      font-weight: normal;
+      font-style: normal;
+  }
    
-    body {
-        font-family: 'Montserrat', sans-serif;
-        /* Aplica Montserrat como fuente principal */
-        font-size: 16px;
-        /* Tamaño base del texto */
+    @font-face {
+      font-family: 'RALEWAY-REGULAR';
+      src: url("../../fuente/RALEWAY-REGULAR.TTF") format('truetype');
+      font-weight: normal;
+      font-style: normal;
+  }
+    @font-face {
+      font-family: 'COOLVETICA-RG';
+      src: url("../../fuente/COOLVETICA-RG.OTF") format('truetype');
+      font-weight: normal;
+      font-style: normal;
+  }
+   
+</style>
+<style>
+    .bg-responsive {
+        background-image: url('../resource/1738618824_67a137c8cbe2fbanner-comexlat.jpg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 90vh;
 
-        line-height: 1.6;
-        /* Altura de línea para mejor legibilidad */
+        /* height: 85vh; */
+    }
+
+    /* Para pantallas medianas (tablets) */
+    @media (max-width: 1684px) {
+        .bg-responsive {
+            width: 100%;
+            height: 80vh;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-image: url('../../resource/1738619096_67a138d8b8f8fbanner-comexlat-tablet.jpg');
+        }
+    }
+
+    /* Para pantallas pequeñas (móviles) */
+    @media (max-width: 532px) {
+        .bg-responsive {
+            width: 100%;
+            height: 50vh;
+            /* height: 90vh; */
+            background-position: center;
+            background-repeat: no-repeat;
+            /* background-size: contain; */
+            background-image: url('../../resource/1738619153_67a13911c95a7banner-comexlat-celular.jpg');
+        }
     }
 </style>
-
 <body>
 
     <!-- Preloader -->

@@ -29,6 +29,58 @@
     <!-- JS -->
     <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/js/intlTelInput.min.js"></script>
 </head>
+<style type="text/css">
+    @font-face {
+        font-family: "RALEWAY-SEMIBOLD";
+        src: url("{{ asset('fuente/RALEWAY-SEMIBOLD.TTF') }}");
+        font-weight: 600;
+    }
+    @font-face {
+        font-family: "RALEWAY-EXTRABOLD";
+        src: url("{{ asset('fuente/RALEWAY-EXTRABOLD.TTF') }}");
+        font-weight: 600;
+    }
+    @font-face {
+        font-family: "RALEWAY-BOLD";
+        src: url("{{ asset('fuente/RALEWAY-BOLD.TTF') }}");
+        font-weight: 600;
+    }
+
+    @font-face {
+        font-family: 'RALEWAY-LIGHT';
+        src: url("{{ asset('fuente/RALEWAY-LIGHT.TTF') }}") format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'COOLVETICA-CONDENSED-RG';
+        src: url("{{ asset('fuente/COOLVETICA-CONDENSED-RG.OTF') }}") format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+    @font-face {
+      font-family: 'RALEWAY-BLACK';
+      src: url("../../fuente/RALEWAY-BLACK.TTF") format('truetype');
+      font-weight: normal;
+      font-style: normal;
+  }
+   
+    @font-face {
+      font-family: 'RALEWAY-REGULAR';
+      src: url("../../fuente/RALEWAY-REGULAR.TTF") format('truetype');
+      font-weight: normal;
+      font-style: normal;
+  }
+    @font-face {
+      font-family: 'COOLVETICA-RG';
+      src: url("../../fuente/COOLVETICA-RG.OTF") format('truetype');
+      font-weight: normal;
+      font-style: normal;
+  }
+   
+</style>
+
 
 {{-- <style>
     body {
@@ -41,44 +93,7 @@
         /* Altura de línea para mejor legibilidad */
     }
 </style> --}}
-<style type="text/css">
- 
 
-    @font-face {
-        font-family: "RALEWAY-BOLD";
-        src: url("{{ asset('fuente_montserrat/RALEWAY-BOLD.ttf') }}");
-        font-weight: 600;
-        font-style: bold;
-    }
-
-    @font-face {
-        font-family: 'Montserrat-Regular';
-        src: url("{{ asset('fuente_montserrat/Montserrat-Regular.ttf') }}") format('truetype');
-        font-weight: normal;
-        font-style: normal;
-    }
-
-    @font-face {
-        font-family: 'Montserrat-BoldItalic';
-        src: url("{{ asset('fuente_montserrat/Montserrat-BoldItalic.ttf') }}") format('truetype');
-        font-weight: normal;
-        font-style: normal;
-    }
-
-    @font-face {
-        font-family: 'Montserrat-Medium';
-        src: url("{{ asset('fuente_montserrat/Montserrat-Medium.ttf') }}") format('truetype');
-        font-weight: normal;
-        font-style: normal;
-    }
-
-    @font-face {
-        font-family: 'Montserrat-SemiBold';
-        src: url("{{ asset('fuente_montserrat/Montserrat-SemiBold.ttf') }}") format('truetype');
-        font-weight: normal;
-        font-style: normal;
-    }
-</style>
   <style>
     .dt-buttons button {
         border-radius: 10px !important;

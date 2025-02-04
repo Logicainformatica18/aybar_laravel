@@ -32,7 +32,41 @@
     <script src="{{ asset('js/customer.js') }}"></script>
     <script src="{{ asset('js/function.js') }}"></script>
     <script src="{{ asset('js/axios.min.js') }}"></script>
-
+    <style>
+        .bg-responsive {
+            background-image: url('../resource/1738618824_67a137c8cbe2fbanner-comexlat.jpg');
+            background-repeat: no-repeat;
+            background-size: 100%;
+            height: 90vh;
+    
+            /* height: 85vh; */
+        }
+    
+        /* Para pantallas medianas (tablets) */
+        @media (max-width: 1684px) {
+            .bg-responsive {
+                width: 100%;
+                height: 80vh;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-image: url('../../resource/1738619096_67a138d8b8f8fbanner-comexlat-tablet.jpg');
+            }
+        }
+    
+        /* Para pantallas pequeñas (móviles) */
+        @media (max-width: 532px) {
+            .bg-responsive {
+                width: 100%;
+                height: 50vh;
+                /* height: 90vh; */
+                background-position: center;
+                background-repeat: no-repeat;
+                /* background-size: contain; */
+                background-image: url('../../resource/1738619153_67a13911c95a7banner-comexlat-celular.jpg');
+            }
+        }
+    </style>
 </head>
 
 <body>
