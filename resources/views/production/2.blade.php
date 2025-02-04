@@ -5,13 +5,13 @@
         background-image: url('../resource/1738618824_67a137c8cbe2fbanner-comexlat.jpg');
         background-repeat: no-repeat;
         background-size: 100%;
-        height: 100vh;
+        height: 90vh;
 
         /* height: 85vh; */
     }
 
     /* Para pantallas medianas (tablets) */
-    @media (max-width: 1292px) {
+    @media (max-width: 1684px) {
         .bg-responsive {
             width: 100%;
             height: 80vh;
@@ -23,10 +23,10 @@
     }
 
     /* Para pantallas pequeñas (móviles) */
-    @media (max-width: 987px) {
+    @media (max-width: 532px) {
         .bg-responsive {
-            width: 10%;
-            height: 40vh;
+            width: 100%;
+            height: 50vh;
             /* height: 90vh; */
             background-position: center;
             background-repeat: no-repeat;
@@ -40,34 +40,33 @@
         @csrf
 
         <!-- INICIO SECCION -->
-<div id="carouselExample" class="carousel slide text-white pointer-event" data-bs-ride="carousel" data-bs-interval="30000">
+<div id="carouselExample" class=" carousel slide text-white pointer-event" data-bs-ride="carousel" data-bs-interval="30000">
             
     
-    <div class="carousel-inner" style="display: flex; align-items: center;">
+    <div class="carousel-inner " style="display: flex; align-items: center;">
         
                 <!-- Diapositiva 1 -->
-                <div class=" carousel-item text-center pb-5 active bg-responsive">
+                <div class=" carousel-item text-center pb-5 active bg-responsive" >
                     
                 </div>
                 <span style="font-size: 9px;">
 
                 </span><!-- Diapositiva 2: Video de YouTube -->
-                <div class="carousel-item position-relative " style="height: 756px;">
-                    <div class="row">
-                        <div class="col-12 col-sm-12 col-xl-8  bg-black ">
-
-                            <iframe src="https://www.youtube.com/embed/68tbz0AyBUs?autoplay=1&amp;mute=1&amp;loop=1&amp;playlist=68tbz0AyBUs&amp;controls=0&amp;showinfo=0&amp;modestbranding=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="" style="object-fit: cover;width:100%;height:773px"></iframe>
-                        </div>
-                      
-                    </div>
+                <div class="carousel-item position-relative " style="width: 100%;
+            height: 80vh;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-image: url('../../resource/1738681624_67a22d18ea304banner-socio-comercial.jpg');">
+               
                 </div>
                
             </div>
           <!-- Indicadores del Carrusel -->
-          <div class="carousel-indicators" style="margin-top:-100px; position: relative;">
+          <div class="carousel-indicators" style="margin-top:-100px position: relative;">
             <!-- Indicador Activo (Relleno) -->
             <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" 
-                class="active"
+                class="active "
                 aria-current="true"
                 aria-label="Diapositiva 1"
                 style="background-color: white; 
@@ -95,11 +94,11 @@
         
             
         </div>
-        <p></p>
+        
 
 
-        <div class=" text-center mt-5"style="background-color:#E8ECF3;">
-            <div class="container py-5">
+        <div class=" text-center mt-n5 "style="background-color:#E8ECF3;">
+            <div class="container py-5 mt-5">
 
    
             <!-- Título -->
@@ -162,9 +161,79 @@
         </div>
     </div>
 
+    <section class="d-none d-sm-block py-5 d-flex align-items-center justify-content-center" style="position: relative; background: url('../../resource/1738681624_67a22d18ea304banner-socio-comercial.jpg') no-repeat center center/cover; height: 100vh; color: white;">
+        <div class="container mt-5">
+        <div class="row mt-5 mt-md-1">
+            <div class=" col-lg-6 col-12">
+                <div class="container text-justify text-white" style="position: relative; z-index: 2; ">
+                    <h1 class="fw-bold text-uppercase display-5  text-justify"><b style="color: #F7931E;">Oportunidades de ser un socio  comercial</b> </h1>
+                    <p class="mb-4 fs-6">Aprovecha nuestros más de 5 años de experiencia en el sector inmobiliario para convertirte en un experto y generar ingresos con cada proyecto.</p>
+                    <div class="row g-4 text-start">
+                        <div class="col-md-6">
+                            <div class="w-100 text-start text-white text-justify" style="background: rgba(255, 255, 255, 0); color: black; padding: 15px; text-align: center; border-radius: 8px;">
+                                <img src="../../resource/1738683197_67a2333d3f3fbplusvalia.svg" alt="Plusvalía" class="mb-2"width="100px">
+                                <h4 class="text-uppercase "style="color: #F7931E;">Plusvalía</h4>
+                                <p>Trabajar en bienes raíces te permite aprovechar la constante valorización de los terrenos y propiedades, un mercado que siempre se encuentra en ascenso.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="w-100 text-start text-white text-justify  " style="background: rgba(255, 255, 255, 0); color: black; padding: 15px; text-align: center; border-radius: 8px;">
+                                <img src="../../resource/1738620634_67a13eda888c5crecimiento.svg" alt="Crecimiento" class="mb-2"width="100px">
+                                <h4 class="text-uppercase "style="color: #F7931E;">Crecimiento</h4>
+                                <p>El sector inmobiliario está en constante desarrollo, lo que garantiza estabilidad y nuevas oportunidades para quienes decidan formar parte de él.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-4 d-flex justify-content-start">
+                        <a href="#" class="btn text-white w-100" style="background: #F7941D; border: none; padding: 12px 40px; font-size: 1.2rem; border-radius: 80px;"><h1 class="pt-1 ">Conoce más</h1> </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+        
+            </div>
+        </div>
+    </div>
+    </section>
 
+    <section class="d-sm-none py-0 d-flex align-items-center justify-content-center" style="position: relative; background: url('../../resource/1738686719_67a240ff56695banner-socio-comercial-celular.jpg') no-repeat center center/cover; height: 100vh; color: white;">
+        <div class="container mt-0">
+        <div class="row mt-0 mt-md-1">
+            <div class=" col-lg-6 col-12">
+                <div class="container text-justify text-white" style="position: relative; z-index: 2; ">
+                    <h1 class="fw-bold text-uppercase fs-9  text-center"><b style="color: #F7931E;">Oportunidades de ser un socio  comercial</b> </h1>
+                    <div class="text-justify">
+                        <p class="mb-4 fs-3" style=" text-align: justify;">Aprovecha nuestros más de 5 años de experiencia en el sector inmobiliario para convertirte en un experto y generar ingresos con cada proyecto.</p>
 
-
+                    </div>
+                    <div class="row g-4 text-center">
+                        <div class="col-md-6">
+                            <div class="w-100 text-start text-white " style="background: rgba(255, 255, 255, 0); color: black; padding: 15px; text-align: center; border-radius: 8px;">
+                                <img src="../../resource/1738683197_67a2333d3f3fbplusvalia.svg"style="float: left;height:160px" alt="Plusvalía" class="mb-2"width="100px">
+                                <h4 class="text-uppercase "style="color: #F7931E;">Plusvalía</h4>
+                                <p style="text-align: justify">Trabajar en  bienes  raíces  te permite  aprovechar  la constante valorización de los terrenos y propiedades, un mercado que siempre se encuentra en ascenso.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-n2">
+                            <div class="w-100 text-start text-white " style="background: rgba(255, 255, 255, 0); color: black; padding: 15px; text-align: center; border-radius: 8px;">
+                                <img src="../../resource/1738620634_67a13eda888c5crecimiento.svg"style="float: left;height:160px" alt="Plusvalía" class="mb-2"width="100px">
+                                <h4 class="text-uppercase "style="color: #F7931E;">Crecimiento</h4>
+                                <p style="text-align: justify">El sector inmobiliario está en constante desarrollo, lo que garantiza estabilidad y nuevas oportunidades para quienes decidan formar parte de él.</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="mt-1 d-flex justify-content-start">
+                        <a href="#" class="btn text-white w-100" style="background: #F7941D; border: none; padding: 12px 40px; font-size: 1.2rem; border-radius: 80px;"><h1 class="pt-1 ">Conoce más</h1> </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+        
+            </div>
+        </div>
+    </div>
+    </section>
 
 
 

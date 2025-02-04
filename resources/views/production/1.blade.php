@@ -65,7 +65,7 @@
     }
 
     @font-face {
-        font-family: 'COOLVETICA CONDENSED RG';
+        font-family: 'COOLVETICA-CONDENSED-RG';
         src: url("{{ asset('fuente/COOLVETICA CONDENSED RG.otf') }}") format('truetype');
         font-weight: normal;
         font-style: normal;
@@ -118,15 +118,20 @@
 
 
         <!-- INICIO SECCION -->
-<header class="header fixed-header" id="mainHeader" style="  background-color: rgba(0, 0, 0, 0.8);">
+<header class="header fixed-header" id="mainHeader" style="  background-color: rgba(0, 0, 0);">
 
    
-    <nav class="navbar navbar-expand-lg py-0">
-        <div class="container">
+    <nav class="navbar navbar-expand-lg py-0 row">
+        <div class="col-9 py-3  py-md-0 py-lg-3  py-xl-0 col-lg-3 text-center " style="background-color:#FFA726">
+   
 
             <a data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" class="position-relative navbar-brand me-0 py-0 m-2 " href="/"> 
-                <img src="../resource/1738076896_logo%20aybar%20blanco.svg" alt="img-fluid" width="80px" style="margin-left:0%">
+                <img src="../../resource/1738678985_67a222c98b11alogo%20comexlat%20rengo%20y%20blanco.svg" alt="img-fluid" width="80%" style="margin-left:0%">
             </a>
+        </div>
+        <div class="container col-3 col-lg-9 text-start">
+
+           
 
             <button class="navbar-toggler d-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="ti ti-menu-2 fs-9"></i>
@@ -138,41 +143,29 @@
                 <ul class="navbar-nav align-items-center mb-2 mb-lg-0 mx-auto" style="">
                     <li class="nav-item" style="letter-spacing: 1px;"></li>
                     <li class="nav-item" style="letter-spacing: 1px;">
-                        <a class="nav-link" aria-current="page" href="../" style="color: white">
-                            <b style="word-spacing: 9px;font-family: Montserrat-SemiBold;" id="inicio">INICIO</b>
+                        <a class="nav-link fs-7" aria-current="page" href="../" style="color: white">
+                            <b style="word-spacing: 9px;font-family: COOLVETICA-RG;" id="inicio">+Inicio</b>
                         </a>
                     </li>
                     <li class="nav-item" style="letter-spacing: 1px;">
-                        <a class="nav-link" aria-current="page" href="../nosotros" style="color: white;word-spacing: 9px;font-family:RALEWAY-REGULAR;"><b>
-                            <span style="font-family: Montserrat-SemiBold;" id="nosotros">NOSOTROS</span>
-                        </b></a>
+                        <a class="nav-link fs-7" aria-current="page" href="../nosotros" style="color: white;word-spacing: 9px;font-family:RALEWAY-REGULAR;">
+                            <span style="font-family: COOLVETICA-RG;" id="nosotros">Nosotros</span>
+                       </a>
                     </li>
                     <li class="nav-item" style="letter-spacing: 1px;">
-                        <a class="nav-link" aria-current="page" href="../proyectos" style="color: white;word-spacing: 9px;font-family:RALEWAY-REGULAR;"><b>
-                            <span style="font-family: Montserrat-SemiBold;" id="proyectos">PROYECTOS</span>
-                        </b></a>
+                        <a class="nav-link fs-7" aria-current="page" href="../proyectos" style="color: white;word-spacing: 9px;font-family:RALEWAY-REGULAR;">
+                            <span style="font-family: COOLVETICA-RG;" id="proyectos">Oportunidades</span>
+                       </a>
                     </li>
                     
-                    <li class="nav-item" style="letter-sblogs: 1px;">
-                        <a class="nav-link" aria-current="page" href="../blog" style="color: white">
-                            <b style="word-spacing: 9px;"><span style="font-family: Montserrat-SemiBold;" id="blog">BLOG</span></b>
-                        </a>                </li>
+                 
                     <li class="nav-item" style="letter-spacing: 1px;">
-                        <a class="nav-link" aria-current="page" href="../contacto" style="color: white">
-                            <b style="word-spacing: 9px;"><span style="font-family: Montserrat-SemiBold;" id="contacto">CONTÁCTANOS</span></b>
+                        <a class="nav-link fs-7" aria-current="page" href="../contacto" style="color: white">
+                           <span style="font-family: COOLVETICA-RG;word-spacing: 9px;" id="contacto">Contacto</span>
                         </a>
                     </li>
 
-                    <li class="nav-item ms-2" style="letter-spacing: 1px;">
-                        <a data-aos="fade-down" data-aos-delay="200" data-aos-duration="1000" class="btn btn-sm btn-hover-shadow fs-3 p-1" href="https://pagos.ComexLat.com" style="color:white;font-family: Montserrat-SemiBold; border-radius:5px; background-color:#FFA726; width: 148px;">
-                            PAGA TU LOTE
-                        </a>
-                    </li>
-                    <li class="nav-item ms-2">
-                        <a data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" class="btn btn-sm btn-hover-shadow fs-4 p-1 " href="tel:+5101-9049838" style="color:white;font-family: Montserrat-SemiBold; border-radius:5px; background-color:rgb(19, 67, 77); width: 155px;color:#FFA726;">
-                            <i class="ti ti-brand-whatsapp fs-6">&nbsp;</i><span class="text-white">01-9049838 </span> 
-                        </a>
-                    </li>
+              
                     
  
                 </ul>
@@ -293,18 +286,7 @@
                 </div>
             </div>
         </footer>
-<div class="whatsapp-container">
-        <div class="whatsapp-message">
-            ¿Necesitas ayuda?
-        </div>
-        <div class="whatsapp-btn">
-            <a href="https://bit.ly/PGWSP" target="_blank" title="Enviar mensaje por WhatsApp">
 
-                <i class="ti ti-brand-whatsapp"></i>
-            </a>
-        </div>
-
-    </div>
 <div class="offcanvas offcanvas-start matdash-lp-offcanvas" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" style="background-color: #000000e1">
     <div class="offcanvas-header p-4 text-center justify-content-center">
         <img src="../../resource/1738076896_logo%20aybar%20blanco.svg" alt="matdash-img" class="img-fluid" width="150">
