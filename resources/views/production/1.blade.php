@@ -6,7 +6,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/jpg" href="{{ asset('ayba/favicon.png') }}" />
+    <link rel="icon" type="image/jpg" href="{{ asset('../../resource/1738678985_67a222c98b11alogo%20comexlat%20rengo%20y%20blanco.svg') }}" />
     <!-- Core Css -->
     <link rel="stylesheet" href="{{ asset('assets/css/styles.css') }}" />
     <title>ComexLat</title>
@@ -111,7 +111,7 @@
 <body>
 
     <!-- Preloader -->
-    <div class="preloader"><img src="{{ asset('ayba/1.png') }}" alt="loader" class="lds-ripple img-fluid" /></div>
+    <div class="preloader"><img src="{{ asset('../../resource/1738678985_67a222c98b11alogo%20comexlat%20rengo%20y%20blanco.svg') }}" alt="loader" class="lds-ripple img-fluid" /></div>
 
 
     <div id="main-wrapper flex-column">
@@ -148,19 +148,19 @@
                         </a>
                     </li>
                     <li class="nav-item" style="letter-spacing: 1px;">
-                        <a class="nav-link fs-7" aria-current="page" href="../nosotros" style="color: white;word-spacing: 9px;font-family:RALEWAY-REGULAR;">
+                        <a class="nav-link fs-7" aria-current="page" href="#" style="color: white;word-spacing: 9px;font-family:RALEWAY-REGULAR;">
                             <span style="font-family: COOLVETICA-RG;" id="nosotros">Nosotros</span>
                        </a>
                     </li>
                     <li class="nav-item" style="letter-spacing: 1px;">
-                        <a class="nav-link fs-7" aria-current="page" href="../proyectos" style="color: white;word-spacing: 9px;font-family:RALEWAY-REGULAR;">
+                        <a class="nav-link fs-7" aria-current="page" href="#" style="color: white;word-spacing: 9px;font-family:RALEWAY-REGULAR;">
                             <span style="font-family: COOLVETICA-RG;" id="proyectos">Oportunidades</span>
                        </a>
                     </li>
                     
                  
                     <li class="nav-item" style="letter-spacing: 1px;">
-                        <a class="nav-link fs-7" aria-current="page" href="../contacto" style="color: white">
+                        <a class="nav-link fs-7" aria-current="page" href="#trabaja" style="color: white">
                            <span style="font-family: COOLVETICA-RG;word-spacing: 9px;" id="contacto">Contacto</span>
                         </a>
                     </li>
@@ -174,122 +174,37 @@
     </nav>
 </header>
 @yield('content')
-<div class="container-fluid py-1" style="background-color: #054E5C;">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 col-md-5 col-lg-6 col-xl-4 justify-content-center text-lg-start text-md-start mt-10 aos-init aos-animate">
-                <h3 style="margin-top:30px; margin-left:0px; color:#FFA726;" class=" text-md-start  text-center"><span style="font-family: Montserrat;"></span>Contáctanos</h3>
-                <ul class="text-white mt-4" style="--bs-text-opacity: 1;">
-                    <li>
-                       
-                       
-                                    <img src="../resource/1738175771_679a751b0390btelefono.svg" class="note-float-left" style="width: 38.5px; height: 47.6503px;">
-                                    <br class=" d-sm-none">
-                                   
-                                    <span class="" style="color: rgba(var(--bs-white-rgb),var(--bs-text-opacity)); font-family: RALEWAY-REGULAR; font-size: 14px; font-weight: var(--bs-body-font-weight);">
-                                        (51)
-                                        01-9049838</span>
-                        
-                                    
-                       
-                    </li>
-                    <li>
-                        <img src="../resource/1738175816_679a75485dd11ubicacion.svg" class=" note-float-left" style="width: 38.5px; height: 47.6503px; float: left;">
-                     
 
-                           
-                            Circunvalación Del Golf Los Incas Av. 134
-                         
-                            <br class=" d-sm-none">
-                                <span class="" style="color: rgba(var(--bs-white-rgb),var(--bs-text-opacity)); font-family: RALEWAY-REGULAR; font-size: 14px; font-weight: var(--bs-body-font-weight);">
-                                Patio Panorama,&nbsp; Piso 19.&nbsp; Santiago de Surco.</span>
-                            <span style="color: rgba(var(--bs-white-rgb),var(--bs-text-opacity)); font-family: RALEWAY-REGULAR; font-size: 14px; font-weight: var(--bs-body-font-weight);">
-                                </span>
-                    
-                    </li>
-                </ul>
+<footer class="text-center py-4" style="background: linear-gradient(to right, #F7941D 80%, #ffac47); color: black;">
+
+<div class="container">
+        <div class="row text-start p-5">
+            <div class="col-md-4 col-12">
+                <span class=" text-black fs-8"style="font-family:COOLVETICA-RG;">Ubicación</span>
+                <div class="subrayado mb-3"style="background-color:black;height:3px;margin-top:1px;width:25px"></div>
+                <p class="text-white fs-5">Av. Circunvalación del Golf Los Incas<br>134 Patio Panorama, Santiago de Surco</p>
             </div>
-
-            <div class="col-sm-12 col-md-7 col-lg-6 col-xl-4 justify-content-center text-center text-lg-start text-md-end mt-10 aos-init aos-animate">
-                <h3 style="margin-top:30px; margin-left:0px; color:#FFA726;">Descubre más</h3>
-
-                <div class="row">
-                    <div class="col-6">
-                        <ul class="text-white mt-4">
-                            <li><a href="../" style="font-family: Montserrat, sans-serif; font-weight: var(--bs-body-font-weight); color: white;"><span style="font-family: RALEWAY-REGULAR; font-size: 14px;">Inicio</span></a>
-                            </li>
-                            <li><a style="color:white" href="../../contacto"><span style="font-family: RALEWAY-REGULAR; font-size: 14px;">Contáctanos</span></a>
-                            </li>
-                            <li><a style="color:white" href="../../nosotros"><span style="font-family: RALEWAY-REGULAR; font-size: 14px;">Quiénes
-                                        somos</span></a></li>
-                            <li><a style="color:white" href="#"><span style="font-family: RALEWAY-REGULAR; font-size: 14px;">Preguntas
-                                        frecuentes</span></a></li>
-
-
-                        </ul>
-                    </div>
-                    <div class="col-6">
-                        <ul class="text-white mt-4">
-                            <li><a style="color:white" href="../blog"><span style="font-family: RALEWAY-REGULAR; font-size: 14px;">Blog</span></a>
-                            </li>
-                            <li><a style="color:white" href="../proyectos"><span style="font-family: RALEWAY-REGULAR; font-size: 14px;">Proyectos</span></a>
-                            </li>
-                            <li><a style="color:white" href="#"><span style="font-family: RALEWAY-REGULAR; font-size: 14px;">Términos y
-                                        condiciones</span></a></li>
-                            <li><a style="color:white" href="#"><span style="font-family: RALEWAY-REGULAR; font-size: 14px;">Libro de
-                                        reclamaciones</span></a></li>
-
-
-
-                        </ul>
-                    </div>
-                </div>
+            <div class="col-md-4 col-12">
+                <span class=" text-black fs-8"style="font-family:COOLVETICA-RG;">Contáctanos</span>
+                <p>&nbsp;</p>
+                <p class="text-white fs-5">01- 9049838</p>
             </div>
-
-            <div class="mt-5 text-center col-xl-4 col-lg-12 mt-lg-5 row align-content-center justify-content-center">
-                <div class="col-lg-3 col-xl-12 col-md-3 col-5 text-center">
-                    <a data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000" href="../login" target="_blank" class="aos-init aos-animate"><img src="../ayba/4.png" width="85px" alt="" srcset="" style=""></a>
-                    </div>                        
-                <div class="col-lg-7 col-xl-12 col-md-7 col-6 aos-init aos-animate" data-aos="slide-up" data-aos-delay="300" data-aos-duration="1000">                     
-                
-               
-                <a href="https://www.facebook.com/ComexLatoficial" target="_blank"> <img src="../resource/1738176383_679a777f397fdfacebook.svg" width="45px" alt="">
-                </a>
-                <a href="https://www.tiktok.com/@ComexLatoficial" target="_blank"> <img src="../resource/1738176406_679a7796a9e96tiktok.svg" width="45px" alt="">
-                </a>
-                <a href="https://www.instagram.com/ComexLatoficial/" target="_blank"> <img src="../resource/1738176389_679a77852f7d9instagram.svg" width="45px" alt="">
-                </a>
-                <a href="https://www.linkedin.com/company/ComexLatoficial" target="_blank"> <img src="../resource/1738176399_679a778f7de17linkedin.svg" width="45px" alt=""></a>
-                    </div>   
+            <div class="col-md-4 col-12">
+                <img src="../../resource/1738703730_67a28372819f7libro%20de%20reclamaciones.svg" alt=""width="50px">
+                <p></p>
+                <p class=" text-white fs-6"><i class="bi bi-book"></i> Libro de Reclamaciones</p>
             </div>
         </div>
+        <p class="mt-3 fs-7">AYBAR CORP, Todos los derechos reservados 2025</p>
     </div>
-</div>
-<footer class="footer-part pt-4 pb-3 py-2" style="background-color:#13434d;">
-
-            <div class="container">
-                <div class="justify-content-center">
-
-                    <div class="text-center">
-
-
-                        <p class="mb-0 text-white">
-                            <a class="d-none d-sm-none d-sm-block d-md-block d-lg-block  d-xl-block display-1 fs-4 text-white text-hover-primary  border-primary" href="https://anthonycode.com/" target="_blank">
-                                Copyright 2025, Aybar Corp&nbsp;&nbsp; | &nbsp;&nbsp; Todos los Derechos reservados
-                            </a>
-                            <a class="d-sm-none  display-1 fs-2 text-center text-white text-hover-primary  border-primary" href="https://anthonycode.com/" target="_blank">
-                                Copyright 2025, Aybar Corp <br> Todos los Derechos reservados
-                            </a>
-                        </p>
-                    </div>
-
-                </div>
-            </div>
-        </footer>
+</footer>
 
 <div class="offcanvas offcanvas-start matdash-lp-offcanvas" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" style="background-color: #000000e1">
     <div class="offcanvas-header p-4 text-center justify-content-center">
-        <img src="../../resource/1738076896_logo%20aybar%20blanco.svg" alt="matdash-img" class="img-fluid" width="150">
+        <img src="../../resource/1738678985_67a222c98b11alogo%20comexlat%20rengo%20y%20blanco.svg" 
+        alt="matdash-img" class="img-fluid" width="200" 
+        style="filter: brightness(0) invert(1);">
+   
     </div>
     <div class="offcanvas-body ">
         <ul class="navbar-nav  flex-grow-1 text-white">
@@ -297,21 +212,20 @@
                 <a class="nav-link fs-3  active" aria-current="page" href="/" id="inicio_2">Inicio</a>
             </li>
             <li class="nav-item mt-3 text-center">
-                <a class="nav-link fs-3  active" aria-current="page" href="../../nosotros" id="nosotros_2">Nosotros</a>
+                <a class="nav-link fs-3  active" aria-current="page" href="#" id="nosotros_2">Nosotros</a>
             </li>
             <li class="nav-item mt-3 text-center">
-                <a class="nav-link fs-3  active" aria-current="page" href="../../proyectos" id="proyectos_2">Proyectos</a>
+                <a class="nav-link fs-3  active" aria-current="page" href="#" id="nosotros__">Oportunidades</a>
             </li>
+          
+          
             <li class="nav-item mt-3 text-center">
-                <a class="nav-link fs-3  active" aria-current="page" href="../../blog" id="blogs_2">Blogs</a>
-            </li>
-            <li class="nav-item mt-3 text-center">
-                <a class="nav-link fs-3  active" aria-current="page" href="../../contacto" id="contacto_2">Contacto</a>
+                <a class="nav-link fs-3  active" aria-current="page" href="#trabaja" id="contacto_2">Contacto</a>
             </li>
         </ul>
         <a href="../../login" class="btn  w-100 py-2 mt-2 text-white" style="background-color: #FFA726">Administrar</a>
         <br>
-        <a href="../../logout" class="btn  w-100 py-2 mt-2 text-white" style="background-color: #054E5C">Salir</a>
+        <a href="../../logout" class="btn  w-100 py-2 mt-2 text-white" style="background-color: #FFA726">Salir</a>
     </div>
 </div>
 <!-- FIN SECCION -->
@@ -352,129 +266,10 @@
 
 
 
-        <style>
-            /* Estilo para el botón flotante */
-            #chatbot-container {
-                position: fixed;
-                bottom: 20px;
-                right: 20px;
-                display: flex;
-                align-items: center;
-                gap: 10px;
-                cursor: pointer;
-            }
+      
 
-            #chatbot-button {
-                background-color: #007bff;
-                border: none;
-                border-radius: 50%;
-                width: 60px;
-                height: 60px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            }
-
-            #chatbot-button img {
-                width: 30px;
-                height: 30px;
-            }
-
-            #chatbot-label {
-                color: #007bff;
-                font-weight: bold;
-            }
-
-            /* Estilo para la ventana de chat */
-            #chatbot-window {
-                position: fixed;
-                bottom: 90px;
-                right: 20px;
-                width: 300px;
-                height: 400px;
-                background-color: #fff;
-                border: 1px solid #ccc;
-                border-radius: 10px;
-                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-                display: none;
-                flex-direction: column;
-                overflow: hidden;
-            }
-
-            #chatbot-header {
-                background-color: #007bff;
-                color: #fff;
-                padding: 10px;
-                text-align: center;
-                font-weight: bold;
-            }
-
-            #chat-box {
-                flex: 1;
-                padding: 10px;
-                overflow-y: scroll;
-                border-top: 1px solid #ddd;
-            }
-
-            #chat-input {
-                display: flex;
-                border-top: 1px solid #ddd;
-            }
-
-            #user-input {
-                flex: 1;
-                border: none;
-                padding: 10px;
-            }
-
-            #send-button {
-                background-color: #007bff;
-                color: #fff;
-                border: none;
-                padding: 10px 15px;
-                cursor: pointer;
-            }
-        </style>
-
-        {{-- <a href="https://chatgpt.com/g/g-677d6c87f59481919ce07cf6c74af1d8-asistente-aybar-corp" target="_blank">
-<div id="chatbot-container" >
-   
-        <div id="chatbot-label"style="background-color:#007bff;padding:10px;color:white;border-radius:30px">Soy tu asistente virtual
-
-        </div>
         
-        <div id="chatbot-button">
-            <img src="https://cdn-icons-png.flaticon.com/512/4712/4712101.png" alt="Chatbot">
-        </div>
-  
-   
-</div>
-</a> --}}
-
-        <!-- Contenedor del botón flotante -->
-        <div id="chatbot-container" onclick="toggleChat()">
-            <a href="https://chatgpt.com/g/g-677d6c87f59481919ce07cf6c74af1d8-asistente-aybar-corp" target="_blank">
-                <div id="chatbot-label"style="background-color:#007bff;padding:10px;color:white;border-radius:30px">Soy
-                    tu asistente virtual</div>
-            </a>
-            <div id="chatbot-button">
-                <img src="https://cdn-icons-png.flaticon.com/512/4712/4712101.png" alt="Chatbot">
-            </div>
-        </div>
-
-        <!-- Ventana de Chat -->
-        <div id="chatbot-window">
-            <div id="chatbot-header">Chatbot Aybar</div>
-            <div id="chat-box"></div>
-            <div id="chat-input">
-                <input type="text" id="user-input" placeholder="Escribe tu mensaje..." class="form-control"
-                    onkeydown="handleKeyPress(event)">
-                <button id="send-button" onclick="sendMessage()">Enviar</button>
-            </div>
-        </div>
-
-
+      
         <script>
             let chatInitialized = false;
 

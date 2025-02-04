@@ -74,7 +74,7 @@ Route::get('/contacto', function () {
 
 
    Route::get('ProjectList', [App\Http\Controllers\CustomerController::class, 'ProjectList']);
-   Route::post('CustomerStorePublic', [App\Http\Controllers\CustomerController::class, 'storePublic'])->middleware('throttle:200,1440');
+   Route::post('CustomerStorePublic', [App\Http\Controllers\CustomerController::class, 'storePublic'])->middleware('throttle:50,1440');
    
    Route::get('blog/{url}', [App\Http\Controllers\TopicPublicController::class, 'report']);
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

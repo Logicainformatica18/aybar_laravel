@@ -76,7 +76,7 @@ function CustomerStorePublic() {
             //handle error
           console.log(response)
            alert('Verifíque los datos correctamente');
-            window.location.reload();
+         //   window.location.reload();
         });
 
 }

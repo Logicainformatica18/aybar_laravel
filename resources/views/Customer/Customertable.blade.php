@@ -15,7 +15,7 @@
             <th>Nombres</th>
             <th> <i class="ti ti-brand-whatsapp fs-7"style="color:green;"></i></th>
             <th>Celular </th>
-            <th>Proyecto</th>
+            
             <th>Mensaje</th>
             <th>Fecha</th>
 
@@ -79,9 +79,7 @@
                 <td>
                     {{ $Customers->cellphone }}
                 </td>
-                <td>
-                    {{ $Customers->project->title }}</td>
-                </td>
+              
                 <td>
                     {{ $Customers->message }}
                 </td>

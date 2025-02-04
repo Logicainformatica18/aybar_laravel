@@ -28,13 +28,15 @@ class StoreCustomerRequest extends FormRequest
     {
         return [
             'names' => 'required|min:5|max:50',
+            'firstname' => 'required|min:2|max:50',
             'dni' => 'required|min:8|max:15',
-            'project_id' => 'required|min:1|max:20',
-            'cellphone' => 'required|min:8|max:15',
-        'message' => 'nullable|string|max:200',
+            'email' => 'required|min:3|max:100',
+            
+            'phone' => 'required|min:8|max:15',
+        
             'code_country' => 'required',
-            'data_aprobed_2'=>'required|accepted',
-            'data_aprobed_1'=>'required|accepted'
+            // 'data_aprobed_2'=>'required|accepted',
+            // 'data_aprobed_1'=>'required|accepted'
 
         ];
     }

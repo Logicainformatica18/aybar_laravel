@@ -102,14 +102,14 @@
 
    
             <!-- Título -->
-            <h2 class="fw-bold text-uppercase display-1" style="color: #F7931E; margin-bottom: 30px;">
+            <h2 class="fw-bold text-uppercase display-4" style="color: #F7931E; margin-bottom: 30px;">
              <b> SÉ NUESTRO <br> SOCIO COMERCIAL</b>   
             </h2>
         
             <div class="row g-4">
                 <!-- Tarjeta 1 -->
                 <div class="col-lg-4">
-                    <div class="p-4 text-center" style="border-radius: 0px 40% 0px 40%; background-color: white; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+                    <div class="p-4 text-center" style="border-radius: 0px 60px 0px 60px; background-color: white; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
                         <img src="../../resource/1738620627_67a13ed3427a1altas%20comisiones.svg" alt="Altas Comisiones" class="mb-3" width="100">
                         <h4 class="fw-bold" style="color: #F7931E;">ALTAS COMISIONES</h4>
                         <hr style="width: 50px; margin: auto; border: 1px solid #F7931E;">
@@ -126,7 +126,7 @@
         
                 <!-- Tarjeta 2 -->
                 <div class="col-lg-4">
-                    <div class="p-4 text-center" style="border-radius: 0px 40% 0px 40%; background-color: #F7931E;color: white; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+                    <div class="p-4 text-center" style="border-radius: 0px 60px 0px 60px; background-color: #F7931E;color: white; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
               
                         <img src="../../resource/1738620627_67a13ed3427a1altas%20comisiones.svg" alt="Crecimiento Profesional" class="mb-3" width="100">
                         <h4 class="fw-bold text-white">CRECIMIENTO PROFESIONAL</h4>
@@ -143,7 +143,7 @@
         
                 <!-- Tarjeta 3 -->
                 <div class="col-lg-4 h-100">
-                    <div class="p-4 text-center" style="border-radius: 0px 40% 0px 40%; background-color: white; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+                    <div class="p-4 text-center" style="border-radius: 0px 60px 0px 60px; background-color: white; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
                         <img src="../../resource/1738620627_67a13ed3427a1altas%20comisiones.svg" alt="Flexibilidad y Autonomía" class="mb-3" width="100">
                         <h4 class="fw-bold" style="color: #F7931E;">FLEXIBILIDAD Y AUTONOMÍA</h4>
                         <hr style="width: 50px; margin: auto; border: 1px solid #F7931E;">
@@ -237,7 +237,7 @@
 
 
     <section class="text-center  py-5" style="background: url('../../resource/1738692212_67a256741dddabanner-naranja.jpg'); color: white;">
-        <h1 class="fw-bold text-uppercase display-3 mb-5 mb-1">¿Qué ofrecemos?</h1>
+        <h1 class="fw-bold text-uppercase display-4 mb-5 mb-1">¿Qué ofrecemos?</h1>
         <div id="carouselExample" class="carousel slide d-sm-none" data-bs-ride="carousel" data-bs-interval="3000">
             <div class="carousel-inner container">
                 <div class="carousel-item active">
@@ -331,643 +331,94 @@
         </div>
     </section>
 
-<div class="container-fluid text-light py-3 bg-white" data-aos="slide-up" data-aos-delay="300" data-aos-duration="1500">
-            <div class="text-center">
-                <div class="container py-1">
-                    <h4 class="d-sm-none text-center display-10" style="margin:20px; font-family: RALEWAY-SEMIBOLD;">
-                        <span style="color:#03424E; word-spacing: 10px; letter-spacing: 5px;">VIVE EN LA</span><br>
-                        <b style="font-family: RALEWAY-SEMIBOLD; word-spacing: 10px; letter-spacing: 5px;">MEJOR
-                            ZONA</b>
-                    </h4>
-                    <h4 class="d-none d-sm-block text-center display-6" style="margin:20px; font-family: RALEWAY-SEMIBOLD;">
-                        <span style="color:#03424E; word-spacing: 10px; letter-spacing: 15px;">VIVE EN LA</span><br>
-                        <b style="font-family: RALEWAY-SEMIBOLD; word-spacing: 10px; letter-spacing: 15px;">MEJOR
-                            ZONA</b>
-                    </h4>
-                    <div class="subrayado mx-auto"></div>
 
-                    <p>
-                        &nbsp;&nbsp;
-                    </p>
-                    <!-- Carrusel para pantallas pequeñas y medianas -->
-                    <div id="responsiveCarousel" class="carousel slide d-lg-none pointer-event" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <!-- Primera diapositiva -->
-                            <div class="carousel-item active">
-                                <div class="row justify-content-center">
-                                    <div class="col-12 col-md-4 mb-3">
-                                        <lite-youtube videoid="rdxrSIrZISE" style="width: 100%;border:solid 1px #F4A623" class="rounded-1 border-2" title="Play: Video"></lite-youtube>
-                                    </div>
 
-                                </div>
-                            </div>
-                            <!-- Segunda diapositiva -->
-                            <div class="carousel-item">
-                                <div class="row justify-content-center">
-                                    <div class="col-12 col-md-4 mb-3">
-                                        <lite-youtube videoid="uuw6UDjl0oo" style="width: 100%;border:solid 1px #F4A623" class="rounded-1 border-2" title="Play: Video"></lite-youtube>
-                                    </div>
 
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row justify-content-center">
-                                    <div class="col-12 col-md-4 mb-3">
-                                        <lite-youtube videoid="aguyG7M828M" style="width: 100%;border:solid 1px #F4A623" class="rounded-1 border-2" title="Play: Video"></lite-youtube>
-                                    </div>
 
-                                </div>
-                            </div>
-                        </div>
 
-                        <!-- Controles del carrusel -->
-                        <button class="carousel-control-prev" type="button" data-bs-target="#responsiveCarousel" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Anterior</span>
+
+    <section id="trabaja"class="text-center py-5" style="background: url('../../resource/1738695656_67a263e8cc4d1banner-negro.jpg') no-repeat center center/cover; color: white;">
+        <div class="container mt-4">
+            <h1 class="fw-bold text-uppercase display-4 text-lg-start my-4" style="color: #F7941D;">Trabaja con Nosotros</h1>
+            <form id="Customer">
+                <div class="row g-3">
+                    <div class="col-12 col-md-6">
+                        <input type="text" id="names" name="names" class="form-control" placeholder="Ingrese su nombre" style="background: rgba(255, 255, 255, 0.1); color: white; border: 1px solid #666464; padding: 12px;font-size:20px">
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <input type="text" id="firstname" name="firstname" class="form-control" placeholder="Apellidos" style="background: rgba(255, 255, 255, 0.1); color: white; border: 1px solid #666464; padding: 12px;font-size:20px">
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <input type="tel" id="phone" name="phone" class="form-control" placeholder="Número celular" style="background: rgba(255, 255, 255, 0.1); color: white; border: 1px solid #666464; padding: 12px;font-size:20px">
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <input type="text" id="dni" name="dni" class="form-control" placeholder="DNI/C.E" style="background: rgba(255, 255, 255, 0.1); color: white; border: 1px solid #666464; padding: 12px;font-size:20px">
+                    </div>
+                    <div class="col-12">
+                        <input type="email" id="email" name="email" class="form-control" placeholder="Correo electrónico" style="background: rgba(255, 255, 255, 0.1); color: white; border: 1px solid #666464; padding: 12px;font-size:20px">
+                    </div>
+                    <div class="col-12">
+                        <button type="button"onclick="CustomerStorePublic();return false" class="btn w-100" style="background: #F7941D; color: black; font-weight: bold; padding: 12px;"><h1 class="text-black">Enviar</h1> </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+
+
+ <section class="container py-5">
+        <h1 class="fw-bold text-uppercase display-4  text-lg-start text-center   "style="color: #F7941D;">FAQ (PREGUNTAS FRECUENTES)</h1>
+        <div class="accordion mt-4" id="faqAccordion">
+            <div class="accordion-item">
+           
+                    <h2 class="accordion-header " id="headingOne">
+                        <button class="accordion-button collapsed fs-7 p-5 text-center " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" style="background: black; color: white; font-weight: bold;color: #F7941D;border-radius:0px">
+                            ▼ ¿Qué necesito para ser socio comercial de ComexLat?
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#responsiveCarousel" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Siguiente</span>
-                        </button>
-                    </div>
-
-                    <!-- Grilla para pantallas grandes -->
-                    <div class="row d-none d-lg-flex mt-4">
-                        <div class="col-lg-4 mb-3">
-                            <lite-youtube videoid="rdxrSIrZISE" autoload="" posterquality="maxresdefault" style="width: 100%;border:solid 1px #F4A623" class="rounded-1 border-2" title="Play: Video"></lite-youtube>
-
-                        </div>
-                        <div class="col-lg-4 mb-3">
-                            <lite-youtube videoid="uuw6UDjl0oo" autoload="" style="width: 100%;border:solid 1px #F4A623" class="rounded-1 border-2" title="Play: Video"></lite-youtube>
-
-                        </div>
-                        <div class="col-lg-4 mb-3">
-                            <lite-youtube videoid="aguyG7M828M" autoload="" style="width: 100%;border:solid 1px #F4A623" class="rounded-1 border-2" title="Play: Video"></lite-youtube>
-
-                        </div>
-
-                    </div>
-                </div>
-
-
-
-
-            </div>
-
-            <div>
-
-            </div>
-
-
-
-        </div>
-<div data-aos="fade-up" data-aos-delay="300" data-aos-duration="500" class=" py-4" style="background-color:#f7f7f7">
-            <div class="container">
-                <h4 class="d-sm-none text-center display-10" style="margin:20px;font-family:RALEWAY-SEMIBOLD;letter-spacing:2px">
-                    <span style="color:#03424E">¿POR QUÉ</span><br> COMPRAR UN LOTE?
-                </h4>
-                <h4 class="d-none d-sm-block text-center display-6" style="margin:20px;font-family:RALEWAY-SEMIBOLD;letter-spacing:15px">
-                    <span style="color:#03424E">¿POR QUÉ</span><br> COMPRAR UN LOTE?
-                </h4>
-                <div class="subrayado mx-auto my-md-1 mb-sm-0"></div>
-
-                <!-- Carrusel (visible solo en pantallas pequeñas) -->
-                <div id="mobileCarousel" class="carousel slide d-md-none pointer-event" data-bs-ride="carousel" data-bs-interval="3000">
-                    <div class="carousel-inner">
-                        <!-- Tarjeta 1 -->
-                        <div class="carousel-item">
-                            <div class="d-flex justify-content-center">
-                                <div class="card overflow-hidden" style="border-radius: 20px; width: 18rem;background-color:#f7f7f7">
-                                    <div class="el-card-item pb-5" style=" border-radius: 20px;">
-                                        <div class="el-card-avatar mb-3 w-100 overflow-hidden d-flex position-relative text-center justify-content-center" style="margin-top: 5vh;">
-                                            <img src="../resource/1738095847_67993ce7b34f0inversion%20segura.svg" alt="Inversion Segura" style="width: 50%;border-radius:0px">
-                                        </div>
-                                        <div class="el-card-content text-center">
-                                            <h4 class="mb-0 card-title" style="color:#03424E">INVERSIÓN<br>SEGURA</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Tarjeta 2 -->
-                        <div class="carousel-item">
-                            <div class="d-flex justify-content-center">
-                                <div class="card overflow-hidden" style="border-radius: 20px; width: 18rem;background-color:#f7f7f7">
-                                    <div class="el-card-item pb-5" style=" border-radius: 20px;">
-                                        <div class="el-card-avatar mb-3 w-100 overflow-hidden d-flex position-relative text-center justify-content-center" style="margin-top: 5vh;">
-                                            <img src="../resource/1738096177_67993e314cb8drentabilidad%20a%20largo%20plazo.svg" alt="Rentabilidad a Largo Plazo" style="width: 50%;border-radius:0px">
-                                        </div>
-                                        <div class="el-card-content text-center">
-                                            <h4 class="mb-0 card-title" style="color:#03424E">RENTABILIDAD<br>A LARGO PLAZO
-                                            </h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Tarjeta 3 -->
-                        <div class="carousel-item">
-                            <div class="d-flex justify-content-center">
-                                <div class="card overflow-hidden" style="border-radius: 20px; width: 18rem;background-color:#f7f7f7">
-                                    <div class="el-card-item pb-5" style=" border-radius: 20px;">
-                                        <div class="el-card-avatar mb-3 w-100 overflow-hidden d-flex position-relative text-center justify-content-center" style="margin-top: 5vh;">
-                                            <img src="../resource/1738096259_67993e83879f3patrimonio%20para%20tu%20familia.svg" alt="Patrimonio Familiar" style="width: 50%;border-radius:0px">
-                                        </div>
-                                        <div class="el-card-content text-center">
-                                            <h4 class="mb-0 card-title" style="color:#03424E">PATRIMONIO PARA<br>TU FAMILIA
-                                            </h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Tarjeta 4 -->
-                        <div class="carousel-item active">
-                            <div class="d-flex justify-content-center">
-                                <div class="card overflow-hidden" style="border-radius: 20px; width: 18rem;background-color:#f7f7f7">
-                                    <div class="el-card-item pb-5" style=" border-radius: 20px;">
-                                        <div class="el-card-avatar mb-3 w-100 overflow-hidden d-flex position-relative text-center justify-content-center" style="margin-top: 5vh;">
-                                            <img src="../resource/1738096338_67993ed21e9e1alta%20revalorizacion.svg" alt="Alta Revalorizacion" style="width: 50%;border-radius:0px">
-                                        </div>
-                                        <div class="el-card-content text-center">
-                                            <h4 class="mb-0 card-title" style="color:#03424E">ALTA<br>REVALORIZACIÓN</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <!-- Controles del Carrusel -->
-                    <button class="carousel-control-prev" type="button" data-bs-target="#mobileCarousel" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#mobileCarousel" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-
-                <!-- Grid de tarjetas (visible en pantallas medianas y grandes) -->
-                <div class="row d-none d-md-flex el-element-overlay">
-                    <div class="col-md-6 col-lg-3 mb-4 " data-aos="flip-down" data-aos-delay="300" data-aos-duration="1000">
-                        <div class="card overflow-hidden" style="border-radius: 20px;background-color:#f7f7f7">
-                            <div class="el-card-item pb-5" style=" border-radius: 20px;">
-                                <div class="el-card-avatar mb-3 w-100 overflow-hidden d-flex position-relative text-center justify-content-center" style="margin-top: 5vh;">
-                                    <img src="../resource/1738095847_67993ce7b34f0inversion%20segura.svg" alt="Inversion Segura" style="width: 50%;border-radius:0px">
-                                </div>
-                                <div class="el-card-content text-center">
-                                    <h4 class="mb-0 card-title" style="color:#03424E">INVERSION<br>SEGURA</h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 mb-4" data-aos="flip-down" data-aos-delay="300" data-aos-duration="1000">
-                        <div class="card overflow-hidden" style="border-radius: 20px;background-color:#f7f7f7">
-                            <div class="el-card-item pb-5" style=" border-radius: 20px;">
-                                <div class="el-card-avatar mb-3 w-100 overflow-hidden d-flex position-relative text-center justify-content-center" style="margin-top: 5vh;">
-                                    <img src="../resource/1738096177_67993e314cb8drentabilidad%20a%20largo%20plazo.svg" alt="Rentabilidad a Largo Plazo" style="width: 50%;border-radius:0px">
-                                </div>
-                                <div class="el-card-content text-center">
-                                    <h4 class="mb-0 card-title" style="color:#03424E">RENTABILIDAD<br>A LARGO PLAZO</h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 mb-4" data-aos="flip-down" data-aos-delay="300" data-aos-duration="1000">
-                        <div class="card overflow-hidden" style="border-radius: 20px;background-color:#f7f7f7">
-                            <div class="el-card-item pb-5" style=" border-radius: 20px;">
-                                <div class="el-card-avatar mb-3 w-100 overflow-hidden d-flex position-relative text-center justify-content-center" style="margin-top: 5vh;">
-                                    <img src="../resource/1738096259_67993e83879f3patrimonio%20para%20tu%20familia.svg" alt="Patrimonio Familiar" style="width: 50%;border-radius:0px">
-                                </div>
-                                <div class="el-card-content text-center">
-                                    <h4 class="mb-0 card-title" style="color:#03424E">PATRIMONIO PARA<br>TU FAMILIA</h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 mb-4" data-aos="flip-down" data-aos-delay="300" data-aos-duration="1000">
-                        <div class="card overflow-hidden" style="border-radius: 20px;background-color:#f7f7f7">
-                            <div class="el-card-item pb-5" style=" border-radius: 20px;">
-                                <div class="el-card-avatar mb-3 w-100 overflow-hidden d-flex position-relative text-center justify-content-center" style="margin-top: 5vh;">
-                                    <img src="../resource/1738096338_67993ed21e9e1alta%20revalorizacion.svg" alt="Alta Revalorización" style="width: 50%;border-radius:0px">
-                                </div>
-                                <div class="el-card-content text-center">
-                                    <h4 class="mb-0 card-title" style="color:#03424E">ALTA<br>REVALORIZACIÓN</h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-<div class="container-fluid py-4" data-aos="fade-down" data-aos-delay="300" data-aos-duration="1000" style="background-image: url('../resource/1734733260_fondo-.jpg'); 
-               background-repeat: no-repeat; 
-               background-size: auto 100%; 
-               background-position: center;">
-               <h4 class="d-none d-sm-block text-center display-6 pt-3 pb-2" style="margin:15px;font-family:RALEWAY-SEMIBOLD;letter-spacing:15px">
-                <span style="color:#ffffff">DESCUBRE</span><br> NUESTROS PROYECTOS
-            </h4>
-    <h4 class="d-sm-none text-center display-10 pt-3" style="margin:15px;font-family:RALEWAY-SEMIBOLD;letter-spacing:5px">
-        <span style="color:#ffffff">DESCUBRE</span><br> NUESTROS PROYECTOS
-    </h4>
-    <div class="subrayado mx-auto mb-5"></div>
-    
-
-    <!-- Carrusel para pantallas pequeñas -->
-    <div id="responsiveCarousel6" class="carousel slide d-md-none pointer-event" data-bs-interval="3000" data-bs-ride="carousel">
-        <div class="container">
-            <div class="carousel-inner">
-                <!-- Tarjeta 1 -->
-                <div class="carousel-item">
-                    <div class="d-flex justify-content-center">
-                        <div class="card position-relative" style="width:80%;
-                        background-image:url('../../resource/1738276853_679bfff554735SAN%20ANDRES.png' );background-position:center;
-                            border-radius: 15px; overflow: hidden; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); transition: transform 0.3s ease-in-out;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
-                            <p>&nbsp;</p>
-                            <p>&nbsp;</p>
-                            <p>&nbsp;</p>
-                            <p>&nbsp;</p>
-                            <p>&nbsp;</p>
-                            <p>&nbsp;</p>
-                            <p>&nbsp;</p>
-                            <p>&nbsp;</p>
-                            <p>&nbsp;</p>
-                        
-                           
-                            {{-- <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Proyecto" style="width: 100%; height: 220px; object-fit: cover;"> --}}
-                            <div class="card-body bg-white" style="height:120px;width:85%;border-top-right-radius: 10px;border-bottom-right-radius: 10px;">
-                                <h6 class=" fs-6  text-uppercase" style="color:#005563;margin-top:-13px">Proyecto <br> San Andrés</h6>
-                                <p class="" style="color:#a3a3a3;">Lotes desde 120 m2</p>
-                            </div>
-                            <a href="../../proyectos/nuevo_huaral">
-                                <div class="d-flex align-items-center justify-content-center position-absolute " style="background: #FFA726; border-radius: 20%; width: 50px; height: 50px; bottom: 5%; right: 9%; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);">
-                                  <img src="../resource/1738274441_679bf6892121bflecha-blanca.svg" alt="" srcset="" width="50%">
-                                </div>
-        
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Tarjeta 2 -->
-                <div class="carousel-item active">
-                    <div class="d-flex justify-content-center">
-                        <div class="card position-relative" style="width:80%;
-                        background-image:url('../resource/1738333326_679cdc8e7d400LAGOON%20VILLAGE.png' );background-position:center;
-                            border-radius: 15px; overflow: hidden; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); transition: transform 0.3s ease-in-out;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
-                            <p>&nbsp;</p>
-                            <p>&nbsp;</p>
-                            <p>&nbsp;</p>
-                            <p>&nbsp;</p>
-                            <p>&nbsp;</p>
-                            <p>&nbsp;</p>
-                            <p>&nbsp;</p>
-                            <p>&nbsp;</p>
-                            <p>&nbsp;</p>
-                        
-                           
-                            {{-- <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Proyecto" style="width: 100%; height: 220px; object-fit: cover;"> --}}
-                            <div class="card-body bg-white" style="height:120px;width:85%;border-top-right-radius: 10px;border-bottom-right-radius: 10px;">
-                                <h6 class=" fs-6  text-uppercase" style="color:#005563;margin-top:-13px">PROYECTO
-                                     <br> LAGOON VILLAGE</h6>
-                                <p class="" style="color:#a3a3a3;">Lotes desde 120 m2</p>
-                            </div>
-                            <a href="../../proyectos/nuevo_huaral">
-                            <div class="d-flex align-items-center justify-content-center position-absolute" style="background: #FFA726; border-radius: 20%; width: 50px; height: 50px; bottom: 5%; right: 9%; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);">
-                              <img src="../resource/1738274441_679bf6892121bflecha-blanca.svg" alt="" srcset="" width="50%">
-                            </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Tarjeta 3 -->
-                <div class="carousel-item">
-                    <div class="d-flex justify-content-center">
-                        <div class="card position-relative" style="width:80%;
-                        background-image:url('../resource/1738333385_679cdcc9438c7Jumeirah.png' );background-position:center;
-                            border-radius: 15px; overflow: hidden; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); transition: transform 0.3s ease-in-out;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
-                            <p>&nbsp;</p>
-                            <p>&nbsp;</p>
-                            <p>&nbsp;</p>
-                            <p>&nbsp;</p>
-                            <p>&nbsp;</p>
-                            <p>&nbsp;</p>
-                            <p>&nbsp;</p>
-                            <p>&nbsp;</p>
-                            <p>&nbsp;</p>
-                        
-                           
-                            {{-- <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Proyecto" style="width: 100%; height: 220px; object-fit: cover;"> --}}
-                            <div class="card-body bg-white" style="height:120px;width:85%;border-top-right-radius: 10px;border-bottom-right-radius: 10px;">
-                                <h6 class=" fs-6  text-uppercase" style="color:#005563;margin-top:-13px">PROYECTO
-                                     <br> JUMEIRAH LAKE</h6>
-                                <p class="" style="color:#a3a3a3;">Lotes desde 120 m2</p>
-                            </div>
-                            <a href="../../proyectos/jumeirah">
-                            <div class="d-flex align-items-center justify-content-center position-absolute" style="background: #FFA726; border-radius: 20%; width: 50px; height: 50px; bottom: 5%; right: 9%; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);">
-                              <img src="../resource/1738274441_679bf6892121bflecha-blanca.svg" alt="" srcset="" width="50%">
-                            </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Controles del Carrusel -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#responsiveCarousel6" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#responsiveCarousel6" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-
-    <div class="container">
-        <!-- Grilla para pantallas medianas y grandes -->
-        <div class="row d-none d-md-flex justify-content-center">
-            <div class="col-md-6 col-lg-4 col-xl-4 mb-3" data-aos="flip-left" data-aos-delay="300" data-aos-duration="1000">
-                <div class="card position-relative" style="
-                background-image:url('../../resource/1738276853_679bfff554735SAN%20ANDRES.png' );background-position:center;
-                    border-radius: 15px; overflow: hidden; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); transition: transform 0.3s ease-in-out;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
+                    </h2>
+           
                 
-                   
-                    {{-- <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Proyecto" style="width: 100%; height: 220px; object-fit: cover;"> --}}
-                    <div class="card-body bg-white" style="height:120px;width:85%;border-top-right-radius: 10px;border-bottom-right-radius: 10px;">
-                        <h6 class=" fs-6  text-uppercase" style="color:#005563;margin-left:10px;margin-top:-10px">Proyecto <br> San Andrés</h6>
-                        <p class="" style="color:#a3a3a3;margin-left:10px">Lotes desde 120 m2</p>
+                <div id="collapseOne" class=" accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body text-justify fs-5">
+                        <p>Unirte a nuestra red de socios comerciales es fácil y está diseñado para que puedas comenzar de inmediato. Esto es lo que necesitas:</p>
+                        <ul>
+                            <li>• Una membresía mensual accesible. Este pequeño aporte te da acceso exclusivo a herramientas, beneficios y oportunidades para maximizar tus ingresos.</li>
+                            <li>• Una mentalidad positiva y muchas ganas de crecer. No importa si no tienes experiencia previa, en ComexLat valoramos tu entusiasmo y compromiso.</li>
+                            <li>• Habilidades de comunicación y persuasión. Estas cualidades son clave para conectar con clientes, pero si estás comenzando, nosotros te ayudaremos a desarrollarlas.</li>
+                            <li>• Espíritu emprendedor. Trabajar como socio comercial significa que tú decides cómo organizar tu tiempo y tus metas.</li>
+                        </ul>
+                        <p>¡Con estas características, estarás listo para formar parte de un sector en constante crecimiento y lleno de oportunidades!</p>
                     </div>
-                    <a href="../../proyectos/nuevo_huaral">
-                        <div class="d-flex align-items-center justify-content-center position-absolute" style="background: #FFA726; border-radius: 20%; width: 70px; height: 70px; bottom: 5%; right: 9%; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);">
-                          <img src="../resource/1738274441_679bf6892121bflecha-blanca.svg" alt="" srcset="" width="50%">
-                        </div>
-
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 col-xl-4 mb-3" data-aos="flip-left" data-aos-delay="300" data-aos-duration="1000">
-                <div class="card position-relative" style="
-                background-image:url('../resource/1738333326_679cdc8e7d400LAGOON%20VILLAGE.png' );background-position:center;
-                    border-radius: 15px; overflow: hidden; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); transition: transform 0.3s ease-in-out;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
-                
-                   
-                    {{-- <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Proyecto" style="width: 100%; height: 220px; object-fit: cover;"> --}}
-                    <div class="card-body bg-white" style="height:120px;width:85%;border-top-right-radius: 10px;border-bottom-right-radius: 10px;">
-                        <h6 class=" fs-6  text-uppercase" style="color:#005563;margin-left:10px;margin-top:-10px">PROYECTO
-                             <br> LAGOON VILLAGE</h6>
-                        <p class="" style="color:#a3a3a3;margin-left:10px">Lotes desde 120 m2</p>
-                    </div>
-                    <a href="../../proyectos/nuevo_huaral">
-                    <div class="d-flex align-items-center justify-content-center position-absolute" style="background: #FFA726; border-radius: 20%; width: 70px; height: 70px; bottom: 5%; right: 9%; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);">
-                      <img src="../resource/1738274441_679bf6892121bflecha-blanca.svg" alt="" srcset="" width="50%">
-                    </div>
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 col-xl-4 mb-3" data-aos="flip-left" data-aos-delay="300" data-aos-duration="1000">
-                <div class="card position-relative" style="
-                background-image:url('../resource/1738333385_679cdcc9438c7Jumeirah.png' );background-position:center;
-                    border-radius: 15px; overflow: hidden; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); transition: transform 0.3s ease-in-out;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
-                
-                   
-                    {{-- <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Proyecto" style="width: 100%; height: 220px; object-fit: cover;"> --}}
-                    <div class="card-body bg-white" style="height:120px;width:85%;border-top-right-radius: 10px;border-bottom-right-radius: 10px;">
-                        <h6 class=" fs-6  text-uppercase" style="color:#005563;margin-left:10px;margin-top:-10px">PROYECTO
-                             <br> JUMEIRAH LAKE</h6>
-                        <p class="" style="color:#a3a3a3;margin-left:10px">Lotes desde 120 m2</p>
-                    </div>
-                    <a href="../../proyectos/jumeirah">
-                    <div class="d-flex align-items-center justify-content-center position-absolute" style="background: #FFA726; border-radius: 20%; width: 70px; height: 70px; bottom: 5%; right: 9%; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);">
-                      <img src="../resource/1738274441_679bf6892121bflecha-blanca.svg" alt="" srcset="" width="50%">
-                    </div>
-                    </a>
                 </div>
             </div>
         </div>
-    </div>
-</div>
-<div class="container-fluid py-1" style=";background-image:url('../resource/1738100589_67994f6dc5aa9portada-confia-en-aybar-escritorio.jpg');
- background-repeat: no-repeat; 
- background-size: cover;
-      
- 
-               background-position: center;">
-
-<img src="../resource/1738168541_679a58dd6cbc9portada-confiaenaybar-celular.jpg" class="d-lg-none" alt="" style="border:solid white 5px;margin-bottom:-140%;margin-top:-4px;border-radius:10px" width="100%">
-
-        <div class="row">
-            <!-- Imagen -->
-            <div class="col-12 col-sm-12 col-lg-4 col-xl-6 mt-lg-5 ">
-               
-            </div>
-
-
-
-            <!-- Contenido -->
-            <div class="col-12 col-sm-12 col-xl-5 col-lg-8 " style="margin-top: 50px;">
-                <div class="container">
-
-
-                    <div class="p-5 rounded" style="background-color: #ffffff; color: rgb(100, 100, 100); box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);">
-                       
-                        <h4 class="d-sm-none text-center display-10 aos-init aos-animate" style="margin:20px;font-family:RALEWAY-SEMIBOLD;letter-spacing:5px">
-                            <span style="color:#03424E" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">CONFÍA EN</span><br> AYBAR CORP
-                        </h4>
-                        <h4 class="d-none d-sm-block text-center display-6 aos-init aos-animate" style="margin:20px;font-family:RALEWAY-SEMIBOLD;letter-spacing:15px">
-                            <span style="color:#03424E" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">CONFÍA EN</span><br> AYBAR CORP
-                        </h4>
-                        <div class="subrayado mx-auto mb-5"></div>
-                         
-                        <p class="fs-6  text-center" style="color:#03424E;" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
-                            Construye un futuro sólido para tu familia <br class="d-none d-sm-block"> invirtiendo en confianza.
-                        </p>
-                       
-                      
-    
-                        <!-- Carrusel para pantallas SM -->
-                        <div id="carouselExample5" class="carousel slide d-md-none pointer-event" data-bs-ride="carousel">
-                            <div class="carousel-inner">
-                                <!-- Diapositiva 1 -->
-                                <div class="carousel-item active">
-                                    <div class="card" style="background-color:white;color:#005463;font-family:Montserrat-Regular ">
-                                        <div class="card-body text-center">
-                                            <img src="../resource/1738103941_67995c8516df2+de%202000%20km2.svg" class="mb-1" width="100px" alt=""> <br><b style="font-size: 13px">+ 2,000 KM 2<br></b>
-                                            <span style="font-size:11px">
-                                              <b>Zonas verdes proporcionadas.</b>  
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Diapositiva 2 -->
-                                <div class="carousel-item">
-                                    <div class="card" style="background-color:white;color:#005463;font-family:Montserrat-Regular ">
-                                        <div class="card-body text-center">
-                                            <img src="../resource/1738103930_67995c7a1baf4+%20de%205%20a%C3%B1os.svg" class="mb-1" width="100px" alt=""> <br><b style="font-size: 13px">+ DE 5 AÑOS<br></b>
-                                            <span style="font-size:11px">
-                                              <b>De experiencia en el mercado.</b>  
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Diapositiva 3 -->
-                                <div class="carousel-item">
-                                    <div class="card" style="background-color:white;color:#005463;font-family:Montserrat-Regular ">
-                                        <div class="card-body text-center">
-                                            <img src="../resource/1738103935_67995c7fafb62+de%201000%20adquieren%20nuestros%20proyectos.svg" class="mb-1" width="100px" alt=""> <br><b style="font-size: 13px">+ DE 1,000<br></b>
-                                            <span style="font-size:11px">
-                                              <b>Adquirieron nuestros proyectos.</b>  
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Diapositiva 4 -->
-                                <div class="carousel-item">
-                                    <div class="card" style="background-color:white;color:#005463;font-family:Montserrat-Regular ">
-                                        <div class="card-body text-center">
-                                            <img src="../resource/1738103999_67995cbf55c4cproyectos%20sostenibles.svg" class="mb-1" width="140px" alt=""> <br><b style="font-size: 13px">PROYECTOS <br>SOSTENIBLES</b>
-                                            
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Diapositiva 5 -->
-                                <div class="carousel-item">
-                                    <div class="card" style="background-color:white;color:#005463;font-family:Montserrat-Regular ">
-                                        <div class="card-body text-center">
-                                            <img src="../resource/1738103970_67995ca291fc7+de300proyectos.svg" class="mb-1" width="100px" alt=""> <br><b style="font-size: 13px">+ DE 300 PROYECTOS<br></b>
-                                            <span style="font-size:11px">
-                                              <b>Con la mejor inversión en la construcción de un futuro estable para tu familia.</b>  
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Controles del Carrusel -->
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample5" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Anterior</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample5" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Siguiente</span>
-                            </button>
-                        </div>
-    
-                        <!-- Grilla para pantallas MD y superiores -->
-                        <div class="row d-none d-md-flex mt-4" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1000">
-                            <div class="col-lg-4 col-md-6 col-xl-4">
-                                <div class="card" style="background-color:white;color:#005463;font-family:Montserrat-Regular ">
-                                    <div class="card-body text-center">
-                                        <img src="../resource/1738103941_67995c8516df2+de%202000%20km2.svg" class="mb-1" width="100px" alt=""> <br><b style="font-size: 13px">+ 2,000 KM 2<br></b>
-                                        <span style="font-size:11px">
-                                          <b>Zonas verdes proporcionadas.</b>  
-                                        </span>
-                                    </div>
-                                </div>
-
-                               
-                            </div>
-                            
-                            <div class="col-lg-4 col-md-6 col-xl-4">
-                                <div class="card" style="background-color:white;color:#005463;font-family:Montserrat-Regular ">
-                                    <div class="card-body text-center">
-                                        <img src="../resource/1738103930_67995c7a1baf4+%20de%205%20a%C3%B1os.svg" class="mb-1" width="100px" alt=""> <br><b style="font-size: 13px">+ DE 5 AÑOS<br></b>
-                                        <span style="font-size:11px">
-                                          <b>De experiencia en el mercado.</b>  
-                                        </span>
-                                    </div>
-                                </div>
-    
-                            </div>
-                            <div class="d-none d-md-block  d-lg-none col-md-3"></div>
-                            <div class="col-lg-4 col-md-6 col-xl-4">
-                            
-
-                                <div class="card" style="background-color:white;color:#005463;font-family:Montserrat-Regular ">
-                                    <div class="card-body text-center">
-                                        <img src="../resource/1738103935_67995c7fafb62+de%201000%20adquieren%20nuestros%20proyectos.svg" class="mb-1" width="100px" alt=""> <br><b style="font-size: 13px">+ DE 1,000<br></b>
-                                        <span style="font-size:11px">
-                                          <b>Adquirieron nuestros proyectos.</b>  
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                      
-                            <div class="col-lg-6 col-md-6 col-xl-6">
-                                <div class="card" style="background-color:white;color:#005463;font-family:Montserrat-Regular ">
-                                    <div class="card-body text-center">
-                                        <img src="../resource/1738103999_67995cbf55c4cproyectos%20sostenibles.svg" class="mb-1" width="140px" alt=""> <br><b style="font-size: 13px">PROYECTOS <br>SOSTENIBLES</b>
-                                        
-                                    </div>
-                                </div>
-
-                              
-                            </div>
-    
-                            <div class="col-lg-6 col-md-6 col-xl-6">
-                                <div class="card" style="background-color:white;color:#005463;font-family:Montserrat-Regular ">
-                                    <div class="card-body text-center">
-                                        <img src="../resource/1738103970_67995ca291fc7+de300proyectos.svg" class="mb-1" width="100px" alt=""> <br><b style="font-size: 13px">+ DE 300 PROYECTOS<br></b>
-                                        <span style="font-size:11px">
-                                          <b>Con la mejor inversión en la construcción de un futuro estable para tu familia.</b>  
-                                        </span>
-                                    </div>
-                                </div>
-                               
-                            </div>
-                        </div>
-                        <div class="text-center">
-
-                            <a class="btn btn-lg btn-hover-shadow" href="../../proyectos" style="color:white;border-radius:5px;background-color:#F6A42C;width:50%">
-                                 &nbsp;CONOCER MÁS&nbsp;<b style="color:#03424E;font-size:30px"></b> 
-                            </a>
-                        </div>
-                    </div>
-
-
-
-
-
-
-
-
-
-
-
+        <div class="accordion-item mt-2">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed fs-6 text-center p-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="background: black; color: #F7941D; font-weight: bold;">
+                    ▼ ¿Qué beneficios tengo al unirme a ComexLat?
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-justify fs-5 p-4">
+                    <p>Formar parte de ComexLat significa ser parte de un equipo que te ofrece todas las herramientas para crecer:</p>
+                    <ul>
+                        <li>• Catálogo exclusivo de proyectos. Tendrás acceso a una amplia gama de opciones inmobiliarias de alto valor.</li>
+                        <li>• Altas comisiones por cada venta exitosa. Valoramos tu esfuerzo y te premiamos con una de las mejores tasas del mercado.</li>
+                        <li>• Bonos por cumplimiento de metas. Reconocemos y celebramos tu desempeño, brindándote incentivos adicionales.</li>
+                        <li>• Participación en ferias inmobiliarias. Aprovecha eventos exclusivos que te abrirán nuevas oportunidades de negocio y networking.</li>
+                        <li>• Sorteos y descuentos exclusivos. Disfruta de premios adicionales solo por ser parte de nuestro equipo.</li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </div> 
+    </section>
+
+
+
+
+
 <div id="mycontent"></div>
 <!-- FIN SECCION -->
 

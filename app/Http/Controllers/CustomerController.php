@@ -50,31 +50,43 @@ class CustomerController extends Controller
     }
     public function storePublic(StoreCustomerRequest $request)
     {
+        $data = $request->validated();
     //      funciona localmente con hos
         // $user = User::find(3); // Encuentra al usuario que recibirá la notificación
         // $user->notify(new CustomerNotification());
         //  $name_ =$request->names;
         // // //funciona en goddady
-        // Mail::raw('Cliente nuevo: ' . $name_, function ($message) use ($name_) {
-        //     $message->to('soporte@aybar.credilotesperu.com') // Cambia por un correo real
-        //             ->subject('Un cliente se ha registrado')
-                    
-        //             ->from('soporte@aybar.credilotesperu.com', 'Credilotes Perú');
-        // });
+        $name = $data["names"];
+        $email = $data["email"];
+        
+        try {
+            Mail::raw("Estimado/a $name,\n\nGracias por registrarte como Socio Comercial en ComexLat. Nos complace informarte que tu registro ha sido exitoso. \n\nNuestro equipo revisará tu información y pronto nos pondremos en contacto contigo para brindarte más detalles y acompañarte en este proceso.\n\nSi tienes alguna consulta, no dudes en escribirnos.\n\nAtentamente,\nEl equipo de ComexLat", function ($message) use ($name, $email) {
+                $message->to($email)
+                        ->subject('Registro exitoso como Socio Comercial en ComexLat')
+                        ->from('soporte@anthonycode.com', 'ComexLat');
+            });
+            
+            $Customer = new Customer;
+            //data es un array
+            $Customer->names = $data["names"];
+            $Customer->firstname = $data["firstname"];
+            $Customer->dni = $data["dni"];
+            $Customer->email = $data["email"];
+            $Customer->cellphone = $data["code_country"]. $data["phone"];
+         
+    
+            $Customer->save();
+      
+            return "Correo enviado con éxito";
+        } catch (\Exception $e) {
+            return "Error al enviar el correo: " . $e->getMessage();
+        }
+        
 
-        $data = $request->validated();
+    
 
 
-       $Customer = new Customer;
-        //data es un array
-        $Customer->names = $data["names"];
-        $Customer->dni = $data["dni"];
-        $Customer->project_id = $data["project_id"];
-        $Customer->cellphone = $data["code_country"]. $data["cellphone"];
-        $Customer->message = $data["message"] ?? '';
-
-        $Customer->save();
-  
+      
  
     
     }

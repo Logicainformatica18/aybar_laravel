@@ -17,10 +17,11 @@ return new class extends Migration
             $table->string("firstname")->nullable();
             $table->string("lastname")->nullable();
             $table->string("names");
-            $table->longText("message");
+            $table->longText("message")->nullable();
             $table->string("cellphone",20)->nullable();
-            $table->bigInteger('project_id')->unsigned();
-            $table->foreign('project_id')->references('id')->on('projects');
+  
+            $table->string("email")->nullable();
+         
             $table->timestamps();
         });
     }
