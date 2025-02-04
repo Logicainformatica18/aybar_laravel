@@ -202,7 +202,8 @@
         </div>
     </div>
     </section>
-<section class="text-center  py-5" style="background: url('../../resource/1738692212_67a256741dddabanner-naranja.jpg');background-repeat:no-repeat; color: white;">
+<section class="text-center  py-5" style="background: url('../../resource/1738692212_67a256741dddabanner-naranja.jpg');background-repeat:no-repeat; 
+background-size:cover;color: white;">
         <h1 class="fw-bold text-uppercase display-4 mb-5 mb-1">¿Qué ofrecemos?</h1>
         <div id="carouselExample" class="carousel slide d-sm-none" data-bs-ride="carousel" data-bs-interval="3000">
             <div class="carousel-inner container">
