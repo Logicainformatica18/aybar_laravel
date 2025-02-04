@@ -109,7 +109,7 @@
                 <div class="col-lg-4"data-aos="slide-down" data-aos-duration="1000" data-aos-delay="500">>
                     <div class="p-4 text-center" style="border-radius: 0px 60px 0px 60px; background-color: #F49A1A;color: white; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
               
-                        <img src="../../resource/1738620627_67a13ed3427a1altas%20comisiones.svg" alt="Crecimiento Profesional" class="mb-3" width="100">
+                        <img src="../../resource/1738707574_67a29276553dbtrabajo%20(1).svg" alt="Crecimiento Profesional" class="mb-3" width="100">
                         <h4 class="fw-bold text-white">CRECIMIENTO PROFESIONAL</h4>
                         <hr style="width: 50px; margin: auto; border: 1px solid white;">
                         <p class="px-3 mt-4 fs-3 text-justify"style="font-family:RALEWAY-REGULAR">
@@ -125,7 +125,7 @@
                 <!-- Tarjeta 3 -->
                 <div class="col-lg-4 h-100"data-aos="slide-down" data-aos-duration="1000" data-aos-delay="500">>
                     <div class="p-4 text-center" style="border-radius: 0px 60px 0px 60px; background-color: white; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
-                        <img src="../../resource/1738620627_67a13ed3427a1altas%20comisiones.svg" alt="Flexibilidad y Autonomía" class="mb-3" width="100">
+                        <img src="../../resource/1738707504_67a2923086c7eflexibilidad.svg" alt="Flexibilidad y Autonomía" class="mb-3" width="100">
                         <h4 class="fw-bold" style="color: #F49A1A;">FLEXIBILIDAD Y AUTONOMÍA</h4>
                         <hr style="width: 50px; margin: auto; border: 1px solid #F49A1A;">
                         <p style="color: #b6b6b6;font-family:RALEWAY-REGULAR" class="px-3 mt-4 fs-3 text-justify">
@@ -223,7 +223,7 @@
     </section>
 
 
-    <section class="text-center  py-5" style="background: url('../../resource/1738692212_67a256741dddabanner-naranja.jpg'); color: white;">
+    <section class="text-center  py-5" style="background: url('../../resource/1738692212_67a256741dddabanner-naranja.jpg');background-repeat:no-repeat; color: white;">
         <h1 class="fw-bold text-uppercase display-4 mb-5 mb-1">¿Qué ofrecemos?</h1>
         <div id="carouselExample" class="carousel slide d-sm-none" data-bs-ride="carousel" data-bs-interval="3000">
             <div class="carousel-inner container">
