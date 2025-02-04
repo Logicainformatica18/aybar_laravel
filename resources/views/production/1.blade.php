@@ -66,7 +66,7 @@
 
     @font-face {
         font-family: 'COOLVETICA-CONDENSED-RG';
-        src: url("{{ asset('fuente/COOLVETICA CONDENSED RG.otf') }}") format('truetype');
+        src: url("{{ asset('fuente/COOLVETICA-CONDENSED-RG.otf') }}") format('truetype');
         font-weight: normal;
         font-style: normal;
     }
@@ -85,7 +85,7 @@
   }
     @font-face {
       font-family: 'COOLVETICA-RG';
-      src: url("../../fuente/COOLVETICA RG.otf") format('truetype');
+      src: url("../../fuente/COOLVETICA-RG.otf") format('truetype');
       font-weight: normal;
       font-style: normal;
   }
