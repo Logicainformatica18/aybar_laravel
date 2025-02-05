@@ -26,7 +26,7 @@
 
     {{-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"> --}}
 
-    <script src="{{ asset('js/customer.js') }}"></script>
+    <script src="{{ asset('js/Book.js') }}"></script>
     <script src="{{ asset('js/axios.min.js') }}"></script>
     <script src="{{ asset('js/topic.js') }}"></script>
     <link href="{{ asset('css/template.css') }}" rel="stylesheet">
@@ -198,9 +198,12 @@
                 <p class="text-white fs-5">01- 9049838</p>
             </div>
             <div class="col-md-4 col-12">
-                <img src="../../resource/1738703730_67a28372819f7libro%20de%20reclamaciones.svg" alt=""width="50px">
-                <p></p>
-                <p class=" text-white fs-6"><i class="bi bi-book"></i> Libro de Reclamaciones</p>
+                <a href="libro_reclamaciones">
+                    <img src="../../resource/1738703730_67a28372819f7libro%20de%20reclamaciones.svg" alt=""width="50px">
+                    <p></p>
+                    <p class=" text-white fs-6"><i class="bi bi-book"></i> Libro de Reclamaciones</p>
+                </a>
+               
             </div>
         </div>
         <p class="mt-3 fs-7">AYBAR CORP, Todos los derechos reservados 2025</p>
