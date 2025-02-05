@@ -31,6 +31,7 @@
     <script src="{{ asset('js/role.js') }}"></script>
     <script src="{{ asset('js/customer.js') }}"></script>
     <script src="{{ asset('js/function.js') }}"></script>
+    <script src="{{ asset('js/Book.js') }}"></script>
     <script src="{{ asset('js/axios.min.js') }}"></script>
     <style>
         .bg-responsive {

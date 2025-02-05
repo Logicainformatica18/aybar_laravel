@@ -1,5 +1,5 @@
 <?php
-
+use Illuminate\Support\Str;
 function datebirth($day, $month, $year)
 {
     //       datebirth
@@ -12,19 +12,33 @@ function datebirth($day, $month, $year)
     $datebirth =    $year . "-" . $month . "-" . $day;
     return $datebirth;
 }
+
+
 function fileStore($photo, $directory)
 {
-    if ($photo != "") {
+    if ($photo) {
         $uniqueId = uniqid(); // Genera un identificador único
-    
-       
-        //get imageName
-        $imageName =  time() . "_" .$uniqueId. $photo->getClientOriginalName();
-        //move imageFile
+
+        // Obtener la extensión del archivo
+        $extension = $photo->getClientOriginalExtension();
+
+        // Obtener el nombre original sin la extensión
+        $filename = pathinfo($photo->getClientOriginalName(), PATHINFO_FILENAME);
+
+        // Sanitizar el nombre del archivo (convertir a slug)
+        $sanitizedFilename = Str::slug($filename, '-'); // Convierte a minúsculas y reemplaza espacios/tildes
+
+        // Crear el nombre final con timestamp + ID único + nombre limpio
+        $imageName = time() . "_" . $uniqueId . "_" . $sanitizedFilename . "." . $extension;
+
+        // Mover el archivo al directorio especificado
         $photo->move($directory, $imageName);
-        return    $imageName;
+
+        return $imageName;
     }
+    return null;
 }
+
 function fileUpdate($photo, $directory)
 {
     fileDestroy($photo, $directory);

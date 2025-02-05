@@ -29,39 +29,40 @@ class BookController extends Controller
      */
     public function create()
     {
-        //
+        $Book = Book::orderBy('id','DESC')->get();
+        return view('Book.Booktable', compact('Book'));
     }
 
     /**
      * Store a newly created resource in storage.
      */
     public function storePublic(Request $request)
-    {
-        $request->validate([
-            'firstname' => 'required|string|max:255',
-            'lastname' => 'required|string|max:255',
-            'names' => 'required|string|max:255',
-            'address' => 'required|string|max:255',
-            'document_type' => 'required|string|max:255',
-            'document_number' => 'required|string|max:20',
-            'phone' => 'required|string|max:20',
-            'email' => 'required|email|max:255',
-            'claim_type' => 'required|string|max:20',
-            'claimed_amount' => 'required|numeric|min:0',
-            'currency_type' => 'required|string|max:10',
-            'office_address' => 'required|string|max:255',
-            'product_or_service_description' => 'required|string',
-            'complaint_type' => 'required|string|max:50',
-            'complaint_details' => 'required|string|max:50',
-            'complaint_request' => 'required|string|max:50',
-        ]);
+    {      // $request->validate([
+        //     'firstname' => 'required|string|max:255',
+        //     'lastname' => 'required|string|max:255',
+        //     'names' => 'required|string|max:255',
+        //     'address' => 'required|string|max:255',
+        //     'document_type' => 'required|string|max:255',
+        //     'document_number' => 'required|string|max:20',
+        //     'phone' => 'required|string|max:20',
+        //     'email' => 'required|email|max:255',
+        //     'claim_type' => 'required|string|max:20',
+        //     'claimed_amount' => 'required|numeric|min:0',
+        //     'currency_type' => 'required|string|max:10',
+        //     'office_address' => 'required|string|max:255',
+        //     'product_or_service_description' => 'required|string',
+        //     'complaint_type' => 'required|string|max:50',
+        //     'complaint_details' => 'required|string|max:50',
+        //     'complaint_request' => 'required|string|max:50',
+        // ]);
+  
 
 
 
 
         try {
 
-            $Book_one = Book::where("email", "=", $request->email)->where("state","!=", "Finalizado")->first();
+            $Book_one = Book::where("email", "=", $request->email)->where("state","<>", "Finalizado")->first();
             if ($Book_one) {
                 return $Book_one;
             } else {
@@ -141,17 +142,49 @@ class BookController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Book $book)
+    public function edit(Request $request)
     {
-        //
+        $Book = Book::find($request->id);
+        return $Book;
     }
 
     /**
      * Update the specified resource in storage.
      */
-    public function update(UpdateBookRequest $request, Book $book)
+    public function update(Request $request)
     {
-        //
+        $Book = Book::find($request->id);
+        $Book->state = $request->state;
+        $Book->message = $request->message;
+
+        $email = $Book->email;
+        if ($request->file('file_1') != null) {
+            $Book->file_1 = fileStore($request->file('file_1'), "resource");
+        }
+        if ($request->file('file_2') != null) {
+            $Book->file_2 = fileStore($request->file('file_2'), "resource");
+        }
+        Mail::raw("Estimado/a $Book->name,
+
+        📩 $Book->message.
+        
+        🎟️ *Número de Ticket:* $Book->ticket
+        🎟️ *Estado:* $Book->state
+        
+        📎 
+        " . (!empty($Book->file_1) ? env("APP_URL"). asset("resource/".$Book->file_1) : '') . "
+        " . (!empty($Book->file_2) ? env("APP_URL").asset("resource/".$Book->file_2) : '') . "
+        
+        Atentamente,
+        El equipo de ComexLat", function ($message) use ($email) {
+            $message->to($email)
+                ->subject('Revisión de Reclamo - ComexLat')
+                ->from('soporte@anthonycode.com', 'ComexLat');
+        });
+        
+
+        
+        $Book->save();
     }
 
     /**
