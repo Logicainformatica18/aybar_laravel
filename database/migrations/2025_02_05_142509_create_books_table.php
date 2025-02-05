@@ -30,7 +30,7 @@ return new class extends Migration
             $table->text('complaint_details')->nullable();
             $table->text('complaint_request')->nullable();
             $table->string('ticket')->nullable();
-            $table->string('state')->default("pendiente");
+            $table->string('state')->default("Pendiente");
             $table->timestamps();
         });
     }

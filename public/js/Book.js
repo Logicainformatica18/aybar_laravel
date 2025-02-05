@@ -139,7 +139,8 @@ function BookStorePublic() {
                         box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);">
                         <h2 style="font-weight: bold;color:white">✅ ¡Reclamo Recibido!</h2>
                         <p style="font-size: 18px;color:white">📩 Su reclamo ha sido registrado con éxito.</p>
-                        <p style="font-size: 18px;color:white">🎟️ Número de Ticket: <span style="font-weight: bold; color: #F49A1A;">${response.data}</span></p>
+                        <p style="font-size: 18px;color:white">🎟️ Número de Ticket: <span style="font-weight: bold; color: #F49A1A;">${response.data["ticket"]}</span></p>
+                         <p style="font-size: 18px;color:white">🎟️ Estado: <span style="font-weight: bold; color: #F49A1A;">${response.data["state"]}</span></p>
                         <p style="font-size: 18px;color:white">📧 Se ha enviado una notificación a su correo 📬 para hacer seguimiento a su reclamo.</p>
                         <p style="font-size: 16px; color:white">Gracias por confiar en nosotros. 🏢</p>
                     </div>

@@ -1,227 +1,134 @@
-@extends('production.1')
+@extends('template')
 @section('content')
-    <div class="bg-black"style="height:100px">
-
-    </div>
-
-
-<form action="" id="Book">
-    @csrf
-    <section class="text-center py-5 "id="mycontent"
-        style="background: url('../../resource/1738695656_67a263e8cc4d1banner-negro.jpg') no-repeat center center/cover; color: white;">
-        <div class="container mt-4">
-            <h1 class="fw-bold text-uppercase display-4 text-lg-start my-4" style="color: #F49A1A;">Libro de Reclamaciones
-            </h1>
-
-            <div class="row g-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
-
-
-
-                <div class="container mt-2">
-                    <!-- Encabezado -->
-                
-            
-                    <!-- Descripción -->
-                    <p class="text-start fw-semibold text-white mt-3">
-                        Este formulario es exclusivamente para expresar su disconformidad con algún producto o servicio brindado por <b>
-                            Comercializadora Extranjera Latinoamericana S.A.C.
-                        </b> 
-                        Todos los campos son obligatorios.
-                    </p>
-            
-                    <!-- Información de la Empresa -->
-                    {{-- <div class="card shadow-sm border-0 text-start" style="background-color:#ffffff">
-                        <div class="card-body text-black">
-                            <h4 class="fw-bold text-warning">Empresa</h4>
-                            <p><b>Razón Social:</b> Aybar Corp & S.A.C.</p>
-                            <p><b>RUC:</b> 20603865813</p>
-                            <p><b>Dirección Legal:</b> Av. Circunvalación Del Golf Los Incas 134 Patio Panorama, Santiago de Surco</p>
-                            <p><b>Fecha actual:</b> <span id="current-date"></span></p>
-                        </div>
-                    </div> --}}
-                    <div class="card shadow-sm border-0 text-start" style="background-color:#ffffff">
-                        <div class="card-body text-black">
-                            <h4 class="fw-bold text-warning">Empresa</h4>
-                            <p><b>Razón Social:</b> Comercializadora Extranjera Latinoamericana S.A.C.</p>
-                            <p><b>RUC:</b> 20613359550</p>
-                            <p><b>Dirección Legal:</b> Av. Circunvalación Nro. 664 Interior 402,Distrito de Santiago De Surco, Provincia y Departamento de Lima 
-                            </p>
-                            <p><b>Fecha actual:</b> <span id="current-date"></span></p>
+    <div class="body-wrapper">
+        <div class="">
+            <div class="card card-body py-3">
+                <div class="row align-items-center">
+                    <div class="col-12">
+                        <div class="d-sm-flex align-items-center justify-space-between">
+                            <h1 class="text-primary">Reclamaciones</h1>
+                            <nav aria-label="breadcrumb" class="ms-auto">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item d-flex align-items-center">
+                                        <a class="text-muted text-decoration-none d-flex" href="../main/index.html">
+                                            <iconify-icon icon="solar:home-2-line-duotone" class="fs-6"></iconify-icon>
+                                        </a>
+                                    </li>
+                                    <li class="breadcrumb-item" aria-current="page">
+                                        <span class="badge fw-medium fs-2 bg-primary-subtle text-primary">
+                                            Reclamaciones
+                                        </span>
+                                    </li>
+                                </ol>
+                            </nav>
                         </div>
                     </div>
-                </div>
-            
-                <script>
-                    // Mostrar la fecha actual en formato YYYY-MM-DD
-                    document.getElementById("current-date").textContent = new Date().toISOString().split('T')[0];
-                </script>
-
-
-
-                <div class="col-12 ">
-                    <h1 class="fw-bold text-uppercase fs-4 text-lg-start " style="color: #F49A1A;">1. Identificación del
-                        consumidor reclamante</h1>
-                </div>
-                <div class="col-12 col-md-6">
-                    <input type="text" id="names" name="names" class="form-control" placeholder="Ingrese su nombre"
-                        style="background: rgba(255, 255, 255, 0.1); color: white; border: 1px solid #666464; padding: 12px;font-size:20px">
-                </div>
-                <div class="col-12 col-md-6">
-                    <input type="text" id="firstname" name="firstname" class="form-control"
-                        placeholder="Apellido Paterno"
-                        style="background: rgba(255, 255, 255, 0.1); color: white; border: 1px solid #666464; padding: 12px;font-size:20px">
-                </div>
-                <div class="col-12 col-md-6">
-                    <input type="text" id="lastname" name="lastname" class="form-control" placeholder="Apellido Materno"
-                        style="background: rgba(255, 255, 255, 0.1); color: white; border: 1px solid #666464; padding: 12px;font-size:20px">
-                </div>
-                <div class="col-6">
-                    <input type="text" id="address" name="address" class="form-control" placeholder="Dirección"
-                        style="background: rgba(255, 255, 255, 0.1); color: white; border: 1px solid #666464; padding: 12px;font-size:20px">
-                </div>
-                <div class="col-12 col-md-6">
-                    <select id="document_type" name="document_type" class="form-control"
-                        style="background-color: rgba(0, 0, 0, 0.63); color: rgb(255, 255, 255); border: 1px solid #666464; padding: 12px;font-size:20px">
-                        <option value="" disabled selected>Seleccione tipo de documento</option>
-                        <option value="dni">DNI</option>
-                        <option value="ce">Carné de Extranjería</option>
-                        <option value="passport">Pasaporte</option>
-                    </select>
-                </div>
-                <div class="col-12 col-md-6">
-                    <input type="text" id="document_number" name="document_number" class="form-control"
-                        placeholder="Número de documento"
-                        style="background: rgba(255, 255, 255, 0.1); color: white; border: 1px solid #666464; padding: 12px;font-size:20px">
-                </div>
-                <div class="col-12 col-md-6">
-                    <input type="tel" id="phone" name="phone" class="form-control" placeholder="Número celular"
-                        style="background: rgba(255, 255, 255, 0.1); color: white; border: 1px solid #666464; padding: 12px;font-size:20px">
-                </div>
-                <div class="col-12 col-md-6">
-                    <input type="email" id="email" name="email" class="form-control"
-                        placeholder="Correo electrónico"
-                        style="background: rgba(255, 255, 255, 0.1); color: white; border: 1px solid #666464; padding: 12px;font-size:20px">
-                </div>
-
-                <!-- Tipo de bien a reclamar -->
-                <div class="col-12 mt-5">
-                    <h1 class="fw-bold text-uppercase fs-4 text-lg-start " style="color: #F49A1A;">2. Identificación del
-                        bien contratado</h1>
-                </div>
-                <div class="col-12 row text-center my-3">
-                    <div class="col 6">
-
-                        <input class="form-check-input"type="radio" id="product" name="claim_type"class="radio"
-                            value="product">
-                        <label class="form-check-label" for="exampleRadios1">
-                            Producto
-                        </label>
-                    </div>
-                    <div class="col 6">
-                        <input class="form-check-input"type="radio" id="service" name="claim_type" value="service">
-                        <label class="form-check-label" for="exampleRadios1">
-                            Servicio
-                        </label>
-                    </div>
-                </div>
-
-
-                <div class="col-12 col-md-6">
-                    <input type="number" id="claimed_amount" name="claimed_amount" class="form-control"
-                        placeholder="Monto reclamado" step="0.01"
-                        style="background: rgba(255, 255, 255, 0.1); color: white; border: 1px solid #666464; padding: 12px;font-size:20px">
-                </div>
-                <div class="col-12 col-md-6">
-                    <select id="currency_type" name="currency_type" class="form-control"
-                        style="background-color: rgba(0, 0, 0, 0.63); color: white; border: 1px solid #666464; padding: 12px;font-size:20px">
-                        <option value="">Seleccione moneda</option>
-                        <option value="PEN">Soles (PEN)</option>
-                        <option value="USD">Dólares (USD)</option>
-                    </select>
-                </div>
-
-                <div class="col-12">
-                    <input type="text" id="office_address" name="office_address" class="form-control"
-                        placeholder="Dirección de oficina"
-                        style="background: rgba(255, 255, 255, 0.1); color: white; border: 1px solid #666464; padding: 12px;font-size:20px">
-                </div>
-
-                <div class="col-12">
-                    <textarea id="product_or_service_description" name="product_or_service_description" class="form-control"
-                        placeholder="Descripción del producto o servicio"
-                        style="background: rgba(255, 255, 255, 0.1); 
-                       color: white; 
-                       border: 1px solid #666464; 
-                       padding: 12px; 
-                       font-size: 20px;
-                       width: 100%;
-                       min-height: 100px;
-                       resize: vertical;"></textarea>
-
-                    <style>
-                        /* Forzar el color del placeholder */
-                        textarea::placeholder {
-                            color: rgb(255, 255, 255) !important;
-                            /* Color gris claro para visibilidad */
-                            opacity: 1 !important;
-                            /* Asegurar que se vea */
-                        }
-                    </style>
-
-                </div>
-                <div class="col-12 mt-5">
-                    <h1 class="fw-bold text-uppercase fs-4 text-lg-start " style="color: #F49A1A;">3. Detalle de la
-                        reclamación</h1>
-                </div>
-                <div class="col-12 mt-2 text-xl-justify text-start">
-                    <p> <b class="m-5 ">• Queja:</b>Malestar, descontento o disconformidad no relacionada al producto o
-                        servicio o con respecto a la atención recibida.</p>
-
-                    <p class="mt-n3">
-                        <b class="m-5 ">• Reclamo:</b>Disconformidad con respecto al producto o servicio.
-                    </p>
-                </div>
-
-                <!-- Tipo de reclamo -->
-                <div class="col-12 row text-center my-3">
-                    <div class="col-6">
-                        <input class="form-check-input" type="radio" id="complaint" name="complaint_type"
-                            value="complaint">
-                        <label class="form-check-label" for="complaint">
-                            Queja
-                        </label>
-                    </div>
-                    <div class="col-6">
-                        <input class="form-check-input" type="radio" id="claim" name="complaint_type"
-                            value="claim">
-                        <label class="form-check-label" for="claim">
-                            Reclamo
-                        </label>
-                    </div>
-                </div>
-
-
-                <div class="col-12">
-                    <textarea id="complaint_details" name="complaint_details" class="form-control" placeholder="Detalle del reclamo"
-                        style="background: rgba(255, 255, 255, 0.1); color: white; border: 1px solid #666464; padding: 12px;font-size:20px"></textarea>
-                </div>
-
-                <div class="col-12">
-                    <textarea id="complaint_request" name="complaint_request" class="form-control" placeholder="Pedido del reclamo"
-                        style="background: rgba(255, 255, 255, 0.1); color: white; border: 1px solid #666464; padding: 12px;font-size:20px"></textarea>
-                </div>
-
-                <div class="col-12">
-                    <button data-aos="flip-right" data-aos-duration="1000" data-aos-delay="600" type="button"
-                        onclick="BookStorePublic();return false" class="btn w-100"
-                        style="background: #F49A1A; color: black; font-weight: bold; padding: 12px;">
-                        <h1 class="text-black">Enviar</h1>
-                    </button>
                 </div>
             </div>
 
+            <div class="datatables">
 
+                <!-- start File export -->
+                <div class="card">
+                    <div class="card-body">
+                      
+                        <p class="card-subtitle mb-3">
+                            <!-- success header modal -->
+                            @canany(["administrar","agregar"])
+                            <button type="button" class="btn mb-1 me-1 btn-success"
+                                data-bs-toggle="modal" data-bs-target="#success-header-modal" fdprocessedid="cw61t3"
+                                 onclick="New();$('#Book')[0].reset();">
+                                Agregar
+                            </button>
+                            @endcanany
+                        </p>
+                        <div class="mb-2">
+                            <h4 class="card-title mb-0">Exportar</h4>
+                        </div>
+                        <div class="table-responsive"id="mycontent">
+
+
+
+                            @include('Book.Booktable')
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- end Language file -->
+
+                <!-- end Setting defaults -->
+
+
+                <!-- end Custom toolbar elements -->
+            </div>
         </div>
-    </section>
-</form>
+    </div>
+
+    <div class="button-group">
+
+
+        <!-- /.modal -->
+        <!-- danger header modal -->
+
+        <!-- /.modal -->
+
+        <!-- /.modal -->
+
+        <!-- success Header Modal -->
+        <div id="success-header-modal" class="modal fade" tabindex="-1" aria-labelledby="success-header-modalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header modal-colored-header bg-success text-white">
+                        <h4 class="modal-title text-white" id="success-header-modalLabel">
+                            Reclamaciones
+                        </h4>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+
+
+                        <form action="" method="post" role="form" id="Book"
+                            name="Book"enctype="multipart/form-data">
+                            <input type="hidden" name="id" id="id">
+                            {{ csrf_field() }}
+
+                            Descripción : <input type="text" name="description" id="description" class="form-control">
+
+                            Detalle : <input type="text" name="detail" id="detail" class="form-control">
+
+                    </div>
+                    <div class="modal-footer">
+                        <input type="button" value="Nuevo" class="btn btn-primary"
+                            onclick="New();$('#Book')[0].reset();" name="new">
+                        @canany(['administrar', 'agregar'])<input type="button" value="Guardar" class="btn bg-success-subtle text-success "
+                            onclick="BookStore()" id="create">@endcanany
+                            @canany(['administrar', 'actualizar'])
+                        <input type="button" value="Modificar" class="btn bg-danger-subtle text-danger" onclick="BookUpdate();"
+                            id="update">
+                            @endcanany
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                      </form>
+
+
+
+
+
+
+
+                    </div>
+
+                </div>
+                <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+        </div>
+        <!-- /.modal -->
+
+
+        <!-- /.modal -->
+    </div>
 @endsection

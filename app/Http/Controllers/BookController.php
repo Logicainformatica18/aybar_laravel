@@ -16,12 +16,13 @@ class BookController extends Controller
      */
     public function index()
     {
-        //
+       $Book = Book::orderBy('id','DESC')->get();
+        return view('Book.Book', compact('Book'));
     }
     public function indexPublic()
     {
         $Book = Book::all();
-        return view('Book.Book', compact('Book'));
+        return view('Book.BookPublic', compact('Book'));
     }
     /**
      * Show the form for creating a new resource.
@@ -34,25 +35,25 @@ class BookController extends Controller
     /**
      * Store a newly created resource in storage.
      */
-    public function store(Request $request)
+    public function storePublic(Request $request)
     {
         $request->validate([
             'firstname' => 'required|string|max:255',
             'lastname' => 'required|string|max:255',
             'names' => 'required|string|max:255',
             'address' => 'required|string|max:255',
-            'document_type' => 'required|in:dni,ce,passport',
+            'document_type' => 'required|string|max:255',
             'document_number' => 'required|string|max:20',
             'phone' => 'required|string|max:20',
             'email' => 'required|email|max:255',
-            'claim_type' => 'required|in:product,service',
+            'claim_type' => 'required|string|max:20',
             'claimed_amount' => 'required|numeric|min:0',
             'currency_type' => 'required|string|max:10',
             'office_address' => 'required|string|max:255',
             'product_or_service_description' => 'required|string',
-            'complaint_type' => 'required|in:complaint,claim',
-            'complaint_details' => 'nullable|string',
-            'complaint_request' => 'nullable|string',
+            'complaint_type' => 'required|string|max:50',
+            'complaint_details' => 'required|string|max:50',
+            'complaint_request' => 'required|string|max:50',
         ]);
 
 
@@ -60,8 +61,8 @@ class BookController extends Controller
 
         try {
 
-            $Book_one = Book::where("email", "=", $request->email)->where("state", "finalizado")->first();
-            if ($Book_one > 0) {
+            $Book_one = Book::where("email", "=", $request->email)->where("state","!=", "Finalizado")->first();
+            if ($Book_one) {
                 return $Book_one;
             } else {
 
@@ -82,6 +83,7 @@ class BookController extends Controller
                 $Book->complaint_type = $request->complaint_type;
                 $Book->complaint_details = $request->complaint_details;
                 $Book->complaint_request = $request->complaint_request;
+                $Book->state = "Pendiente";
                 $Book->save();
                 $Book->ticket = 'TCK-' . str_pad($Book->id, 6, '0', STR_PAD_LEFT); // Genera un número de ticket con ceros
                 $Book->save();
@@ -108,7 +110,7 @@ class BookController extends Controller
                         ->from('soporte@anthonycode.com', 'ComexLat');
                 });
 
-                return $Book->ticket;
+                return $Book;
             }
         } catch (\Exception $e) {
             return "Error al enviar el correo: " . $e->getMessage();
