@@ -21,12 +21,12 @@ return new class extends Migration
             $table->string('document_number');
             $table->string('phone');
             $table->string('email');
-            $table->enum('claim_type', ['product', 'service']);
+            $table->enum('claim_type', ['Producto', 'Servicio']);
             $table->decimal('claimed_amount', 10, 2);
             $table->string('currency_type');
             $table->string('office_address');
             $table->text('product_or_service_description');
-            $table->enum('complaint_type', ['complaint', 'claim']); // Queja o Reclamo
+            $table->enum('complaint_type', ['Queja', 'Reclamo']); // Queja o Reclamo
             $table->text('complaint_details')->nullable();
             $table->text('complaint_request')->nullable();
             $table->string('ticket')->nullable();

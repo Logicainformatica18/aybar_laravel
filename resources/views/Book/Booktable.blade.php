@@ -1,4 +1,4 @@
-
+<div class="table-responsive-xl">
 <table id="file_export" class=" table table-hover table-bordered table-striped table-responsive">
     <thead>
         <!-- start row -->
@@ -7,11 +7,29 @@
            
             <th><img width="20" src="https://cdn-icons-png.flaticon.com/512/6671/6671938.png" alt=""
                     srcset=""></th>
-            <th>ID</th>
-            <th>Descripción</th>
-            <th>Detalle</th>
-            
-
+                    <th>ID</th>
+                    <th>Estado</th>
+                    <th>Ticket</th>
+                    <th>Paterno</th>
+                    <th>Materno</th>
+                    <th>Nombres</th>
+                    <th>Dirección</th>
+                    <th>Tipo Doc</th>
+                    <th>Documento</th>
+                    <th>WSP</th>
+                    <th>Teléfono</th>
+                    <th>Email</th>
+                    <th>Reclamo</th>
+                    <th>Monto reclamado</th>
+                    <th>Tipo de moneda</th>
+                    <th>Oficina</th>
+                    <th>Descripción</th>
+                    <th>Tipo de queja</th>
+                    <th>Detalles</th>
+                    <th>Solicitud</th>
+                 
+                
+                    <th>Fecha</th>
         </tr>
         <!-- end row -->
     </thead>
@@ -54,11 +72,43 @@
 
 
                 <td>{{ $Books->id }}</td>
-               
-                
-                <td>{{ $Books->description }}</td>
+                <td>
+                    @if ($Books->state == 'Finalizado')
+                    <span class="badge text-bg-danger">{{$Books->state}}</span>
+                    @else
+                    <span class="badge text-bg-success">{{$Books->state}}</span>
+                    @endif
+                </td>
+                <td>  <span class="badge text-bg-warning">{{ $Books->ticket }}</span></td>
+                <td>{{ $Books->firstname }}</td>
+                <td>{{ $Books->lastname }}</td>
+                <td>{{ $Books->names }}</td>
+                <td>{{ $Books->address }}</td>
+                <td>{{ $Books->document_type }}</td>
+                <td>{{ $Books->document_number }}</td>
+                <td>
+                    @php
+                        $whatsapp = 'https://api.whatsapp.com/send?phone=' . $Books->phone;
+                    @endphp
+                    <a target="_blank" href="{{ $whatsapp }}">
+                        <i class="ti ti-brand-whatsapp fs-7"style="color:green;"></i>
 
-                <td>{{ $Books->detail }}</td>
+                    </a>
+                </td>
+                <td>{{ $Books->phone }}</td>
+                <td>{{ $Books->email }}</td>
+                <td>{{ $Books->claim_type }}</td>
+                <td>{{ $Books->claimed_amount }}</td>
+                <td>{{ $Books->currency_type }}</td>
+                <td>{{ $Books->office_address }}</td>
+                <td>{{ $Books->product_or_service_description }}</td>
+                <td>{{ $Books->complaint_type }}</td>
+                <td>{{ $Books->complaint_details }}</td>
+                <td>{{ $Books->complaint_request }}</td>
+       
+       
+                <td>{{ $Books->created_at }}</td>
+                
                
              
 
@@ -66,22 +116,10 @@
             </tr>
         @endforeach
     </tbody>
-    <tfoot>
-        <!-- start row -->
-        <tr>
-           
-        <th><img width="20" src="https://cdn-icons-png.flaticon.com/512/6671/6671938.png" alt=""
-                srcset=""></th>
-        <th>ID</th>
-        <th>Descripción</th>
-        <th>Detalle</th>
-        
-        </tr>
-        <!-- end row -->
-    </tfoot>
+   
 </table>
-
-
+<p></p>
+</div>
 
 
 

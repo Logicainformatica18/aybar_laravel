@@ -73,7 +73,7 @@ class BookController extends Controller
                 $Book->address = $request->address;
                 $Book->document_type = $request->document_type;
                 $Book->document_number = $request->document_number;
-                $Book->phone = $request->phone;
+                $Book->phone =  $request->code_country. $request->phone;
                 $Book->email = $request->email;
                 $Book->claim_type = $request->claim_type;
                 $Book->claimed_amount = $request->claimed_amount;

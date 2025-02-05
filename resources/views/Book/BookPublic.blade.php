@@ -112,13 +112,13 @@
                     <div class="col 6">
 
                         <input class="form-check-input"type="radio" id="product" name="claim_type"class="radio"
-                            value="product">
+                            value="Producto">
                         <label class="form-check-label" for="exampleRadios1">
                             Producto
                         </label>
                     </div>
                     <div class="col 6">
-                        <input class="form-check-input"type="radio" id="service" name="claim_type" value="service">
+                        <input class="form-check-input"type="radio" id="service" name="claim_type" value="Servicio">
                         <label class="form-check-label" for="exampleRadios1">
                             Servicio
                         </label>
@@ -186,14 +186,14 @@
                 <div class="col-12 row text-center my-3">
                     <div class="col-6">
                         <input class="form-check-input" type="radio" id="complaint" name="complaint_type"
-                            value="complaint">
+                            value="Queja">
                         <label class="form-check-label" for="complaint">
                             Queja
                         </label>
                     </div>
                     <div class="col-6">
                         <input class="form-check-input" type="radio" id="claim" name="complaint_type"
-                            value="claim">
+                            value="Reclamo">
                         <label class="form-check-label" for="claim">
                             Reclamo
                         </label>

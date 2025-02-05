@@ -2356,7 +2356,15 @@
             $('.select2').select2()
         });
     </script>
-
+<style>
+    .table-responsive-xl {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        /* Suaviza el scroll en dispositivos táctiles */
+        display: block;
+        /* Asegura que se comporta como un bloque */
+    }
+</style>
 
     <!-- solar icons -->
 
