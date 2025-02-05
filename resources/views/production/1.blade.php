@@ -144,32 +144,24 @@
                     <li class="nav-item" style="letter-spacing: 1px;"></li>
                     <li class="nav-item" style="letter-spacing: 1px;">
                         <a class="nav-link fs-7" aria-current="page" href="../" style="color: white">
-                            <b 
-                            data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"
-                            style="word-spacing: 9px;font-family: COOLVETICA-RG;" id="inicio">+Inicio</b>
+                            <b data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" style="word-spacing: 9px;font-family: COOLVETICA-RG;" id="inicio">+Inicio</b>
                         </a>
                     </li>
                     <li class="nav-item" style="letter-spacing: 1px;">
                         <a class="nav-link fs-7" aria-current="page" href="#" style="color: white;word-spacing: 9px;font-family:RALEWAY-REGULAR;">
-                            <span 
-                            data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500"
-                            style="font-family: COOLVETICA-RG;" id="nosotros">Nosotros</span>
+                            <span data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500" style="font-family: COOLVETICA-RG;" id="nosotros">Nosotros</span>
                        </a>
                     </li>
                     <li class="nav-item" style="letter-spacing: 1px;">
                         <a class="nav-link fs-7" aria-current="page" href="#" style="color: white;word-spacing: 9px;font-family:RALEWAY-REGULAR;">
-                            <span 
-                            data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"
-                            style="font-family: COOLVETICA-RG;" id="proyectos">Oportunidades</span>
+                            <span data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" style="font-family: COOLVETICA-RG;" id="proyectos">Oportunidades</span>
                        </a>
                     </li>
                     
                  
                     <li class="nav-item" style="letter-spacing: 1px;">
                         <a class="nav-link fs-7" aria-current="page" href="#trabaja" style="color: white">
-                           <span 
-                           data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500"
-                           style="font-family: COOLVETICA-RG;word-spacing: 9px;" id="contacto">Contacto</span>
+                           <span data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500" style="font-family: COOLVETICA-RG;word-spacing: 9px;" id="contacto">Contacto</span>
                         </a>
                     </li>
 
@@ -182,24 +174,23 @@
     </nav>
 </header>
 @yield('content')
-
-<footer class="text-center py-4" style="background: linear-gradient(to right, #F49A1A 80%, #ffac47); color: black;">
+<footer class="text-center pt-2 " style="background: linear-gradient(to right, #F49A1A 80%, #ffac47); color: black;">
 
 <div class="container">
-        <div class="row text-start p-5">
+        <div class="row text-start p-2">
             <div class="col-md-4 col-12">
-                <span class=" text-black fs-8"style="font-family:COOLVETICA-RG;">Ubicación</span>
-                <div class="subrayado mb-3"style="background-color:black;height:3px;margin-top:1px;width:25px"></div>
+                <span class=" text-black fs-8" style="font-family:COOLVETICA-RG;">Ubicación</span>
+                <div class="subrayado mb-3" style="background-color:black;height:3px;margin-top:1px;width:25px"></div>
                 <p class="text-white fs-5">Av. Circunvalación del Golf Los Incas<br>134 Patio Panorama, Santiago de Surco</p>
             </div>
             <div class="col-md-4 col-12">
-                <span class=" text-black fs-8"style="font-family:COOLVETICA-RG;">Contáctanos</span>
+                <span class=" text-black fs-8" style="font-family:COOLVETICA-RG;">Contáctanos</span>
                 <p>&nbsp;</p>
                 <p class="text-white fs-5">01- 9049838</p>
             </div>
             <div class="col-md-4 col-12">
                 <a href="libro_reclamaciones">
-                    <img src="../../resource/1738703730_67a28372819f7libro%20de%20reclamaciones.svg" alt=""width="50px">
+                    <img src="../../resource/1738703730_67a28372819f7libro%20de%20reclamaciones.svg" alt="" width="50px">
                     <p></p>
                     <p class=" text-white fs-6"><i class="bi bi-book"></i> Libro de Reclamaciones</p>
                 </a>
@@ -209,12 +200,9 @@
         <p class="mt-3 fs-7">AYBAR CORP, Todos los derechos reservados 2025</p>
     </div>
 </footer>
-
 <div class="offcanvas offcanvas-start matdash-lp-offcanvas" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" style="background-color: #000000e1">
     <div class="offcanvas-header p-4 text-center justify-content-center">
-        <img src="../../resource/1738678985_67a222c98b11alogo%20comexlat%20rengo%20y%20blanco.svg" 
-        alt="matdash-img" class="img-fluid" width="200" 
-        style="filter: brightness(0) invert(1);">
+        <img src="../../resource/1738678985_67a222c98b11alogo%20comexlat%20rengo%20y%20blanco.svg" alt="matdash-img" class="img-fluid" width="200" style="filter: brightness(0) invert(1);">
    
     </div>
     <div class="offcanvas-body ">
