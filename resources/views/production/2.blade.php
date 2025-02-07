@@ -2,7 +2,7 @@
 
 <style>
     .bg-responsive {
-        background-image: url('../resource/1738618824_67a137c8cbe2fbanner-comexlat.jpg');
+        background-image: url('../../resource/1738943578_67a62c5ab84ba_banner-comexlat.jpg');
         background-repeat: no-repeat;
         background-size: 100%;
         height: 90vh;
@@ -18,7 +18,7 @@
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            background-image: url('../../resource/1738619096_67a138d8b8f8fbanner-comexlat-tablet.jpg');
+            background-image: url('../../resource/1738943583_67a62c5fe327b_banner-comexlat-tablet.jpg');
         }
     }
 
@@ -31,7 +31,7 @@
             background-position: center;
             background-repeat: no-repeat;
             /* background-size: contain; */
-            background-image: url('../../resource/1738619153_67a13911c95a7banner-comexlat-celular.jpg');
+            background-image: url('../../resource/1738943601_67a62c71e138b_banner-comexlat-celular.jpg');
         }
     }
 </style>
@@ -45,10 +45,23 @@
     
     <div class="carousel-inner " style="display: flex; align-items: center;">
         
-                <!-- Diapositiva 1 -->
-                <div class=" carousel-item text-center pb-5 active bg-responsive" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">
-                    
-                </div>
+        <div class="carousel-item text-center pb-5 active bg-responsive" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" style="position: relative;">
+        
+       <div class="d-none d-sm-block" style="position: absolute; bottom: 10%; left: 50%; transform: translateX(-50%);">
+           <h1 class="text-black" style="font-size:80px; "><b>TU TALENTO</b></h1>
+           <h1 class="text-black" style="font-size:45px;letter-spacing:8px; word-spacing: 0px;margin-top:-25px">MERECE MEJORES</h1>
+           <h1 class="text-black" style="font-size:80px; margin-top:-25px"> COMISIONES</h1>
+          
+       </div>
+       <div class="w-100  d-sm-none" style="position: absolute; bottom: 20%;">
+        
+        <h1 class="text-black" style="font-size:45px; "><b>TU TALENTO</b></h1>
+        <h1 class="text-black" style="font-size:29px;margin-top:-15px">MERECE MEJORES</h1>
+        <h1 class="text-black" style="font-size:45px; ;margin-top:-18px"> COMISIONES</h1>
+       
+    </div>
+   </div>
+   
                 
                
             </div>
@@ -69,7 +82,7 @@
         
             
         </div>
-<div class="text-center mt-n5 aos-init aos-animate" style="background-color:#E8ECF3;" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="2000">
+<div class="text-center mt-n5 " style="background-color:#E8ECF3;" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="2000">
             <div class="container py-5 mt-5">
 
    
@@ -85,7 +98,7 @@
                         <img src="../../resource/1738620627_67a13ed3427a1altas%20comisiones.svg" alt="Altas Comisiones" class="mb-3" width="100">
                         <h4 class="fw-bold" style="color: #F49A1A;">ALTAS COMISIONES</h4>
                         <hr style="width: 50px; margin: auto; border: 1px solid #F49A1A;">
-                        <p style="color: #b6b6b6;font-family:RALEWAY-REGULAR" class="px-3 mt-4 fs-3 ">
+                        <p style="color: #b6b6b6;font-family:RALEWAY-REGULAR; text-align:justify" class="px-3 mt-4 fs-3 ">
                             ¡Gana por tus resultados! El sector inmobiliario te ofrece una de las  mejores oportunidades 
                             para generar ingresos extraordinarios en base a tus ventas.
                         </p>
@@ -96,13 +109,13 @@
                 </div>
         
                 <!-- Tarjeta 2 -->
-                     <div class="col-lg-4" data-aos="fade-up" data-aos-duration="500" data-aos-delay="500">&gt;
+                     <div class="col-lg-4" data-aos="fade-up" data-aos-duration="500" data-aos-delay="500">
                     <div class="p-4 text-center" style="border-radius: 0px 60px 0px 60px; background-color: #F49A1A;color: white; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
               
                         <img src="../../resource/1738707574_67a29276553dbtrabajo%20(1).svg" alt="Crecimiento Profesional" class="mb-3" width="100">
                         <h4 class="fw-bold text-white">CRECIMIENTO PROFESIONAL</h4>
                         <hr style="width: 50px; margin: auto; border: 1px solid white;">
-                        <p class="px-3 mt-4 fs-3 text-justify" style="font-family:RALEWAY-REGULAR">
+                        <p class="px-3 mt-4 fs-3 " style="font-family:RALEWAY-REGULAR; text-align:justify">
                             Desarrolla habilidades de negociación, ventas y networking. ¡Conviértete en un experto en un sector con alta demanda!
                         </p>
                         <a href="#trabaja" class="mt-5 d-inline-block fs-6 px-5 py-3 mt-3" style="background-color: white; color: #F49A1A; border-radius: 30px; text-decoration: none;font-family:COOLVETICA-RG">
@@ -112,15 +125,16 @@
                 </div>
         
                 <!-- Tarjeta 3 -->
-                     <div class="col-lg-4" data-aos="fade-up" data-aos-duration="500" data-aos-delay="500">&gt;
+                     <div class="col-lg-4" data-aos="fade-up" data-aos-duration="500" data-aos-delay="500">
                     <div class="p-4 text-center" style="border-radius: 0px 60px 0px 60px; background-color: white; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
                         <img src="../../resource/1738707504_67a2923086c7eflexibilidad.svg" alt="Flexibilidad y Autonomía" class="mb-3" width="100">
                         <h4 class="fw-bold" style="color: #F49A1A;">FLEXIBILIDAD Y AUTONOMÍA</h4>
                         <hr style="width: 50px; margin: auto; border: 1px solid #F49A1A;">
-                        <p style="color: #b6b6b6;font-family:RALEWAY-REGULAR" class="px-3 mt-4 fs-3 text-justify">
+                        <p style="color: #b6b6b6;font-family:RALEWAY-REGULAR; text-align:justify" class="px-3 mt-4 fs-3 text-justify">
                             Organiza tu tiempo como desees. Sé dueño de tu agenda y trabaja desde cualquier lugar, 
-                            mientras construyes <br>tu  carrera profesional.
+                            mientras construyes tu  carrera profesional.
                         </p>
+                        <br>
                         <a href="#trabaja" class="mt-4 d-inline-block text-white fs-6 px-5 py-3 mt-3" style="background-color: #F49A1A; border-radius: 30px; text-decoration: none;font-family:COOLVETICA-RG">
                          Regístrate ahora +
                         </a>
@@ -169,6 +183,19 @@
         <div class="row mt-0 mt-md-1">
             <div class="col-lg-8 col-12 " data-aos="slide-right" data-aos-duration="1000" data-aos-delay="600">
                 <div class="container text-justify text-white" style="position: relative; z-index: 2; ">
+                    <div class="d-md-none">
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    
+                 
+
+            
+                    </div>
                     <h1 class="fw-bold text-uppercase fs-9  text-center"><b style="color: #F49A1A;">Oportunidades de ser un socio  comercial</b> </h1>
                     <div class="text-justify">
                         <p class="mb-4 fs-3" style=" text-align: justify;">Aprovecha nuestros más de 5 años de experiencia en el sector inmobiliario para convertirte en un experto y generar ingresos con cada proyecto.</p>
