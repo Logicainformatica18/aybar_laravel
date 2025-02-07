@@ -14,7 +14,7 @@
   <!-- Core Css -->
   <link rel="stylesheet" href="../../assets/css/styles.css" />
 
-  <title>Aybar Corp</title>
+  <title>ComexLat</title>
 </head>
 
 <body>

@@ -10,7 +10,7 @@
     <!-- Core Css -->
     <link rel="stylesheet" href="../assets/css/styles.css">
   
-    <title>Aybar Corp</title>
+    <title>ComexLat</title>
   <style type="text/css" id="operaUserStyle"></style></head>
   
   <body>

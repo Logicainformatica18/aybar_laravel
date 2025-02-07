@@ -108,7 +108,7 @@ class BookController extends Controller
             El equipo de ComexLat", function ($message) use ($name, $email) {
                     $message->to($email)
                         ->subject('Confirmación de Reclamo - ComexLat')
-                        ->from('soporte@anthonycode.com', 'ComexLat');
+                        ->from('administracion@comexlat.com', 'ComexLat');
                 });
 
                 return $Book;
@@ -179,7 +179,7 @@ class BookController extends Controller
         El equipo de ComexLat", function ($message) use ($email) {
             $message->to($email)
                 ->subject('Revisión de Reclamo - ComexLat')
-                ->from('soporte@anthonycode.com', 'ComexLat');
+                ->from('administracion@comexlat.com', 'ComexLat');
         });
         
 

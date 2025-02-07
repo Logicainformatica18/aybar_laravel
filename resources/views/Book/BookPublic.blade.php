@@ -33,7 +33,7 @@
                     {{-- <div class="card shadow-sm border-0 text-start" style="background-color:#ffffff">
                         <div class="card-body text-black">
                             <h4 class="fw-bold text-warning">Empresa</h4>
-                            <p><b>Razón Social:</b> Aybar Corp & S.A.C.</p>
+                            <p><b>Razón Social:</b> ComexLat & S.A.C.</p>
                             <p><b>RUC:</b> 20603865813</p>
                             <p><b>Dirección Legal:</b> Av. Circunvalación Del Golf Los Incas 134 Patio Panorama, Santiago de Surco</p>
                             <p><b>Fecha actual:</b> <span id="current-date"></span></p>

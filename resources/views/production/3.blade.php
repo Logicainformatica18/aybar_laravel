@@ -147,7 +147,7 @@
         <img src="../../resource/1734547017_circulo.png" width="60%" style="padding:5%;" alt="" srcset="">
       </div>
       <div data-aos="flip-left" data-aos-delay="1000" data-aos-duration="1000">
-        <img src="../../resource/1738351411_679d2333ab35blogo%20aybar%20a%20color.svg" alt="Logo Aybar Corp" class="position-absolute start-50 translate-middle" style="width: 30%; margin-top:30%">
+        <img src="../../resource/1738351411_679d2333ab35blogo%20aybar%20a%20color.svg" alt="Logo ComexLat" class="position-absolute start-50 translate-middle" style="width: 30%; margin-top:30%">
       </div>
       <!-- Logo en el centro -->
      
@@ -217,7 +217,7 @@
 
   <div class="d-lg-none container text-center mt-5">
     <!-- Logo -->
-    <img src="../../resource/1738351411_679d2333ab35blogo%20aybar%20a%20color.svg" alt="Logo Aybar Corp" class="mb-4" style="width: 80px;">
+    <img src="../../resource/1738351411_679d2333ab35blogo%20aybar%20a%20color.svg" alt="Logo ComexLat" class="mb-4" style="width: 80px;">
 
     <!-- Primera fila (SOLIDARIDAD - RESPETO) -->
     <div class="row">
