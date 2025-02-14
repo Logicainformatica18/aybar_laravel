@@ -41,33 +41,47 @@
 
         <!-- INICIO SECCION -->
 <div id="carouselExample" class=" carousel slide text-white pointer-event" data-bs-ride="carousel" data-bs-interval="30000">
-            
-    
-    <div class="carousel-inner " style="display: flex; align-items: center;">
-        
-                <!-- Diapositiva 1 -->
-                <div class=" carousel-item text-center pb-5 active bg-responsive" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">
-                    
+
+
+            <div class="carousel-inner " style="display: flex; align-items: center;">
+
+                <div class="carousel-item text-center pb-5 active bg-responsive" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" style="position: relative;">
+
+                    <div class="d-none d-sm-block" style="position: absolute; bottom: 10%; left: 50%; transform: translateX(-50%);">
+                        <h1 class="text-black" style="font-size:80px; "><b>TU TALENTO</b></h1>
+                        <h1 class="text-black" style="font-size:45px;letter-spacing:8px; word-spacing: 0px;margin-top:-25px">MERECE MEJORES
+                        </h1>
+                        <h1 class="text-black" style="font-size:80px; margin-top:-25px"> COMISIONES</h1>
+
+                    </div>
+                    <div class="w-100  d-sm-none" style="position: absolute; bottom: 20%;">
+
+                        <h1 class="text-black" style="font-size:45px; "><b>TU TALENTO</b></h1>
+                        <h1 class="text-black" style="font-size:29px;margin-top:-15px">MERECE MEJORES</h1>
+                        <h1 class="text-black" style="font-size:45px; ;margin-top:-18px"> COMISIONES</h1>
+
+                    </div>
                 </div>
-                
-               
+
+
+
             </div>
-          <!-- Indicadores del Carrusel -->
-          <div class="carousel-indicators" style="margin-top:-100px position: relative;">
-            <!-- Indicador Activo (Relleno) -->
-            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active " aria-current="true" aria-label="Diapositiva 1" style="background-color: white; 
-                       border: solid 3px white; 
-                       width: 15px; 
-                       height: 15px; 
-                       border-radius: 50%; 
+            <!-- Indicadores del Carrusel -->
+            <div class="carousel-indicators" style="margin-top:-100px position: relative;">
+                <!-- Indicador Activo (Relleno) -->
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active " aria-current="true" aria-label="Diapositiva 1" style="background-color: white;
+                       border: solid 3px white;
+                       width: 15px;
+                       height: 15px;
+                       border-radius: 50%;
                        margin-right: 10px;">
-            </button>
-        
-           
-          
-        </div>
-        
-            
+                </button>
+
+
+
+            </div>
+
+
         </div>
 <div class="text-center mt-n5 " style="background-color:#E8ECF3;" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="2000">
             <div class="container py-5 mt-5">
@@ -226,7 +240,7 @@
 <section class="text-center py-5" style="background: url('../../resource/1738692212_67a256741dddabanner-naranja.jpg');
 background-repeat:no-repeat; color: white;background-size:cover;">
     <h1 class="fw-bold text-uppercase display-4 mb-5 mb-1">¿Qué ofrecemos?</h1>
-    
+
     <!-- Carrusel solo para dispositivos pequeños -->
     <div id="carouselExample" class="carousel slide d-sm-none" data-bs-ride="carousel" data-bs-interval="3000">
         <div class="carousel-inner container">
@@ -291,7 +305,7 @@ background-repeat:no-repeat; color: white;background-size:cover;">
     <!-- Versión de escritorio sin carrusel -->
     <div class="container mt-4 d-none d-sm-block aos-init aos-animate" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="600">
         <div class="row g-4 text-center align-content-center justify-content-center">
-            
+
             <div class="col-12 col-md-12 col-lg-8 col-xl-6">
                 <div class="d-flex align-items-center px-4 py-4 py-sm-0" style="background: white; color: black; border-radius: 0px 80px 0px 80px;">
                     <img src="../../resource/1738690870_67a2513661ed2mayores%20comisiones.svg" alt="Mayores comisiones" style="width: 40%; height: 40%; margin-right: 15px;">
@@ -318,7 +332,7 @@ background-repeat:no-repeat; color: white;background-size:cover;">
 <section id="trabaja" class="text-center py-5" style="background: url('../../resource/1738695656_67a263e8cc4d1banner-negro.jpg') no-repeat center center/cover; color: white;">
         <div class="container mt-4">
             <h1 class="fw-bold text-uppercase display-4 text-lg-start my-4" style="color: #F49A1A;">Trabaja con Nosotros</h1>
-            
+
                 <div class="row g-3" data-aos="slide-up" data-aos-duration="1000" data-aos-delay="600">
                     <div class="col-12 col-md-6">
                         <input type="text" id="names" name="names" class="form-control" placeholder="Ingrese su nombre" style="background: rgba(255, 255, 255, 0.1); color: white; border: 1px solid #666464; padding: 12px;font-size:20px">
@@ -339,21 +353,21 @@ background-repeat:no-repeat; color: white;background-size:cover;">
                         <button data-aos="flip-right" data-aos-duration="1000" data-aos-delay="600" type="button" onclick="CustomerStorePublic();return false" class="btn w-100" style="background: #F49A1A; color: black; font-weight: bold; padding: 12px;"><h1 class="text-black">Enviar</h1> </button>
                     </div>
                 </div>
-            
+
         </div>
     </section>
 <section class="container py-5">
         <h1 class="fw-bold text-uppercase display-4  text-lg-start text-center   " style="color: #F49A1A;">FAQ (PREGUNTAS FRECUENTES)</h1>
         <div class="accordion mt-4" id="faqAccordion">
             <div class="accordion-item" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="600">
-           
+
                     <h2 class="accordion-header " id="headingOne">
                         <button class="accordion-button collapsed fs-7 p-5 text-center " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" style="background: black; color: white; font-weight: bold;color: #F49A1A;border-radius:0px">
                             ▼ ¿Qué necesito para ser socio comercial de ComexLat?
                         </button>
                     </h2>
-           
-                
+
+
                 <div id="collapseOne" class=" accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
                     <div class="accordion-body text-justify fs-5">
                         <p>Unirte a nuestra red de socios comerciales es fácil y está diseñado para que puedas comenzar de inmediato. Esto es lo que necesitas:</p>
@@ -396,187 +410,160 @@ background-repeat:no-repeat; color: white;background-size:cover;">
 <div id="mycontent"></div>
 <!-- FIN SECCION -->
 
-    </form>
-    <style>
-        input::placeholder {
-            color: rgb(136, 136, 136) !important;
-            /* Color del placeholder */
-            opacity: 1 !important;
-            /* Asegura visibilidad */
-            font-family: RALEWAY-SEMIBOLD;
-        }
-    </style>
+        <style>
+            lite-youtube {
+                /* No Shadow */
+                --lite-youtube-frame-shadow-visible: no;
+                width: 100%;
+            }
+        </style>
 
 
 
 
 
 
+        <style>
+            .carousel-control-prev-icon,
+            .carousel-control-next-icon {
+                background-color: rgba(0, 0, 0, 0.5);
+                /* Fondo visible */
+                border-radius: 50%;
+                /* Forma redonda */
+                width: 40px;
+                height: 40px;
+            }
+
+            .carousel-control-prev,
+            .carousel-control-next {
+                z-index: 10;
+                /* Asegúrate de que estén por encima del contenido */
+            }
+        </style>
+
+        <!-- sample modal content -->
+        <div class="modal fade" id="bs-example-modal-xlg" tabindex="-1" aria-labelledby="bs-example-modal-lg"
+            aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header d-flex align-items-center">
+
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h6 class="text-warning text-center" style="font-size: 1.65rem">TRATAMIENTOS DE DATOS PERSONALES
+                        </h6>
+
+                        <p style="text-align: justify; font-size: 15px;">
+                            Declaro haber sido informado, conforme a Ley N° 29733 - Ley de Protección de Datos Personales
+                            (“la Ley”) y al Decreto Supremo 003-2013/JUS - Reglamento de la Ley (“el Reglamento)”, doy mi
+                            consentimiento libre, previo , informado, expreso e inequívoco para que <strong>AYBAR S.A.C.
+                            </strong> realice el tratamiento de mis datos personales que le proporcione
+                            de manera física o digital , con la finalidad de ejecutar cualquier relación contractual que
+                            mantengo
+                            y/o mantendré con la misma, contactarme y para fines estadísticos y/o analíticos.
+                            <br><br>
+                            Declaro mi derecho de revocar este consentimiento en cualquier momento.
+                            Los datos personales entregados a <strong>AYBAR S.A.C.</strong> serán almacenados mientras dure
+                            mi
+                            relación contractual, comercial y/o de cualquier índole con <strong>AYBAR S.A.C.</strong> y
+                            hasta
+                            por 10
+                            años de culminada la misma en el banco de datos de su titularidad, con RUC 20603865813 y con
+                            domicilio en Av. Circunvalación del Golf Los Incas N° 134 (Torre B Piso 19) Distrito de Santiago
+                            de
+                            Surco, Provincia y Departamento de Lima.
+                            <br><br>
+                            <strong>AYBAR S.A.C.</strong> podrá transferir sus datos personales a nivel nacional y/o
+                            internacional.
+                            sujetándose todos estos a las mismas obligaciones y medidas de seguridad, técnicas y legales
+                            descritas en la Ley y el Reglamento.
+                            <br><br>
+                            De igual modo, la información podrá ser transferida a las autoridades o terceros autorizados
+                            por ley bajo la regulación nacional y/o internacional vigente, incluyendo la Ley No. 29733,
+                            su reglamento y aquellas que las modifiquen o sustituyan, así como las vinculadas a las
+                            autoridades
+                            que fiscalizan la labor de <strong>AYBAR S.A.C.</strong><br><br>
+                            Declaro conocer mi derecho a solicitar acceso a mis datos personales y conocer su tratamiento,
+                            así como, solicitar su actualización, inclusión, rectificación, cancelación y supresión,
+                            pudiendo
+                            oponerme a su uso o divulgación, pudiendo dirigir mi solicitud de ejercicio de los derechos a
+                            través
+                            de la dirección especificada en la página web de <strong>AYBAR S.A.C.</strong>, teniendo a salvo
+                            además el
+                            ejercicio de la tutela de sus derechos ante la Autoridad Nacional de Protección de Datos
+                            Personales
+                            en vía de reclamación o ante el Poder Judicial mediante la acción de hábeas data.
+                            <br><br> Los datos personales
+                            recolectados por <strong>AYBAR S.A.C.</strong> son obligatorios, la negativa a suministrarlos
+                            supondrá la imposibilidad de concretar el fin previsto.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn bg-danger-subtle text-danger  waves-effect text-start"
+                            data-bs-dismiss="modal">
+                            Cerrar
+                        </button>
+                    </div>
+                </div>
+                <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+        </div>
 
 
 
 
+        <!-- sample modal content -->
+        <div class="modal fade" id="bs-example-modal-xlg2" tabindex="-1" aria-labelledby="bs-example-modal-lg"
+            aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header d-flex align-items-center">
 
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h6 class="text-warning text-center" style="font-size: 1.65rem">CLÁUSULA PARA ENVÍO DE PROMOCIONES
+                            COMERCIALES</h6>
 
-
+                        <p style="text-align: justify; font-size: 15px;">
+                            Autorizo a <strong>AYBAR S.A.C.</strong> a utilizar mis Datos Personales y que los mismos sean
+                            tratados
+                            por sus empresas subsidiarias; para que me sean ofrecidos beneficios, productos y servicios,
+                            publicidad, obsequios, ofertas y/o promociones (personalizadas o generales) de los servicios
+                            que brinda <strong>AYBAR S.A.C.</strong> y de las empresas subsidiarias, a través de cualquier
+                            medio
+                            de comunicación. Declaro conocer mi derecho a revocar este consentimiento en cualquier momento.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn bg-danger-subtle text-danger  waves-effect text-start"
+                            data-bs-dismiss="modal">
+                            Cerrar
+                        </button>
+                    </div>
+                </div>
+                <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+        </div>
+    @endsection
 
     <script>
-        //traer los projectos y los agrega a un select
-        // Ejecutar cuando el DOM esté listo
-        document.addEventListener('DOMContentLoaded', ProjectList);
+        //reinicia animacion AOS
+        //reinicia animacion AOS
 
-        //descuenta el ingreso de caracteres en message
-        function updateCounter() {
-            const input = document.getElementById("message");
-            const charCount = document.getElementById("charCount");
-            charCount.textContent = input.value.length;
+        // Función para reiniciar AOS en TODOS los elementos con atributos data-aos
+        function restartAOS() {
+            $("[data-aos='flip-left']").removeClass("aos-animate"); // Quitar animación
+
+            setTimeout(() => {
+                $("[data-aos]").addClass("aos-animate"); // Volver a agregar animación
+                AOS.refreshHard(); // Refrescar AOS para que vuelva a aplicar los efectos
+            }, 1000);
         }
+
+        // Ejecutar cada 3 segundos
+        setInterval(restartAOS, 70000);
     </script>
-    <style>
-        lite-youtube {
-            /* No Shadow */
-            --lite-youtube-frame-shadow-visible: no;
-            width: 100%;
-        }
-    </style>
-
-
-
-
-
-
-    <style>
-        .carousel-control-prev-icon,
-        .carousel-control-next-icon {
-            background-color: rgba(0, 0, 0, 0.5);
-            /* Fondo visible */
-            border-radius: 50%;
-            /* Forma redonda */
-            width: 40px;
-            height: 40px;
-        }
-
-        .carousel-control-prev,
-        .carousel-control-next {
-            z-index: 10;
-            /* Asegúrate de que estén por encima del contenido */
-        }
-    </style>
-
-    <!-- sample modal content -->
-    <div class="modal fade" id="bs-example-modal-xlg" tabindex="-1" aria-labelledby="bs-example-modal-lg"
-        aria-hidden="true">
-        <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-                <div class="modal-header d-flex align-items-center">
-
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <h6 class="text-warning text-center" style="font-size: 1.65rem">TRATAMIENTOS DE DATOS PERSONALES</h6>
-
-                    <p style="text-align: justify; font-size: 15px;">
-                        Declaro haber sido informado, conforme a Ley N° 29733 - Ley de Protección de Datos Personales
-                        (“la Ley”) y al Decreto Supremo 003-2013/JUS - Reglamento de la Ley (“el Reglamento)”, doy mi
-                        consentimiento libre, previo , informado, expreso e inequívoco para que <strong>AYBAR S.A.C.
-                        </strong> realice el tratamiento de mis datos personales que le proporcione
-                        de manera física o digital , con la finalidad de ejecutar cualquier relación contractual que
-                        mantengo
-                        y/o mantendré con la misma, contactarme y para fines estadísticos y/o analíticos.
-                        <br><br>
-                        Declaro mi derecho de revocar este consentimiento en cualquier momento.
-                        Los datos personales entregados a <strong>AYBAR S.A.C.</strong> serán almacenados mientras dure mi
-                        relación contractual, comercial y/o de cualquier índole con <strong>AYBAR S.A.C.</strong> y hasta
-                        por 10
-                        años de culminada la misma en el banco de datos de su titularidad, con RUC 20603865813 y con
-                        domicilio en Av. Circunvalación del Golf Los Incas N° 134 (Torre B Piso 19) Distrito de Santiago de
-                        Surco, Provincia y Departamento de Lima.
-                        <br><br>
-                        <strong>AYBAR S.A.C.</strong> podrá transferir sus datos personales a nivel nacional y/o
-                        internacional.
-                        sujetándose todos estos a las mismas obligaciones y medidas de seguridad, técnicas y legales
-                        descritas en la Ley y el Reglamento.
-                        <br><br>
-                        De igual modo, la información podrá ser transferida a las autoridades o terceros autorizados
-                        por ley bajo la regulación nacional y/o internacional vigente, incluyendo la Ley No. 29733,
-                        su reglamento y aquellas que las modifiquen o sustituyan, así como las vinculadas a las autoridades
-                        que fiscalizan la labor de <strong>AYBAR S.A.C.</strong><br><br>
-                        Declaro conocer mi derecho a solicitar acceso a mis datos personales y conocer su tratamiento,
-                        así como, solicitar su actualización, inclusión, rectificación, cancelación y supresión, pudiendo
-                        oponerme a su uso o divulgación, pudiendo dirigir mi solicitud de ejercicio de los derechos a través
-                        de la dirección especificada en la página web de <strong>AYBAR S.A.C.</strong>, teniendo a salvo
-                        además el
-                        ejercicio de la tutela de sus derechos ante la Autoridad Nacional de Protección de Datos Personales
-                        en vía de reclamación o ante el Poder Judicial mediante la acción de hábeas data.
-                        <br><br> Los datos personales
-                        recolectados por <strong>AYBAR S.A.C.</strong> son obligatorios, la negativa a suministrarlos
-                        supondrá la imposibilidad de concretar el fin previsto.
-                    </p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn bg-danger-subtle text-danger  waves-effect text-start"
-                        data-bs-dismiss="modal">
-                        Cerrar
-                    </button>
-                </div>
-            </div>
-            <!-- /.modal-content -->
-        </div>
-        <!-- /.modal-dialog -->
-    </div>
-
-
-
-
-    <!-- sample modal content -->
-    <div class="modal fade" id="bs-example-modal-xlg2" tabindex="-1" aria-labelledby="bs-example-modal-lg"
-        aria-hidden="true">
-        <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-                <div class="modal-header d-flex align-items-center">
-
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <h6 class="text-warning text-center" style="font-size: 1.65rem">CLÁUSULA PARA ENVÍO DE PROMOCIONES
-                        COMERCIALES</h6>
-
-                    <p style="text-align: justify; font-size: 15px;">
-                        Autorizo a <strong>AYBAR S.A.C.</strong> a utilizar mis Datos Personales y que los mismos sean
-                        tratados
-                        por sus empresas subsidiarias; para que me sean ofrecidos beneficios, productos y servicios,
-                        publicidad, obsequios, ofertas y/o promociones (personalizadas o generales) de los servicios
-                        que brinda <strong>AYBAR S.A.C.</strong> y de las empresas subsidiarias, a través de cualquier medio
-                        de comunicación. Declaro conocer mi derecho a revocar este consentimiento en cualquier momento.
-                    </p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn bg-danger-subtle text-danger  waves-effect text-start"
-                        data-bs-dismiss="modal">
-                        Cerrar
-                    </button>
-                </div>
-            </div>
-            <!-- /.modal-content -->
-        </div>
-        <!-- /.modal-dialog -->
-    </div>
-@endsection
-
-<script>
-    //reinicia animacion AOS
-    //reinicia animacion AOS
-
-    // Función para reiniciar AOS en TODOS los elementos con atributos data-aos
-    function restartAOS() {
-        $("[data-aos='flip-left']").removeClass("aos-animate"); // Quitar animación
-
-        setTimeout(() => {
-            $("[data-aos]").addClass("aos-animate"); // Volver a agregar animación
-            AOS.refreshHard(); // Refrescar AOS para que vuelva a aplicar los efectos
-        }, 1000);
-    }
-
-    // Ejecutar cada 3 segundos
-    setInterval(restartAOS, 70000);
-</script>
