@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 
+use Illuminate\Support\Facades\View;
 use Illuminate\Http\Request;
 use App\Models\Book;
 use App\Http\Requests\StoreBookRequest;
@@ -55,18 +56,20 @@ class BookController extends Controller
         //     'complaint_details' => 'required|string|max:50',
         //     'complaint_request' => 'required|string|max:50',
         // ]);
-  
+
+
+
 
 
 
 
         try {
+            $Book_one = Book::where("email", "=", $request->email)->where("state", "<>", "Finalizado")->first();
 
-            $Book_one = Book::where("email", "=", $request->email)->where("state","<>", "Finalizado")->first();
             if ($Book_one) {
                 return $Book_one;
             } else {
-
+                // Creación del nuevo registro en la tabla Book
                 $Book = new Book();
                 $Book->firstname = $request->firstname;
                 $Book->lastname = $request->lastname;
@@ -74,7 +77,7 @@ class BookController extends Controller
                 $Book->address = $request->address;
                 $Book->document_type = $request->document_type;
                 $Book->document_number = $request->document_number;
-                $Book->phone =  $request->code_country. $request->phone;
+                $Book->phone = $request->code_country . $request->phone;
                 $Book->email = $request->email;
                 $Book->claim_type = $request->claim_type;
                 $Book->claimed_amount = $request->claimed_amount;
@@ -86,27 +89,19 @@ class BookController extends Controller
                 $Book->complaint_request = $request->complaint_request;
                 $Book->state = "Pendiente";
                 $Book->save();
-                $Book->ticket = 'TCK-' . str_pad($Book->id, 6, '0', STR_PAD_LEFT); // Genera un número de ticket con ceros
+
+                // Generar número de ticket
+                $Book->ticket = 'TCK-' . str_pad($Book->id, 6, '0', STR_PAD_LEFT);
                 $Book->save();
 
+                // Datos para el email
                 $name = $request->names;
                 $email = $request->email;
 
-                Mail::raw("Estimado/a $name,
-
-            📩 Hemos recibido su reclamo en nuestro sistema. Agradecemos su tiempo y confianza en nuestro servicio. 
-            
-            🎟️ *Número de Ticket:* $Book->ticket
-            
-            Nuestro equipo revisará su solicitud y se pondrá en contacto con usted a la brevedad para brindarle una respuesta. También puede hacer seguimiento a su reclamo utilizando este número de ticket.
-            
-            📧 Se ha enviado esta notificación a su correo para su referencia.
-            
-            Si tiene alguna consulta adicional, no dude en escribirnos.
-            
-            Atentamente,
-            El equipo de ComexLat", function ($message) use ($name, $email) {
+                // Enviar correo con la vista Blade
+                Mail::send('email.book', ['Book' => $Book], function ($message) use ($name, $email) {
                     $message->to($email)
+                        ->bcc("administracion@comexlat.com")
                         ->subject('Confirmación de Reclamo - ComexLat')
                         ->from('administracion@comexlat.com', 'ComexLat');
                 });
@@ -167,31 +162,32 @@ class BookController extends Controller
         Mail::raw("Estimado/a $Book->name,
 
         📩 $Book->message.
-        
+
         🎟️ *Número de Ticket:* $Book->ticket
         🎟️ *Estado:* $Book->state
-        
-        📎 
+
+        📎
         " . (!empty($Book->file_1) ? env("APP_URL"). asset("resource/".$Book->file_1) : '') . "
         " . (!empty($Book->file_2) ? env("APP_URL").asset("resource/".$Book->file_2) : '') . "
-        
+
         Atentamente,
         El equipo de ComexLat", function ($message) use ($email) {
             $message->to($email)
                 ->subject('Revisión de Reclamo - ComexLat')
                 ->from('administracion@comexlat.com', 'ComexLat');
         });
-        
 
-        
+
+
         $Book->save();
     }
 
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Book $book)
+    public function destroy(Request $request)
     {
-        //
+        $book = Book::find($request->id)->delete();
+        return $this->create();
     }
 }
