@@ -16,7 +16,7 @@
                 const playButton = liteYoutube.shadowRoot.querySelector('#playButton');
 
                 if (playButton) {
-                    // playButton.style.visibility = 'hidden'; 
+                    // playButton.style.visibility = 'hidden';
                     playButton.style.width = '0px';
                     playButton.style.height = '0px';
                     playButton.style.backgroundRepeat = 'no-repeat';
@@ -38,10 +38,10 @@
         }
     </style>
 
-    
 
 
- 
+
+
 
 
     <style>
@@ -65,7 +65,7 @@
 
 <style>
     .bg-responsive {
-        background-image: url('../resource/1738618824_67a137c8cbe2fbanner-comexlat.jpg');
+        background-image: url('../../resource/1738943578_67a62c5ab84ba_banner-comexlat.jpg');
         background-repeat: no-repeat;
         background-size: 100%;
         height: 90vh;
@@ -81,7 +81,7 @@
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            background-image: url('../../resource/1738619096_67a138d8b8f8fbanner-comexlat-tablet.jpg');
+            background-image: url('../../resource/1738943583_67a62c5fe327b_banner-comexlat-tablet.jpg');
         }
     }
 
@@ -94,7 +94,7 @@
             background-position: center;
             background-repeat: no-repeat;
             /* background-size: contain; */
-            background-image: url('../../resource/1738619153_67a13911c95a7banner-comexlat-celular.jpg');
+            background-image: url('../../resource/1738943601_67a62c71e138b_banner-comexlat-celular.jpg');
         }
     }
 </style>
