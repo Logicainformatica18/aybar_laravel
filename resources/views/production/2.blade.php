@@ -45,23 +45,10 @@
     
     <div class="carousel-inner " style="display: flex; align-items: center;">
         
-        <div class="carousel-item text-center pb-5 active bg-responsive" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" style="position: relative;">
-        
-       <div class="d-none d-sm-block" style="position: absolute; bottom: 10%; left: 50%; transform: translateX(-50%);">
-           <h1 class="text-black" style="font-size:80px; "><b>TU TALENTO</b></h1>
-           <h1 class="text-black" style="font-size:45px;letter-spacing:8px; word-spacing: 0px;margin-top:-25px">MERECE MEJORES</h1>
-           <h1 class="text-black" style="font-size:80px; margin-top:-25px"> COMISIONES</h1>
-          
-       </div>
-       <div class="w-100  d-sm-none" style="position: absolute; bottom: 20%;">
-        
-        <h1 class="text-black" style="font-size:45px; "><b>TU TALENTO</b></h1>
-        <h1 class="text-black" style="font-size:29px;margin-top:-15px">MERECE MEJORES</h1>
-        <h1 class="text-black" style="font-size:45px; ;margin-top:-18px"> COMISIONES</h1>
-       
-    </div>
-   </div>
-   
+                <!-- Diapositiva 1 -->
+                <div class=" carousel-item text-center pb-5 active bg-responsive" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">
+                    
+                </div>
                 
                
             </div>
@@ -85,240 +72,249 @@
 <div class="text-center mt-n5 " style="background-color:#E8ECF3;" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="2000">
             <div class="container py-5 mt-5">
 
-   
-            <!-- Título -->
-            <h2 class="fw-bold text-uppercase display-4" style="color: #F49A1A; margin-bottom: 30px;">
-             <b> SÉ NUESTRO <br> SOCIO COMERCIAL</b>   
-            </h2>
-        
-            <div class="row g-4">
-                <!-- Tarjeta 1 -->
-                <div class="col-lg-4" data-aos="fade-up" data-aos-duration="500" data-aos-delay="500">
-                    <div class="p-4 text-center" style="border-radius: 0px 60px 0px 60px; background-color: white; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
-                        <img src="../../resource/1738620627_67a13ed3427a1altas%20comisiones.svg" alt="Altas Comisiones" class="mb-3" width="100">
-                        <h4 class="fw-bold" style="color: #F49A1A;">ALTAS COMISIONES</h4>
-                        <hr style="width: 50px; margin: auto; border: 1px solid #F49A1A;">
-                        <p style="color: #b6b6b6;font-family:RALEWAY-REGULAR; text-align:justify" class="px-3 mt-4 fs-3 ">
-                            ¡Gana por tus resultados! El sector inmobiliario te ofrece una de las  mejores oportunidades 
-                            para generar ingresos extraordinarios en base a tus ventas.
-                        </p>
-                        <a href="#trabaja" class="d-inline-block text-white  fs-6 px-5 py-3 mt-3" style="background-color: #F49A1A; border-radius: 30px; text-decoration: none;font-family:COOLVETICA-RG">
-                          Regístrate ahora +
-                        </a>
+
+                <!-- Título -->
+                <h2 class="fw-bold text-uppercase display-4" style="color: #F49A1A; margin-bottom: 30px;">
+                    <b> SÉ NUESTRO <br> SOCIO COMERCIAL</b>
+                </h2>
+
+                <div class="row g-4">
+                    <!-- Tarjeta 1 -->
+                    <div class="col-lg-4" data-aos="fade-up" data-aos-duration="500" data-aos-delay="500">
+                        <div class="p-4 text-center" style="border-radius: 0px 60px 0px 60px; background-color: white; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+                            <img src="../../resource/1738620627_67a13ed3427a1altas%20comisiones.svg" alt="Altas Comisiones" class="mb-3" width="100">
+                            <h4 class="fw-bold" style="color: #F49A1A;">ALTAS COMISIONES</h4>
+                            <hr style="width: 50px; margin: auto; border: 1px solid #F49A1A;">
+                            <p style="color: #b6b6b6;font-family:RALEWAY-REGULAR; text-align:justify" class="px-3 mt-4 fs-3 ">
+                                ¡Gana por tus resultados! El sector inmobiliario te ofrece una de las mejores oportunidades
+                                para generar ingresos extraordinarios en base a tus ventas.
+                            </p>
+                            <a href="#trabaja" class="d-inline-block text-white  fs-6 px-5 py-3 mt-3" style="background-color: #F49A1A; border-radius: 30px; text-decoration: none;font-family:COOLVETICA-RG">
+                                Regístrate ahora +
+                            </a>
+                        </div>
                     </div>
-                </div>
-        
-                <!-- Tarjeta 2 -->
-                     <div class="col-lg-4" data-aos="fade-up" data-aos-duration="500" data-aos-delay="500">
-                    <div class="p-4 text-center" style="border-radius: 0px 60px 0px 60px; background-color: #F49A1A;color: white; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
-              
-                        <img src="../../resource/1738707574_67a29276553dbtrabajo%20(1).svg" alt="Crecimiento Profesional" class="mb-3" width="100">
-                        <h4 class="fw-bold text-white">CRECIMIENTO PROFESIONAL</h4>
-                        <hr style="width: 50px; margin: auto; border: 1px solid white;">
-                        <p class="px-3 mt-4 fs-3 " style="font-family:RALEWAY-REGULAR; text-align:justify">
-                            Desarrolla habilidades de negociación, ventas y networking. ¡Conviértete en un experto en un sector con alta demanda!
-                        </p>
-                        <a href="#trabaja" class="mt-5 d-inline-block fs-6 px-5 py-3 mt-3" style="background-color: white; color: #F49A1A; border-radius: 30px; text-decoration: none;font-family:COOLVETICA-RG">
-                           Regístrate ahora + 
-                        </a>
+
+                    <!-- Tarjeta 2 -->
+                    <div class="col-lg-4" data-aos="fade-up" data-aos-duration="500" data-aos-delay="500">
+                        <div class="p-4 text-center" style="border-radius: 0px 60px 0px 60px; background-color: #F49A1A;color: white; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+
+                            <img src="../../resource/1738707574_67a29276553dbtrabajo%20(1).svg" alt="Crecimiento Profesional" class="mb-3" width="100">
+                            <h4 class="fw-bold text-white">CRECIMIENTO PROFESIONAL</h4>
+                            <hr style="width: 50px; margin: auto; border: 1px solid white;">
+                            <p class="px-3 mt-4 fs-3 " style="font-family:RALEWAY-REGULAR; text-align:justify">
+                                Desarrolla habilidades de negociación, ventas y networking. ¡Conviértete en un experto en un
+                                sector con alta demanda!
+                            </p>
+                            <a href="#trabaja" class="mt-5 d-inline-block fs-6 px-5 py-3 mt-3" style="background-color: white; color: #F49A1A; border-radius: 30px; text-decoration: none;font-family:COOLVETICA-RG">
+                                Regístrate ahora +
+                            </a>
+                        </div>
                     </div>
-                </div>
-        
-                <!-- Tarjeta 3 -->
-                     <div class="col-lg-4" data-aos="fade-up" data-aos-duration="500" data-aos-delay="500">
-                    <div class="p-4 text-center" style="border-radius: 0px 60px 0px 60px; background-color: white; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
-                        <img src="../../resource/1738707504_67a2923086c7eflexibilidad.svg" alt="Flexibilidad y Autonomía" class="mb-3" width="100">
-                        <h4 class="fw-bold" style="color: #F49A1A;">FLEXIBILIDAD Y AUTONOMÍA</h4>
-                        <hr style="width: 50px; margin: auto; border: 1px solid #F49A1A;">
-                        <p style="color: #b6b6b6;font-family:RALEWAY-REGULAR; text-align:justify" class="px-3 mt-4 fs-3 text-justify">
-                            Organiza tu tiempo como desees. Sé dueño de tu agenda y trabaja desde cualquier lugar, 
-                            mientras construyes tu  carrera profesional.
-                        </p>
-                        <br>
-                        <a href="#trabaja" class="mt-4 d-inline-block text-white fs-6 px-5 py-3 mt-3" style="background-color: #F49A1A; border-radius: 30px; text-decoration: none;font-family:COOLVETICA-RG">
-                         Regístrate ahora +
-                        </a>
+
+                    <!-- Tarjeta 3 -->
+                    <div class="col-lg-4" data-aos="fade-up" data-aos-duration="500" data-aos-delay="500">
+                        <div class="p-4 text-center" style="border-radius: 0px 60px 0px 60px; background-color: white; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+                            <img src="../../resource/1738707504_67a2923086c7eflexibilidad.svg" alt="Flexibilidad y Autonomía" class="mb-3" width="100">
+                            <h4 class="fw-bold" style="color: #F49A1A;">FLEXIBILIDAD Y AUTONOMÍA</h4>
+                            <hr style="width: 50px; margin: auto; border: 1px solid #F49A1A;">
+                            <p style="color: #b6b6b6;font-family:RALEWAY-REGULAR; text-align:justify" class="px-3 mt-4 fs-3 text-justify">
+                                Organiza tu tiempo como desees. Sé dueño de tu agenda y trabaja desde cualquier lugar,
+                                mientras construyes tu carrera profesional.
+                            </p>
+                            <br>
+                            <a href="#trabaja" class="mt-4 d-inline-block text-white fs-6 px-5 py-3 mt-3" style="background-color: #F49A1A; border-radius: 30px; text-decoration: none;font-family:COOLVETICA-RG">
+                                Regístrate ahora +
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 <section class="d-none d-md-block py-5 d-flex align-items-center justify-content-center" style="position: relative; background: url('../../resource/1738681624_67a22d18ea304banner-socio-comercial.jpg') no-repeat center center/cover; height: 100vh; color: white;">
-        <div class="container mt-5">
-        <div class="row mt-5 mt-md-1">
-            <div class=" col-lg-8 col-12 col-xl-6">
-                <div class="container text-justify text-white" style="position: relative; z-index: 2; ">
-                    <h1 class="fw-bold text-uppercase display-5  text-justify"><b style="color: #F49A1A;" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700" class="">Oportunidades de ser un socio  comercial</b> </h1>
-                    <p class="mb-4 fs-6 " data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">Aprovecha nuestros más de 5 años de experiencia en el sector inmobiliario para convertirte en un experto y generar ingresos con cada proyecto.</p>
-                    <div class="row g-4 text-start">
-                        <div class="col-md-6 " data-aos="flip-left" data-aos-duration="1000" data-aos-delay="600">
-                            <div class="w-100 text-start text-white text-justify" style="background: rgba(255, 255, 255, 0); color: black; padding: 15px; text-align: center; border-radius: 8px;">
-                                <img src="../../resource/1738683197_67a2333d3f3fbplusvalia.svg" alt="Plusvalía" class="mb-2" width="100px">
-                                <h4 class="text-uppercase " style="color: #F49A1A;">Plusvalía</h4>
-                                <p>Trabajar en bienes raíces te permite aprovechar la constante valorización de los terrenos y propiedades, un mercado que siempre se encuentra en ascenso.</p>
+            <div class="container mt-5">
+                <div class="row mt-5 mt-md-1">
+                    <div class=" col-lg-8 col-12 col-xl-6">
+                        <div class="container text-justify text-white" style="position: relative; z-index: 2; ">
+                            <h1 class="fw-bold text-uppercase display-5  text-justify"><b style="color: #F49A1A;" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700" class="">Oportunidades de ser un socio comercial</b> </h1>
+                            <p class="mb-4 fs-6 " data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">Aprovecha
+                                nuestros más de 5 años de experiencia en el sector inmobiliario para convertirte en un
+                                experto y generar ingresos con cada proyecto.</p>
+                            <div class="row g-4 text-start">
+                                <div class="col-md-6 " data-aos="flip-left" data-aos-duration="1000" data-aos-delay="600">
+                                    <div class="w-100 text-start text-white text-justify" style="background: rgba(255, 255, 255, 0); color: black; padding: 15px; text-align: center; border-radius: 8px;">
+                                        <img src="../../resource/1738683197_67a2333d3f3fbplusvalia.svg" alt="Plusvalía" class="mb-2" width="100px">
+                                        <h4 class="text-uppercase " style="color: #F49A1A;">Plusvalía</h4>
+                                        <p>Trabajar en bienes raíces te permite aprovechar la constante valorización de los
+                                            terrenos y propiedades, un mercado que siempre se encuentra en ascenso.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 " data-aos="flip-left" data-aos-duration="1000" data-aos-delay="600">
+                                    <div class="w-100 text-start text-white text-justify  " style="background: rgba(255, 255, 255, 0); color: black; padding: 15px; text-align: center; border-radius: 8px;">
+                                        <img src="../../resource/1738620634_67a13eda888c5crecimiento.svg" alt="Crecimiento" class="mb-2" width="100px">
+                                        <h4 class="text-uppercase " style="color: #F49A1A;">Crecimiento</h4>
+                                        <p>El sector inmobiliario está en constante desarrollo, lo que garantiza estabilidad
+                                            y nuevas oportunidades para quienes decidan formar parte de él.</p>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-6 " data-aos="flip-left" data-aos-duration="1000" data-aos-delay="600">
-                            <div class="w-100 text-start text-white text-justify  " style="background: rgba(255, 255, 255, 0); color: black; padding: 15px; text-align: center; border-radius: 8px;">
-                                <img src="../../resource/1738620634_67a13eda888c5crecimiento.svg" alt="Crecimiento" class="mb-2" width="100px">
-                                <h4 class="text-uppercase " style="color: #F49A1A;">Crecimiento</h4>
-                                <p>El sector inmobiliario está en constante desarrollo, lo que garantiza estabilidad y nuevas oportunidades para quienes decidan formar parte de él.</p>
+                            <div class="mt-4 d-flex justify-content-start">
+                                <a data-aos="flip-right" data-aos-duration="1000" data-aos-delay="600" href="#trabaja" class="btn text-white w-100 " style="background: #F49A1A; border: none; padding: 12px 40px; font-size: 1.2rem; border-radius: 40px;">
+                                    <h1 class="pt-1 ">Conoce más</h1>
+                                </a>
                             </div>
                         </div>
                     </div>
-                    <div class="mt-4 d-flex justify-content-start">
-                        <a data-aos="flip-right" data-aos-duration="1000" data-aos-delay="600" href="#trabaja" class="btn text-white w-100 " style="background: #F49A1A; border: none; padding: 12px 40px; font-size: 1.2rem; border-radius: 40px;"><h1 class="pt-1 ">Conoce más</h1> </a>
+                    <div class="col-6">
+
                     </div>
                 </div>
             </div>
-            <div class="col-6">
-        
-            </div>
-        </div>
-    </div>
-    </section>
+        </section>
 
-    <section class="d-md-none py-0 d-flex align-items-center justify-content-center" style="position: relative; background: url('../../resource/1738686719_67a240ff56695banner-socio-comercial-celular.jpg') no-repeat center center/cover; height: 100vh; color: white;">
-        <div class="container mt-0">
-        <div class="row mt-0 mt-md-1">
-            <div class="col-lg-8 col-12 " data-aos="slide-right" data-aos-duration="1000" data-aos-delay="600">
-                <div class="container text-justify text-white" style="position: relative; z-index: 2; ">
-                    <div class="d-md-none">
-                        <p>&nbsp;</p>
-                        <p>&nbsp;</p>
-                        <p>&nbsp;</p>
-                        <p>&nbsp;</p>
-                        <p>&nbsp;</p>
-                        <p>&nbsp;</p>
-                        <p>&nbsp;</p>
-                    
-                 
 
-            
-                    </div>
-                    <h1 class="fw-bold text-uppercase fs-9  text-center"><b style="color: #F49A1A;">Oportunidades de ser un socio  comercial</b> </h1>
-                    <div class="text-justify">
-                        <p class="mb-4 fs-3" style=" text-align: justify;">Aprovecha nuestros más de 5 años de experiencia en el sector inmobiliario para convertirte en un experto y generar ingresos con cada proyecto.</p>
+        <section class="d-md-none py-0 d-flex align-items-center justify-content-center" style="position: relative; background: url('../../resource/1738686719_67a240ff56695banner-socio-comercial-celular.jpg') no-repeat center center/cover; height: 100vh; color: white;">
+            <div class="container mt-0">
+                <div class="row mt-0 mt-md-1">
+                    <div class="col-lg-8 col-12 " data-aos="slide-right" data-aos-duration="1000" data-aos-delay="600">
+                        <div class="container text-justify text-white" style="position: relative; z-index: 2; ">
+                            <div class="text-justify">
+                                <p>&nbsp;</p>
+                                <p>&nbsp;</p>
+                                <p>&nbsp;</p>
+                                <p>&nbsp;</p>
+                                <p>&nbsp;</p>
+                                <p>&nbsp;</p>
+                              </div>
+                            <h1 class="fw-bold text-uppercase fs-9  text-center"><b style="color: #F49A1A;">Oportunidades
+                                    de ser un socio comercial</b> </h1>
 
-                    </div>
-                    <div class="row g-4 text-center">
-                        <div class="col-md-6">
-                            <div class="w-100 text-start text-white " style="background: rgba(255, 255, 255, 0); color: black; padding: 15px; text-align: center; border-radius: 8px;">
-                                <img src="../../resource/1738683197_67a2333d3f3fbplusvalia.svg" style="float: left;height:160px" alt="Plusvalía" class="mb-2" width="100px">
-                                <h4 class="text-uppercase " style="color: #F49A1A;">Plusvalía</h4>
-                                <p style="text-align: justify">Trabajar en  bienes  raíces  te permite  aprovechar  la constante valorización de los terrenos y propiedades, un mercado que siempre se encuentra en ascenso.</p>
+                            <div class="row g-4 text-center">
+                                <div class="col-md-6">
+                                    <div class="w-100 text-start text-white " style="background: rgba(255, 255, 255, 0); color: black; padding: 15px; text-align: center; border-radius: 8px;">
+                                        <img src="../../resource/1738683197_67a2333d3f3fbplusvalia.svg" style="float: left;height:160px" alt="Plusvalía" class="mb-2" width="100px">
+                                        <h4 class="text-uppercase " style="color: #F49A1A;">Plusvalía</h4>
+                                        <p style="text-align: justify">Trabajar en bienes raíces te permite aprovechar la
+                                            constante valorización de los terrenos y propiedades, un mercado que siempre se
+                                            encuentra en ascenso.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mt-n2">
+                                    <div class="w-100 text-start text-white " style="background: rgba(255, 255, 255, 0); color: black; padding: 15px; text-align: center; border-radius: 8px;">
+                                        <img src="../../resource/1738620634_67a13eda888c5crecimiento.svg" style="float: left;height:160px" alt="Plusvalía" class="mb-2" width="100px">
+                                        <h4 class="text-uppercase " style="color: #F49A1A;">Crecimiento</h4>
+                                        <p style="text-align: justify">El sector inmobiliario está en constante desarrollo,
+                                            lo que garantiza estabilidad y nuevas oportunidades para quienes decidan formar
+                                            parte de él.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="mt-1 d-flex justify-content-start">
+                                <a href="#trabaja" class="btn text-white w-100" style="background: #F49A1A; border: none; padding: 12px 40px; font-size: 1.2rem; border-radius: 40px;">
+                                    <h1 class="pt-1 ">Conoce más</h1>
+                                </a>
                             </div>
                         </div>
-                        <div class="col-md-6 mt-n2">
-                            <div class="w-100 text-start text-white " style="background: rgba(255, 255, 255, 0); color: black; padding: 15px; text-align: center; border-radius: 8px;">
-                                <img src="../../resource/1738620634_67a13eda888c5crecimiento.svg" style="float: left;height:160px" alt="Plusvalía" class="mb-2" width="100px">
-                                <h4 class="text-uppercase " style="color: #F49A1A;">Crecimiento</h4>
-                                <p style="text-align: justify">El sector inmobiliario está en constante desarrollo, lo que garantiza estabilidad y nuevas oportunidades para quienes decidan formar parte de él.</p>
-                            </div>
-                        </div>
-                        
                     </div>
-                    <div class="mt-1 d-flex justify-content-start">
-                        <a href="#trabaja" class="btn text-white w-100" style="background: #F49A1A; border: none; padding: 12px 40px; font-size: 1.2rem; border-radius: 40px;"><h1 class="pt-1 ">Conoce más</h1> </a>
+                    <div class="col-6">
+
                     </div>
                 </div>
             </div>
-            <div class="col-6">
-        
-            </div>
-        </div>
-    </div>
-    </section>
-<section class="text-center  py-5" style="background: url('../../resource/1738692212_67a256741dddabanner-naranja.jpg');
+        </section>
+<section class="text-center py-5" style="background: url('../../resource/1738692212_67a256741dddabanner-naranja.jpg');
 background-repeat:no-repeat; color: white;background-size:cover;">
-        <h1 class="fw-bold text-uppercase display-4 mb-5 mb-1">¿Qué ofrecemos?</h1>
-        <div id="carouselExample" class="carousel slide d-sm-none" data-bs-ride="carousel" data-bs-interval="3000">
-            <div class="carousel-inner container">
-                <div class="carousel-item active">
-                    <div class="d-flex align-items-center px-4 py-4" style="background: white; color: black; border-radius: 0px 80px 0px 80px;">
-                        <img src="../../resource/1738690870_67a2513661ed2mayores%20comisiones.svg" alt="Mayores comisiones" style="width: 40%; height: 40%; margin-right: 15px;">
-                        <div>
-                            <h3 class="text-uppercase text-warning text-start fs-4">Mayores comisiones</h3>
-                            <p class=" fs-3" style=" text-align:justify;font-family:RALEWAY-REGULAR">Gana más por cada venta exitosa.</p>
-                        </div>
-                    </div>
+    <h1 class="fw-bold text-uppercase display-4 mb-5 mb-1">¿Qué ofrecemos?</h1>
+    
+    <!-- Carrusel solo para dispositivos pequeños -->
+    <div id="carouselExample" class="carousel slide d-sm-none" data-bs-ride="carousel" data-bs-interval="3000">
+        <div class="carousel-inner container">
 
-                    <div class="d-flex align-items-center px-4 py-4 mt-4" style="background: white; color: black; border-radius: 0px 80px 0px 80px;">
-                        <img src="../../resource/1738691122_67a25232b0268venta%20en%20feria.svg" alt="Venta en feria inmobiliaria" style="width: 40%; height: 40%; margin-right: 15px;">
-                        <div>
-                            <h3 class="text-uppercase text-warning text-start fs-4">Venta en feria inmobiliaria</h3>
-                            <p class=" fs-3" style="text-align:justify;font-family:RALEWAY-REGULAR">Accede a más oportunidades y multiplica tus ventas.</p>
-                        </div>
-                    </div>
-                </div>
-           
-                <div class="carousel-item ">
-                    <div class="d-flex align-items-center px-4 py-4" style="background: white; color: black; border-radius: 0px 80px 0px 80px;">
-                        <img src="../../resource/1738691184_67a25270f269dacceso%20a%20sorteos.svg" alt="Acceso a sorteos y descuentos" style="width: 40%; height: 40%; margin-right: 15px;">
-                        <div>
-                            <h3 class="text-uppercase text-warning text-start fs-4">Acceso a sorteos y descuentos</h3>
-                            <p class=" fs-3" style="text-align:justify;font-family:RALEWAY-REGULAR">Disfruta de beneficios exclusivos por formar parte de nuestra empresa.</p>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center px-4 py-4 mt-4" style="background: white; color: black; border-radius: 0px 80px 0px 80px;">
-                        <img src="../../resource/1738620804_67a13f8433153bonos%20por%20meta.svg" alt="Bono por metas" style="width: 40%; height: 40%; margin-right: 15px;">
-                        <div>
-                            <h3 class="text-uppercase text-warning text-start fs-4">Bono por metas</h3>
-                            <p class=" fs-3" style="text-align:justify;font-family:RALEWAY-REGULAR">Reconocemos tu esfuerzo y te premiamos.</p>
-                        </div>
+            <!-- Primer Slide (Activo) -->
+            <div class="carousel-item active">
+                <div class="d-flex align-items-center px-4 py-4" style="background: white; color: black; border-radius: 0px 80px 0px 80px;">
+                    <img src="../../resource/1738690870_67a2513661ed2mayores%20comisiones.svg" alt="Mayores comisiones" style="width: 40%; height: 40%; margin-right: 15px;">
+                    <div>
+                        <h3 class="text-uppercase text-warning text-start fs-4">Mayores comisiones</h3>
+                        <p class="fs-3" style="text-align:justify;font-family:RALEWAY-REGULAR">Gana más por cada venta exitosa.</p>
                     </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-        <div class="container mt-4 d-none d-sm-block aos-init aos-animate" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="600"><br><div class="row g-4 text-center align-content-center justify-content-center">
-                <div class="col-12 col-md-12 col-lg-8 col-xl-6">
-                    <div class="d-flex align-items-center px-4 py-4 py-sm-0" style="background: white; color: black; border-radius: 0px 80px 0px 80px;">
-                        <img src="../../resource/1738690870_67a2513661ed2mayores%20comisiones.svg" alt="Mayores comisiones" style="width: 40%; height: 40%; margin-right: 15px;">
-                        <div>
-                            <h3 class="text-uppercase text-warning text-start">Mayores comisiones</h3>
-                            <p class="text-start">Gana más por cada venta exitosa.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-12 col-lg-8 col-xl-6">
-                    <div class="d-flex align-items-center px-4 py-4 py-sm-0" style="background: white; color: black; border-radius: 0px 80px 0px 80px;">
-                        <img src="../../resource/1738691122_67a25232b0268venta%20en%20feria.svg" alt="Venta en feria inmobiliaria" style="width: 40%; height: 40%; margin-right: 15px;">
-                        <div>
-                            <h3 class="text-uppercase text-warning text-start">Venta en feria inmobiliaria</h3>
-                            <p class="text-start">Accede a más oportunidades y multiplica tus ventas.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-12 col-lg-8 col-xl-6">
-                    <div class="d-flex align-items-center px-4 py-4 py-sm-0" style="background: white; color: black; border-radius: 0px 80px 0px 80px;">
-                        <img src="../../resource/1738691184_67a25270f269dacceso%20a%20sorteos.svg" alt="Acceso a sorteos y descuentos" style="width: 40%; height: 40%; margin-right: 15px;">
-                        <div>
-                     
-                            <h3 class="text-uppercase text-warning text-start">Acceso a sorteos y descuentos</h3>
-                            <p class="text-start">Disfruta de beneficios exclusivos por formar parte de nuestra empresa.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-12 col-lg-8 col-xl-6">
-                    <div class="d-flex align-items-center px-4 py-4 py-sm-0" style="background: white; color: black; border-radius: 0px 80px 0px 80px;">
-                        <img src="../../resource/1738620804_67a13f8433153bonos%20por%20meta.svg" alt="Bono por metas" style="width: 40%; height: 40%; margin-right: 15px;">
-                        <div>
-                            <h3 class="text-uppercase text-warning text-start">Bono por metas</h3>
-                            <p class="text-start">Reconocemos tu esfuerzo y te premiamos.</p>
-                        </div>
+
+            <!-- Segundo Slide -->
+            <div class="carousel-item">
+                <div class="d-flex align-items-center px-4 py-4" style="background: white; color: black; border-radius: 0px 80px 0px 80px;">
+                    <img src="../../resource/1738691122_67a25232b0268venta%20en%20feria.svg" alt="Venta en feria inmobiliaria" style="width: 40%; height: 40%; margin-right: 15px;">
+                    <div>
+                        <h3 class="text-uppercase text-warning text-start fs-4">Venta en feria inmobiliaria</h3>
+                        <p class="fs-3" style="text-align:justify;font-family:RALEWAY-REGULAR">Accede a más oportunidades y multiplica tus ventas.</p>
                     </div>
                 </div>
             </div>
+
+            <!-- Tercer Slide -->
+            <div class="carousel-item">
+                <div class="d-flex align-items-center px-4 py-4" style="background: white; color: black; border-radius: 0px 80px 0px 80px;">
+                    <img src="../../resource/1738691184_67a25270f269dacceso%20a%20sorteos.svg" alt="Acceso a sorteos y descuentos" style="width: 40%; height: 40%; margin-right: 15px;">
+                    <div>
+                        <h3 class="text-uppercase text-warning text-start fs-4">Acceso a sorteos y descuentos</h3>
+                        <p class="fs-3" style="text-align:justify;font-family:RALEWAY-REGULAR">Disfruta de beneficios exclusivos por formar parte de nuestra empresa.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cuarto Slide -->
+            <div class="carousel-item">
+                <div class="d-flex align-items-center px-4 py-4" style="background: white; color: black; border-radius: 0px 80px 0px 80px;">
+                    <img src="../../resource/1738620804_67a13f8433153bonos%20por%20meta.svg" alt="Bono por metas" style="width: 40%; height: 40%; margin-right: 15px;">
+                    <div>
+                        <h3 class="text-uppercase text-warning text-start fs-4">Bono por metas</h3>
+                        <p class="fs-3" style="text-align:justify;font-family:RALEWAY-REGULAR">Reconocemos tu esfuerzo y te premiamos.</p>
+                    </div>
+                </div>
+            </div>
+
         </div>
-    </section>
+
+        <!-- Controles del Carrusel -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Versión de escritorio sin carrusel -->
+    <div class="container mt-4 d-none d-sm-block aos-init aos-animate" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="600">
+        <div class="row g-4 text-center align-content-center justify-content-center">
+            
+            <div class="col-12 col-md-12 col-lg-8 col-xl-6">
+                <div class="d-flex align-items-center px-4 py-4 py-sm-0" style="background: white; color: black; border-radius: 0px 80px 0px 80px;">
+                    <img src="../../resource/1738690870_67a2513661ed2mayores%20comisiones.svg" alt="Mayores comisiones" style="width: 40%; height: 40%; margin-right: 15px;">
+                    <div>
+                        <h3 class="text-uppercase text-warning text-start">Mayores comisiones</h3>
+                        <p class="text-start">Gana más por cada venta exitosa.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-12 col-lg-8 col-xl-6">
+                <div class="d-flex align-items-center px-4 py-4 py-sm-0" style="background: white; color: black; border-radius: 0px 80px 0px 80px;">
+                    <img src="../../resource/1738691122_67a25232b0268venta%20en%20feria.svg" alt="Venta en feria inmobiliaria" style="width: 40%; height: 40%; margin-right: 15px;">
+                    <div>
+                        <h3 class="text-uppercase text-warning text-start">Venta en feria inmobiliaria</h3>
+                        <p class="text-start">Accede a más oportunidades y multiplica tus ventas.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
 <section id="trabaja" class="text-center py-5" style="background: url('../../resource/1738695656_67a263e8cc4d1banner-negro.jpg') no-repeat center center/cover; color: white;">
         <div class="container mt-4">
             <h1 class="fw-bold text-uppercase display-4 text-lg-start my-4" style="color: #F49A1A;">Trabaja con Nosotros</h1>
@@ -478,7 +474,7 @@ background-repeat:no-repeat; color: white;background-size:cover;">
                 </div>
                 <div class="modal-body">
                     <h6 class="text-warning text-center" style="font-size: 1.65rem">TRATAMIENTOS DE DATOS PERSONALES</h6>
-              
+
                     <p style="text-align: justify; font-size: 15px;">
                         Declaro haber sido informado, conforme a Ley N° 29733 - Ley de Protección de Datos Personales
                         (“la Ley”) y al Decreto Supremo 003-2013/JUS - Reglamento de la Ley (“el Reglamento)”, doy mi
@@ -544,7 +540,7 @@ background-repeat:no-repeat; color: white;background-size:cover;">
                 <div class="modal-body">
                     <h6 class="text-warning text-center" style="font-size: 1.65rem">CLÁUSULA PARA ENVÍO DE PROMOCIONES
                         COMERCIALES</h6>
-                  
+
                     <p style="text-align: justify; font-size: 15px;">
                         Autorizo a <strong>AYBAR S.A.C.</strong> a utilizar mis Datos Personales y que los mismos sean
                         tratados
@@ -571,17 +567,16 @@ background-repeat:no-repeat; color: white;background-size:cover;">
     //reinicia animacion AOS
     //reinicia animacion AOS
 
-        // Función para reiniciar AOS en TODOS los elementos con atributos data-aos
-        function restartAOS() {
-            $("[data-aos='flip-left']").removeClass("aos-animate"); // Quitar animación
+    // Función para reiniciar AOS en TODOS los elementos con atributos data-aos
+    function restartAOS() {
+        $("[data-aos='flip-left']").removeClass("aos-animate"); // Quitar animación
 
-            setTimeout(() => {
-                $("[data-aos]").addClass("aos-animate"); // Volver a agregar animación
-                AOS.refreshHard(); // Refrescar AOS para que vuelva a aplicar los efectos
-            }, 1000);
-        }
+        setTimeout(() => {
+            $("[data-aos]").addClass("aos-animate"); // Volver a agregar animación
+            AOS.refreshHard(); // Refrescar AOS para que vuelva a aplicar los efectos
+        }, 1000);
+    }
 
-        // Ejecutar cada 3 segundos
-        setInterval(restartAOS, 70000);
- 
+    // Ejecutar cada 3 segundos
+    setInterval(restartAOS, 70000);
 </script>
