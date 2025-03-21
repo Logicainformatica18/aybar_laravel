@@ -83,7 +83,7 @@
 
 
         </div>
-<div class="text-center mt-n5 " style="background-color:#E8ECF3;" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="2000">
+<div class="text-center mt-n5 aos-init aos-animate" style="background-color:#E8ECF3;" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="2000">
             <div class="container py-5 mt-5">
 
 
@@ -94,12 +94,12 @@
 
                 <div class="row g-4">
                     <!-- Tarjeta 1 -->
-                    <div class="col-lg-4" data-aos="fade-up" data-aos-duration="500" data-aos-delay="500">
+                    <div class="col-lg-4 aos-init aos-animate" data-aos="fade-up" data-aos-duration="500" data-aos-delay="500">
                         <div class="p-4 text-center" style="border-radius: 0px 60px 0px 60px; background-color: white; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
                             <img src="../../resource/1738620627_67a13ed3427a1altas%20comisiones.svg" alt="Altas Comisiones" class="mb-3" width="100">
                             <h4 class="fw-bold" style="color: #F49A1A;">ALTAS COMISIONES</h4>
                             <hr style="width: 50px; margin: auto; border: 1px solid #F49A1A;">
-                            <p style="color: #b6b6b6;font-family:RALEWAY-REGULAR; text-align:justify" class="px-3 mt-4 fs-3 ">
+                            <p style="color: black;font-family:RALEWAY-REGULAR; text-align:justify" class="px-3 mt-4 fs-3 ">
                                 ¡Gana por tus resultados! El sector inmobiliario te ofrece una de las mejores oportunidades
                                 para generar ingresos extraordinarios en base a tus ventas.
                             </p>
@@ -110,7 +110,7 @@
                     </div>
 
                     <!-- Tarjeta 2 -->
-                    <div class="col-lg-4" data-aos="fade-up" data-aos-duration="500" data-aos-delay="500">
+                    <div class="col-lg-4 aos-init aos-animate" data-aos="fade-up" data-aos-duration="500" data-aos-delay="500">
                         <div class="p-4 text-center" style="border-radius: 0px 60px 0px 60px; background-color: #F49A1A;color: white; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
 
                             <img src="../../resource/1738707574_67a29276553dbtrabajo%20(1).svg" alt="Crecimiento Profesional" class="mb-3" width="100">
@@ -127,12 +127,12 @@
                     </div>
 
                     <!-- Tarjeta 3 -->
-                    <div class="col-lg-4" data-aos="fade-up" data-aos-duration="500" data-aos-delay="500">
+                    <div class="col-lg-4 aos-init aos-animate" data-aos="fade-up" data-aos-duration="500" data-aos-delay="500">
                         <div class="p-4 text-center" style="border-radius: 0px 60px 0px 60px; background-color: white; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
                             <img src="../../resource/1738707504_67a2923086c7eflexibilidad.svg" alt="Flexibilidad y Autonomía" class="mb-3" width="100">
                             <h4 class="fw-bold" style="color: #F49A1A;">FLEXIBILIDAD Y AUTONOMÍA</h4>
                             <hr style="width: 50px; margin: auto; border: 1px solid #F49A1A;">
-                            <p style="color: #b6b6b6;font-family:RALEWAY-REGULAR; text-align:justify" class="px-3 mt-4 fs-3 text-justify">
+                            <p style="color: black;font-family:RALEWAY-REGULAR; text-align:justify" class="px-3 mt-4 fs-3 text-justify">
                                 Organiza tu tiempo como desees. Sé dueño de tu agenda y trabaja desde cualquier lugar,
                                 mientras construyes tu carrera profesional.
                             </p>
@@ -240,7 +240,7 @@
 <section class="text-center py-5" style="background: url('../../resource/1738692212_67a256741dddabanner-naranja.jpg');
 background-repeat:no-repeat; color: white;background-size:cover;">
     <h1 class="fw-bold text-uppercase display-4 mb-5 mb-1">¿Qué ofrecemos?</h1>
-
+    
     <!-- Carrusel solo para dispositivos pequeños -->
     <div id="carouselExample" class="carousel slide d-sm-none" data-bs-ride="carousel" data-bs-interval="3000">
         <div class="carousel-inner container">
@@ -305,7 +305,7 @@ background-repeat:no-repeat; color: white;background-size:cover;">
     <!-- Versión de escritorio sin carrusel -->
     <div class="container mt-4 d-none d-sm-block aos-init aos-animate" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="600">
         <div class="row g-4 text-center align-content-center justify-content-center">
-
+            
             <div class="col-12 col-md-12 col-lg-8 col-xl-6">
                 <div class="d-flex align-items-center px-4 py-4 py-sm-0" style="background: white; color: black; border-radius: 0px 80px 0px 80px;">
                     <img src="../../resource/1738690870_67a2513661ed2mayores%20comisiones.svg" alt="Mayores comisiones" style="width: 40%; height: 40%; margin-right: 15px;">
@@ -325,6 +325,27 @@ background-repeat:no-repeat; color: white;background-size:cover;">
                     </div>
                 </div>
             </div>
+  <div class="col-12 col-md-12 col-lg-8 col-xl-6">
+ <div class="d-flex align-items-center px-4 py-4" style="background: white; color: black; border-radius: 0px 80px 0px 80px;">
+                    <img src="../../resource/1738691184_67a25270f269dacceso%20a%20sorteos.svg" alt="Acceso a sorteos y descuentos" style="width: 40%; height: 40%; margin-right: 15px;">
+                    <div>
+                        <h3 class="text-uppercase text-warning text-start fs-4">Acceso a sorteos y descuentos</h3>
+                        <p class="fs-3" style="text-align:justify;font-family:RALEWAY-REGULAR">Disfruta de beneficios exclusivos por formar parte de nuestra empresa.</p>
+                    </div>
+                </div>
+   </div>
+ <div class="col-12 col-md-12 col-lg-8 col-xl-6">
+
+<div class="d-flex align-items-center px-4 py-4" style="background: white; color: black; border-radius: 0px 80px 0px 80px;">
+                    <img src="../../resource/1738620804_67a13f8433153bonos%20por%20meta.svg" alt="Bono por metas" style="width: 40%; height: 40%; margin-right: 15px;">
+                    <div>
+                        <h3 class="text-uppercase text-warning text-start fs-4">Bono por metas</h3>
+                        <p class="fs-3" style="text-align:justify;font-family:RALEWAY-REGULAR">Reconocemos tu esfuerzo y te premiamos.</p>
+                    </div>
+                </div>
+
+   </div>
+
 
         </div>
     </div>
@@ -332,7 +353,7 @@ background-repeat:no-repeat; color: white;background-size:cover;">
 <section id="trabaja" class="text-center py-5" style="background: url('../../resource/1738695656_67a263e8cc4d1banner-negro.jpg') no-repeat center center/cover; color: white;">
         <div class="container mt-4">
             <h1 class="fw-bold text-uppercase display-4 text-lg-start my-4" style="color: #F49A1A;">Trabaja con Nosotros</h1>
-
+            
                 <div class="row g-3" data-aos="slide-up" data-aos-duration="1000" data-aos-delay="600">
                     <div class="col-12 col-md-6">
                         <input type="text" id="names" name="names" class="form-control" placeholder="Ingrese su nombre" style="background: rgba(255, 255, 255, 0.1); color: white; border: 1px solid #666464; padding: 12px;font-size:20px">
@@ -353,21 +374,21 @@ background-repeat:no-repeat; color: white;background-size:cover;">
                         <button data-aos="flip-right" data-aos-duration="1000" data-aos-delay="600" type="button" onclick="CustomerStorePublic();return false" class="btn w-100" style="background: #F49A1A; color: black; font-weight: bold; padding: 12px;"><h1 class="text-black">Enviar</h1> </button>
                     </div>
                 </div>
-
+            
         </div>
     </section>
 <section class="container py-5">
         <h1 class="fw-bold text-uppercase display-4  text-lg-start text-center   " style="color: #F49A1A;">FAQ (PREGUNTAS FRECUENTES)</h1>
         <div class="accordion mt-4" id="faqAccordion">
             <div class="accordion-item" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="600">
-
+           
                     <h2 class="accordion-header " id="headingOne">
                         <button class="accordion-button collapsed fs-7 p-5 text-center " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" style="background: black; color: white; font-weight: bold;color: #F49A1A;border-radius:0px">
                             ▼ ¿Qué necesito para ser socio comercial de ComexLat?
                         </button>
                     </h2>
-
-
+           
+                
                 <div id="collapseOne" class=" accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
                     <div class="accordion-body text-justify fs-5">
                         <p>Unirte a nuestra red de socios comerciales es fácil y está diseñado para que puedas comenzar de inmediato. Esto es lo que necesitas:</p>
