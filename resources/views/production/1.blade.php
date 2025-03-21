@@ -121,18 +121,18 @@
         <!-- INICIO SECCION -->
 <header class="header" id="mainHeader" style="  background-color: rgba(0, 0, 0);">
 
-
+   
     <nav class="navbar navbar-expand-lg py-0 row">
         <div class="col-9 py-3  py-md-0 py-lg-3  py-xl-0 col-lg-3 text-center " style="background-color:#F49A1A">
+   
 
-
-            <a data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" class="position-relative navbar-brand me-0 py-0 m-2 aos-init aos-animate" href="/">
+            <a data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" class="position-relative navbar-brand me-0 py-0 m-2 aos-init aos-animate" href="/"> 
                 <img data-aos="flip-right" data-aos-duration="1000" data-aos-delay="500" src="../../resource/1742514203_67dca81bc74cf_logo-negro-y-blanco.png" alt="img-fluid" width="96%" style="margin-left:0%" class="aos-init aos-animate">
             </a>
         </div>
         <div class="container col-3 col-lg-9 text-start">
 
-
+           
 
             <button class="navbar-toggler d-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="ti ti-menu-2 fs-9"></i>
@@ -158,17 +158,17 @@
                             <span data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" style="font-family: COOLVETICA-RG;" id="proyectos" class="aos-init aos-animate">Oportunidades</span>
                        </a>
                     </li>
-
-
+                    
+                 
                     <li class="nav-item" style="letter-spacing: 1px;">
                         <a class="nav-link fs-7" aria-current="page" href="#trabaja" style="color: white">
                            <span data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500" style="font-family: COOLVETICA-RG;word-spacing: 9px;" id="contacto" class="aos-init aos-animate">Contacto</span>
                         </a>
                     </li>
 
-
-
-
+              
+                    
+ 
                 </ul>
             </div>
         </div>
@@ -195,7 +195,7 @@
                     <p></p>
                     <p class=" text-white fs-6"><i class="bi bi-book"></i> Libro de Reclamaciones</p>
                 </a>
-
+               
             </div>
         </div>
         <p class="mt-3 fs-7">AYBAR CORP, Todos los derechos reservados 2025</p>
@@ -203,8 +203,8 @@
 </footer>
 <div class="offcanvas offcanvas-start matdash-lp-offcanvas" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" style="background-color: #000000e1">
     <div class="offcanvas-header p-4 text-center justify-content-center">
-        <img src="../../resource/1738678985_67a222c98b11alogo%20comexlat%20rengo%20y%20blanco.svg" alt="matdash-img" class="img-fluid" width="200" style="filter: brightness(0) invert(1);">
-
+        <img src="../../resource/1742513881_67dca6d9cd76e_logo-blanco.png" alt="matdash-img" class="img-fluid" width="200" style="filter: brightness(0) invert(1);">
+   
     </div>
     <div class="offcanvas-body ">
         <ul class="navbar-nav  flex-grow-1 text-white">
@@ -217,8 +217,8 @@
             <li class="nav-item mt-3 text-center">
                 <a class="nav-link fs-3  active" aria-current="page" href="#" id="nosotros__">Oportunidades</a>
             </li>
-
-
+          
+          
             <li class="nav-item mt-3 text-center">
                 <a class="nav-link fs-3  active" aria-current="page" href="#trabaja" id="contacto_2">Contacto</a>
             </li>
