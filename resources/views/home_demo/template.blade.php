@@ -18,67 +18,68 @@
 
     {{-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"> --}}
     <!-- Summernote CSS -->
-  
+
 
     <script src="{{ asset('js/section.js') }}"></script>
     <script src="{{ asset('js/customer.js') }}"></script>
     <script src="{{ asset('js/axios.min.js') }}"></script>
     <link href="{{ asset('css/template.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/css/intlTelInput.css">
-    
+
     <!-- JS -->
     <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/js/intlTelInput.min.js"></script>
 </head>
 <style type="text/css">
     @font-face {
         font-family: "RALEWAY-SEMIBOLD";
-        src: url("{{ asset('fuente/RALEWAY-SEMIBOLD.TTF') }}");
+        src: url("fuente_2")
+        src: url("{{ asset('fuente_2/Raleway-SemiBold.ttf') }}");
         font-weight: 600;
     }
     @font-face {
         font-family: "RALEWAY-EXTRABOLD";
-        src: url("{{ asset('fuente/RALEWAY-EXTRABOLD.TTF') }}");
+        src: url("{{ asset('fuente_2/Raleway-ExtraBold.ttf') }}");
         font-weight: 600;
     }
     @font-face {
         font-family: "RALEWAY-BOLD";
-        src: url("{{ asset('fuente/RALEWAY-BOLD.TTF') }}");
+        src: url("{{ asset('fuente_2/Raleway-Bold.ttf') }}");
         font-weight: 600;
     }
 
     @font-face {
         font-family: 'RALEWAY-LIGHT';
-        src: url("{{ asset('fuente/RALEWAY-LIGHT.TTF') }}") format('truetype');
+        src: url("{{ asset('fuente_2/Raleway-Light.ttf') }}") format('truetype');
         font-weight: normal;
         font-style: normal;
     }
 
     @font-face {
         font-family: 'COOLVETICA-CONDENSED-RG';
-        src: url("{{ asset('fuente/COOLVETICA-CONDENSED-RG.OTF') }}") format('truetype');
+        src: url("{{ asset('fuente_2/Raleway-VariableFont_wght.ttf') }}") format('truetype');
         font-weight: normal;
         font-style: normal;
     }
     @font-face {
       font-family: 'RALEWAY-BLACK';
-      src: url("../../fuente/RALEWAY-BLACK.TTF") format('truetype');
+      src: url("../../fuente_2/Raleway-Black.ttf") format('truetype');
       font-weight: normal;
       font-style: normal;
   }
-   
+
     @font-face {
       font-family: 'RALEWAY-REGULAR';
-      src: url("../../fuente/RALEWAY-REGULAR.TTF") format('truetype');
+      src: url("../../fuente_2/Raleway-Regular.ttf") format('truetype');
       font-weight: normal;
       font-style: normal;
   }
     @font-face {
       font-family: 'COOLVETICA-RG';
-      src: url("../../fuente/COOLVETICA-RG.OTF") format('truetype');
+      src: url("../../fuente_2/Raleway-VariableFont_wght.ttf") format('truetype');
       font-weight: normal;
       font-style: normal;
   }
-   
+
 </style>
 
 
@@ -116,13 +117,13 @@
 
 </div>
     <div id="main-wrapper flex-column">
-   
+
 
 
         @php
             $i = 0;
         @endphp
-        
+
         @foreach ($section_template as $section_templates)
             @php
                 $i = $i + 1;
@@ -131,16 +132,16 @@
             @if ($section_templates->nivel=="1")
                     @yield("content");
             @endif
-        
+
         @endforeach
-    
-       
 
 
 
 
-     
-       
+
+
+
+
 
 
     </div>

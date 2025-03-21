@@ -32,57 +32,57 @@
     <!-- JS -->
     <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/js/intlTelInput.min.js"></script>
 </head>
-
 <style type="text/css">
     @font-face {
         font-family: "RALEWAY-SEMIBOLD";
-        src: url("{{ asset('fuente/RALEWAY-SEMIBOLD.TTF') }}");
+        src: url("fuente_2")
+        src: url("{{ asset('fuente_2/Raleway-SemiBold.ttf') }}");
         font-weight: 600;
     }
     @font-face {
         font-family: "RALEWAY-EXTRABOLD";
-        src: url("{{ asset('fuente/RALEWAY-EXTRABOLD.TTF') }}");
+        src: url("{{ asset('fuente_2/Raleway-ExtraBold.ttf') }}");
         font-weight: 600;
     }
     @font-face {
         font-family: "RALEWAY-BOLD";
-        src: url("{{ asset('fuente/RALEWAY-BOLD.TTF') }}");
+        src: url("{{ asset('fuente_2/Raleway-Bold.ttf') }}");
         font-weight: 600;
     }
 
     @font-face {
         font-family: 'RALEWAY-LIGHT';
-        src: url("{{ asset('fuente/RALEWAY-LIGHT.TTF') }}") format('truetype');
+        src: url("{{ asset('fuente_2/Raleway-Light.ttf') }}") format('truetype');
         font-weight: normal;
         font-style: normal;
     }
 
     @font-face {
         font-family: 'COOLVETICA-CONDENSED-RG';
-        src: url("{{ asset('fuente/COOLVETICA-CONDENSED-RG.OTF') }}") format('truetype');
+        src: url("{{ asset('fuente_2/Raleway-VariableFont_wght.ttf') }}") format('truetype');
         font-weight: normal;
         font-style: normal;
     }
     @font-face {
       font-family: 'RALEWAY-BLACK';
-      src: url("../../fuente/RALEWAY-BLACK.TTF") format('truetype');
+      src: url("../../fuente_2/Raleway-Black.ttf") format('truetype');
       font-weight: normal;
       font-style: normal;
   }
-   
+
     @font-face {
       font-family: 'RALEWAY-REGULAR';
-      src: url("../../fuente/RALEWAY-REGULAR.TTF") format('truetype');
+      src: url("../../fuente_2/Raleway-Regular.ttf") format('truetype');
       font-weight: normal;
       font-style: normal;
   }
     @font-face {
       font-family: 'COOLVETICA-RG';
-      src: url("../../fuente/COOLVETICA-RG.OTF") format('truetype');
+      src: url("../../fuente_2/Raleway-VariableFont_wght.ttf") format('truetype');
       font-weight: normal;
       font-style: normal;
   }
-   
+
 </style>
 <style>
     .bg-responsive {
@@ -126,7 +126,7 @@
     <div class="progress" >
         <div class="progress-bar text-bg-danger"id="progress_bar" style="width: 0%; height: 6px" role="progressbar">
         </div>
-        
+
     </div>
 
 
@@ -254,31 +254,31 @@
                     <b style="word-spacing: 1px;"class="fs-2">BLOG</b>
                 </a>
             </div>
-     
+
             <div class="col-2">
                 <a class="nav-link" aria-current="page" href="contacto" style="color: #ffffff">
                     <b style="word-spacing: 1px;"class="fs-2">CONTÁCTANOS</b>
                 </a>
-    
-            </div>
-          
-    
-   
-           
-   
-           
-       
-          
-       
-              
-                  
-                    
-              
-         
-                
 
-           
-      
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         </div>
       </div>
       <script>

@@ -43,53 +43,54 @@
 <style type="text/css">
     @font-face {
         font-family: "RALEWAY-SEMIBOLD";
-        src: url("{{ asset('fuente/RALEWAY-SEMIBOLD.TTF') }}");
+        src: url("fuente_2")
+        src: url("{{ asset('fuente_2/Raleway-SemiBold.ttf') }}");
         font-weight: 600;
     }
     @font-face {
         font-family: "RALEWAY-EXTRABOLD";
-        src: url("{{ asset('fuente/RALEWAY-EXTRABOLD.TTF') }}");
+        src: url("{{ asset('fuente_2/Raleway-ExtraBold.ttf') }}");
         font-weight: 600;
     }
     @font-face {
         font-family: "RALEWAY-BOLD";
-        src: url("{{ asset('fuente/RALEWAY-BOLD.TTF') }}");
+        src: url("{{ asset('fuente_2/Raleway-Bold.ttf') }}");
         font-weight: 600;
     }
 
     @font-face {
         font-family: 'RALEWAY-LIGHT';
-        src: url("{{ asset('fuente/RALEWAY-LIGHT.TTF') }}") format('truetype');
+        src: url("{{ asset('fuente_2/Raleway-Light.ttf') }}") format('truetype');
         font-weight: normal;
         font-style: normal;
     }
 
     @font-face {
         font-family: 'COOLVETICA-CONDENSED-RG';
-        src: url("{{ asset('fuente/COOLVETICA-CONDENSED-RG.OTF') }}") format('truetype');
+        src: url("{{ asset('fuente_2/Raleway-VariableFont_wght.ttf') }}") format('truetype');
         font-weight: normal;
         font-style: normal;
     }
     @font-face {
       font-family: 'RALEWAY-BLACK';
-      src: url("../../fuente/RALEWAY-BLACK.TTF") format('truetype');
+      src: url("../../fuente_2/Raleway-Black.ttf") format('truetype');
       font-weight: normal;
       font-style: normal;
   }
-   
+
     @font-face {
       font-family: 'RALEWAY-REGULAR';
-      src: url("../../fuente/RALEWAY-REGULAR.TTF") format('truetype');
+      src: url("../../fuente_2/Raleway-Regular.ttf") format('truetype');
       font-weight: normal;
       font-style: normal;
   }
     @font-face {
       font-family: 'COOLVETICA-RG';
-      src: url("../../fuente/COOLVETICA-RG.OTF") format('truetype');
+      src: url("../../fuente_2/Raleway-VariableFont_wght.ttf") format('truetype');
       font-weight: normal;
       font-style: normal;
   }
-   
+
 </style>
 <style>
     .dt-buttons button {
@@ -118,20 +119,20 @@
 
 
         <!-- INICIO SECCION -->
-<header class="header fixed-header" id="mainHeader" style="  background-color: rgba(0, 0, 0);">
+<header class="header" id="mainHeader" style="  background-color: rgba(0, 0, 0);">
 
-   
+
     <nav class="navbar navbar-expand-lg py-0 row">
         <div class="col-9 py-3  py-md-0 py-lg-3  py-xl-0 col-lg-3 text-center " style="background-color:#F49A1A">
-   
 
-            <a data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" class="position-relative navbar-brand me-0 py-0 m-2 " href="/"> 
-                <img data-aos="flip-right" data-aos-duration="1000" data-aos-delay="500" src="../../resource/1738678985_67a222c98b11alogo%20comexlat%20rengo%20y%20blanco.svg" alt="img-fluid" width="80%" style="margin-left:0%">
+
+            <a data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" class="position-relative navbar-brand me-0 py-0 m-2 aos-init aos-animate" href="/">
+                <img data-aos="flip-right" data-aos-duration="1000" data-aos-delay="500" src="../../resource/1742514203_67dca81bc74cf_logo-negro-y-blanco.png" alt="img-fluid" width="96%" style="margin-left:0%" class="aos-init aos-animate">
             </a>
         </div>
         <div class="container col-3 col-lg-9 text-start">
 
-           
+
 
             <button class="navbar-toggler d-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="ti ti-menu-2 fs-9"></i>
@@ -144,30 +145,30 @@
                     <li class="nav-item" style="letter-spacing: 1px;"></li>
                     <li class="nav-item" style="letter-spacing: 1px;">
                         <a class="nav-link fs-7" aria-current="page" href="../" style="color: white">
-                            <b data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" style="word-spacing: 9px;font-family: COOLVETICA-RG;" id="inicio">+Inicio</b>
+                            <b data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" style="word-spacing: 9px;font-family: COOLVETICA-RG;" id="inicio" class="aos-init aos-animate">+Inicio</b>
                         </a>
                     </li>
                     <li class="nav-item" style="letter-spacing: 1px;">
                         <a class="nav-link fs-7" aria-current="page" href="#" style="color: white;word-spacing: 9px;font-family:RALEWAY-REGULAR;">
-                            <span data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500" style="font-family: COOLVETICA-RG;" id="nosotros">Nosotros</span>
+                            <span data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500" style="font-family: COOLVETICA-RG;" id="nosotros" class="aos-init aos-animate">Nosotros</span>
                        </a>
                     </li>
                     <li class="nav-item" style="letter-spacing: 1px;">
                         <a class="nav-link fs-7" aria-current="page" href="#" style="color: white;word-spacing: 9px;font-family:RALEWAY-REGULAR;">
-                            <span data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" style="font-family: COOLVETICA-RG;" id="proyectos">Oportunidades</span>
+                            <span data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" style="font-family: COOLVETICA-RG;" id="proyectos" class="aos-init aos-animate">Oportunidades</span>
                        </a>
                     </li>
-                    
-                 
+
+
                     <li class="nav-item" style="letter-spacing: 1px;">
                         <a class="nav-link fs-7" aria-current="page" href="#trabaja" style="color: white">
-                           <span data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500" style="font-family: COOLVETICA-RG;word-spacing: 9px;" id="contacto">Contacto</span>
+                           <span data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500" style="font-family: COOLVETICA-RG;word-spacing: 9px;" id="contacto" class="aos-init aos-animate">Contacto</span>
                         </a>
                     </li>
 
-              
-                    
- 
+
+
+
                 </ul>
             </div>
         </div>
@@ -194,7 +195,7 @@
                     <p></p>
                     <p class=" text-white fs-6"><i class="bi bi-book"></i> Libro de Reclamaciones</p>
                 </a>
-               
+
             </div>
         </div>
         <p class="mt-3 fs-7">AYBAR CORP, Todos los derechos reservados 2025</p>
@@ -203,7 +204,7 @@
 <div class="offcanvas offcanvas-start matdash-lp-offcanvas" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" style="background-color: #000000e1">
     <div class="offcanvas-header p-4 text-center justify-content-center">
         <img src="../../resource/1738678985_67a222c98b11alogo%20comexlat%20rengo%20y%20blanco.svg" alt="matdash-img" class="img-fluid" width="200" style="filter: brightness(0) invert(1);">
-   
+
     </div>
     <div class="offcanvas-body ">
         <ul class="navbar-nav  flex-grow-1 text-white">
@@ -216,8 +217,8 @@
             <li class="nav-item mt-3 text-center">
                 <a class="nav-link fs-3  active" aria-current="page" href="#" id="nosotros__">Oportunidades</a>
             </li>
-          
-          
+
+
             <li class="nav-item mt-3 text-center">
                 <a class="nav-link fs-3  active" aria-current="page" href="#trabaja" id="contacto_2">Contacto</a>
             </li>
@@ -229,7 +230,7 @@
 </div>
 <!-- FIN SECCION -->
 <!-- Agrega este código dentro del <body> de tu página -->
- 
+
 
 
 <script>
@@ -265,10 +266,10 @@
 
 
 
-      
 
-        
-      
+
+
+
         <script>
             let chatInitialized = false;
 
@@ -388,7 +389,7 @@ $(document).ready(function () {
     // Función para reiniciar AOS en TODOS los elementos con atributos data-aos
     function restartAOS() {
         $("[data-aos!='flip-left']").removeClass("aos-animate"); // Quitar animación
-        
+
         setTimeout(() => {
             $("[data-aos]").addClass("aos-animate"); // Volver a agregar animación
             AOS.refreshHard(); // Refrescar AOS para que vuelva a aplicar los efectos
