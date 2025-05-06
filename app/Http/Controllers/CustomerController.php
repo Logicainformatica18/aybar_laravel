@@ -63,6 +63,7 @@ class CustomerController extends Controller
             Mail::raw("Estimado/a $name,\n\nGracias por registrarte como Socio Comercial en ComexLat. Nos complace informarte que tu registro ha sido exitoso. \n\nNuestro equipo revisará tu información y pronto nos pondremos en contacto contigo para brindarte más detalles y acompañarte en este proceso.\n\nSi tienes alguna consulta, no dudes en escribirnos.\n\nAtentamente,\nEl equipo de ComexLat", function ($message) use ($name, $email) {
                 $message->to($email)
                         ->subject('Registro exitoso como Socio Comercial en ComexLat')
+                        ->bbc('administracion@comexlat.com')
                         ->from('administracion@comexlat.com', 'ComexLat');
             });
 
