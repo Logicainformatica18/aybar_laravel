@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Mail;
 use App\Notifications\CustomerNotification;
 class CustomerController extends Controller
 {
-  
+
     /**
      * Display a listing of the resource.
      */
@@ -58,14 +58,14 @@ class CustomerController extends Controller
         // // //funciona en goddady
         $name = $data["names"];
         $email = $data["email"];
-        
+
         try {
             Mail::raw("Estimado/a $name,\n\nGracias por registrarte como Socio Comercial en ComexLat. Nos complace informarte que tu registro ha sido exitoso. \n\nNuestro equipo revisará tu información y pronto nos pondremos en contacto contigo para brindarte más detalles y acompañarte en este proceso.\n\nSi tienes alguna consulta, no dudes en escribirnos.\n\nAtentamente,\nEl equipo de ComexLat", function ($message) use ($name, $email) {
                 $message->to($email)
                         ->subject('Registro exitoso como Socio Comercial en ComexLat')
                         ->from('administracion@comexlat.com', 'ComexLat');
             });
-            
+
             $Customer = new Customer;
             //data es un array
             $Customer->names = $data["names"];
@@ -73,22 +73,22 @@ class CustomerController extends Controller
             $Customer->dni = $data["dni"];
             $Customer->email = $data["email"];
             $Customer->cellphone = $data["code_country"]. $data["phone"];
-         
-    
+
+
             $Customer->save();
-      
+
             return "Correo enviado con éxito";
         } catch (\Exception $e) {
             return "Error al enviar el correo: " . $e->getMessage();
         }
-        
-
-    
 
 
-      
- 
-    
+
+
+
+
+
+
     }
     public function ProjectList()
     {
