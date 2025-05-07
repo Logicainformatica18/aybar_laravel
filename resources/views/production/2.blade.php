@@ -240,7 +240,7 @@
 <section class="text-center py-5" style="background: url('../../resource/1738692212_67a256741dddabanner-naranja.jpg');
 background-repeat:no-repeat; color: white;background-size:cover;">
     <h1 class="fw-bold text-uppercase display-4 mb-5 mb-1">¿Qué ofrecemos?</h1>
-
+    
     <!-- Carrusel solo para dispositivos pequeños -->
     <div id="carouselExample" class="carousel slide d-sm-none" data-bs-ride="carousel" data-bs-interval="3000">
         <div class="carousel-inner container">
@@ -305,7 +305,7 @@ background-repeat:no-repeat; color: white;background-size:cover;">
     <!-- Versión de escritorio sin carrusel -->
     <div class="container mt-4 d-none d-sm-block aos-init aos-animate" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="600">
         <div class="row g-4 text-center align-content-center justify-content-center">
-
+            
             <div class="col-12 col-md-12 col-lg-8 col-xl-6">
                 <div class="d-flex align-items-center px-4 py-4 py-sm-0" style="background: white; color: black; border-radius: 0px 80px 0px 80px;">
                     <img src="../../resource/1738690870_67a2513661ed2mayores%20comisiones.svg" alt="Mayores comisiones" style="width: 40%; height: 40%; margin-right: 15px;">
@@ -371,9 +371,7 @@ background-repeat:no-repeat; color: white;background-size:cover;">
                         <input type="email" id="email" name="email" class="form-control" placeholder="Correo electrónico" style="background: rgba(255, 255, 255, 0.1); color: white; border: 1px solid #666464; padding: 12px;font-size:20px">
                     </div>
                     <div class="col-12">
-                        <button id="submitBtn" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="600"
-                        type="button" onclick="CustomerStorePublic();return false" class="btn w-100"
-                        style="background: #F49A1A; color: black; font-weight: bold; padding: 12px;">
+                        <button id="submitBtn" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="600" type="button" onclick="CustomerStorePublic();return false" class="btn w-100" style="background: #F49A1A; color: black; font-weight: bold; padding: 12px;">
                         <h1 class="text-black mb-0">
                             <span id="submitText">Enviar</span>
                             <span id="submitSpinner" class="spinner-border spinner-border-sm d-none" role="status" aria-hidden="true"></span>
@@ -389,14 +387,14 @@ background-repeat:no-repeat; color: white;background-size:cover;">
         <h1 class="fw-bold text-uppercase display-4  text-lg-start text-center   " style="color: #F49A1A;">FAQ (PREGUNTAS FRECUENTES)</h1>
         <div class="accordion mt-4" id="faqAccordion">
             <div class="accordion-item" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="600">
-
+           
                     <h2 class="accordion-header " id="headingOne">
                         <button class="accordion-button collapsed fs-7 p-5 text-center " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" style="background: black; color: white; font-weight: bold;color: #F49A1A;border-radius:0px">
                             ▼ ¿Qué necesito para ser socio comercial de ComexLat?
                         </button>
                     </h2>
-
-
+           
+                
                 <div id="collapseOne" class=" accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
                     <div class="accordion-body text-justify fs-5">
                         <p>Unirte a nuestra red de socios comerciales es fácil y está diseñado para que puedas comenzar de inmediato. Esto es lo que necesitas:</p>
