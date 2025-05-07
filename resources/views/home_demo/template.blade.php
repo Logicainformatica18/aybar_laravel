@@ -21,7 +21,7 @@
 
 
     <script src="{{ asset('js/section.js') }}"></script>
-    <script src="{{ asset('js/customer.js') }}"></script>
+    <script src="{{ asset('js/customer_3.js') }}"></script>
     <script src="{{ asset('js/axios.min.js') }}"></script>
     <link href="{{ asset('css/template.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/css/intlTelInput.css">

@@ -21,7 +21,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.20/summernote-bs4.min.css" rel="stylesheet">
 
     <script src="{{ asset('js/section.js') }}"></script>
-    <script src="{{ asset('js/customer.js') }}"></script>
+    <script src="{{ asset('js/customer_3.js') }}"></script>
     <script src="{{ asset('js/axios.min.js') }}"></script>
     <link href="{{ asset('css/template.css') }}" rel="stylesheet">
 

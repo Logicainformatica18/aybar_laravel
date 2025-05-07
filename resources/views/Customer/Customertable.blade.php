@@ -15,7 +15,7 @@
             <th>Nombres</th>
             <th> <i class="ti ti-brand-whatsapp fs-7"style="color:green;"></i></th>
             <th>Celular </th>
-            
+            <th>Email</th>
             <th>Mensaje</th>
             <th>Fecha</th>
 
@@ -34,7 +34,7 @@
                         <i class="ti ti-dots-vertical fs-6"></i>
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="">
-                       
+
                         @canany(['administrar', 'editar'])
                             <li>
                                 <a onclick="CustomerEdit('{{ $Customers->id }}'); Up();  return false" data-bs-toggle="modal"
@@ -56,7 +56,7 @@
                 </div>
 
             </td>
-          
+
 
 
                 <td>{{ $Customers->id }}</td>
@@ -79,7 +79,9 @@
                 <td>
                     {{ $Customers->cellphone }}
                 </td>
-              
+                <td>
+                    {{ $Customers->email}}
+                </td>
                 <td>
                     {{ $Customers->message }}
                 </td>
