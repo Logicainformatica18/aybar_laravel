@@ -9,6 +9,7 @@ use App\Http\Requests\StoreCustomerRequest;
 use App\Http\Requests\UpdateCustomerRequest;
 use App\Models\User;
 use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Log;
 use App\Notifications\CustomerNotification;
 class CustomerController extends Controller
 {
@@ -43,45 +44,46 @@ class CustomerController extends Controller
         $Customer->names = $request->names;
         $Customer->dni = $request->dni;
         $Customer->message = $request->message;
-        $Customer->project_id = $request->project_id;
+       // $Customer->project_id = $request->project_id;
         $Customer->cellphone = $request->cellphone;
         $Customer->save();
         return $this->create();
     }
-    public function storePublic(StoreCustomerRequest $request)
-    {
-        $data = $request->validated();
-    //      funciona localmente con hos
-        // $user = User::find(3); // Encuentra al usuario que recibirá la notificación
-        // $user->notify(new CustomerNotification());
-        //  $name_ =$request->names;
-        // // //funciona en goddady
-        $name = $data["names"];
-        $email = $data["email"];
 
-        try {
-            Mail::raw("Estimado/a $name,\n\nGracias por registrarte como Socio Comercial en ComexLat. Nos complace informarte que tu registro ha sido exitoso. \n\nNuestro equipo revisará tu información y pronto nos pondremos en contacto contigo para brindarte más detalles y acompañarte en este proceso.\n\nSi tienes alguna consulta, no dudes en escribirnos.\n\nAtentamente,\nEl equipo de ComexLat", function ($message) use ($name, $email) {
-                $message->to($email)
-                        ->subject('Registro exitoso como Socio Comercial en ComexLat')
-                        ->bbc('administracion@comexlat.com')
-                        ->from('administracion@comexlat.com', 'ComexLat');
-            });
+public function storePublic(StoreCustomerRequest $request)
+{
+    $data = $request->validated();
+    $name = $data["names"];
+    $email = $data["email"];
 
-            $Customer = new Customer;
-            //data es un array
-            $Customer->names = $data["names"];
-            $Customer->firstname = $data["firstname"];
-            $Customer->dni = $data["dni"];
-            $Customer->email = $data["email"];
-            $Customer->cellphone = $data["code_country"]. $data["phone"];
+    Log::info("Intentando registrar nuevo socio comercial", ['name' => $name, 'email' => $email]);
 
+    try {
+        Mail::raw("Estimado/a $name,\n\nGracias por registrarte como Socio Comercial en ComexLat. Nos complace informarte que tu registro ha sido exitoso. \n\nNuestro equipo revisará tu información y pronto nos pondremos en contacto contigo para brindarte más detalles y acompañarte en este proceso.\n\nSi tienes alguna consulta, no dudes en escribirnos.\n\nAtentamente,\nEl equipo de ComexLat", function ($message) use ($name, $email) {
+            $message->to($email)
+                    ->subject('Registro exitoso como Socio Comercial en ComexLat')
+                    ->bcc('administracion@comexlat.com')
+                    ->from('administracion@comexlat.com', 'ComexLat');
+        });
 
-            $Customer->save();
+        $Customer = new Customer;
+        $Customer->names = $data["names"];
+        $Customer->firstname = $data["firstname"];
+        $Customer->dni = $data["dni"];
+        $Customer->email = $data["email"];
+        $Customer->cellphone = $data["code_country"] . $data["phone"];
+        $Customer->save();
 
-            return "Correo enviado con éxito";
-        } catch (\Exception $e) {
-            return "Error al enviar el correo: " . $e->getMessage();
-        }
+        Log::info("Registro y correo exitoso para: {$email}");
+
+        return "Correo enviado con éxito";
+    } catch (\Exception $e) {
+        Log::error("Error al registrar socio o enviar correo", [
+            'error' => $e->getMessage(),
+            'data' => $data
+        ]);
+        return "Error al enviar el correo: " . $e->getMessage();
+    }
 
 
 

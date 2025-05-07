@@ -29,7 +29,7 @@
     <script src="{{ asset('js/project.js') }}"></script>
     <script src="{{ asset('js/image.js') }}"></script>
     <script src="{{ asset('js/role.js') }}"></script>
-    <script src="{{ asset('js/customer.js') }}"></script>
+    <script src="{{ asset('js/customer_3.js') }}"></script>
     <script src="{{ asset('js/function.js') }}"></script>
     <script src="{{ asset('js/Book.js') }}"></script>
     <script src="{{ asset('js/axios.min.js') }}"></script>
@@ -39,10 +39,10 @@
             background-repeat: no-repeat;
             background-size: 100%;
             height: 90vh;
-    
+
             /* height: 85vh; */
         }
-    
+
         /* Para pantallas medianas (tablets) */
         @media (max-width: 1684px) {
             .bg-responsive {
@@ -54,7 +54,7 @@
                 background-image: url('../../resource/1738619096_67a138d8b8f8fbanner-comexlat-tablet.jpg');
             }
         }
-    
+
         /* Para pantallas pequeñas (móviles) */
         @media (max-width: 532px) {
             .bg-responsive {
@@ -343,7 +343,7 @@
                 <div class="progress" >
                     <div class="progress-bar text-bg-danger"id="progress_bar" style="width: 0%; height: 6px" role="progressbar">
                     </div>
-                    
+
                 </div>
                 <div class="with-vertical">
 
@@ -454,8 +454,8 @@
                                                             {{ Auth::user()->lastname }}
                                                         </p>
                                                         <span class="text-success fs-11">Pro</span>
-                                                        {{-- <h5 class="mb-0 fs-12">David McMichael 
-                                                            
+                                                        {{-- <h5 class="mb-0 fs-12">David McMichael
+
                                                         </h5> --}}
 
                                                     </div>
@@ -2085,9 +2085,9 @@
         function datatable_load() {
 
 
-            // 
+            //
             //    File export                              //
-            // 
+            //
             $("#file_export").DataTable({
                 dom: "Bfrtip",
                 buttons: ["copy", "csv", "excel", "pdf", "print"],
@@ -2096,9 +2096,9 @@
                 ".buttons-copy, .buttons-csv, .buttons-print, .buttons-pdf, .buttons-excel"
             ).addClass("btn btn-primary");
 
-            // 
+            //
             //  Show / hide columns dynamically                 //
-            // 
+            //
 
             var table = $("#show_hide_col").DataTable({
                 scrollY: "200px",
@@ -2117,9 +2117,9 @@
                 column.visible(!column.visible());
             });
 
-            // 
+            //
             //    Column rendering                         //
-            // 
+            //
             $("#col_render").DataTable({
                 columnDefs: [{
                         // The `data` parameter refers to the data for the cell (defined by the
@@ -2137,9 +2137,9 @@
                 ],
             });
 
-            // 
+            //
             //     Row grouping                            //
-            // 
+            //
             var table = $("#row_group").DataTable({
                 pageLength: 10,
                 columnDefs: [{
@@ -2176,9 +2176,9 @@
                 },
             });
 
-            // 
+            //
             // Order by the grouping
-            // 
+            //
             $("#row_group tbody").on("click", "tr.group", function() {
                 var currentOrder = table.order()[0];
                 if (currentOrder[0] === 2 && currentOrder[1] === "asc") {
@@ -2188,16 +2188,16 @@
                 }
             });
 
-            // 
+            //
             //    Multiple table control element           //
-            // 
+            //
             $("#multi_control").DataTable({
                 dom: '<"top"iflp<"clear">>rt<"bottom"iflp<"clear">>',
             });
 
-            // 
+            //
             //    DOM/jquery events                        //
-            // 
+            //
             var table = $("#dom_jq_event").DataTable();
 
             $("#dom_jq_event tbody").on("click", "tr", function() {
@@ -2205,18 +2205,18 @@
                 alert("You clicked on " + data[0] + "'s row");
             });
 
-            // 
+            //
             //    Language File                            //
-            // 
+            //
             $("#lang_file").DataTable({
                 language: {
                     url: "../../assets/js/datatable/German.json",
                 },
             });
 
-            // 
+            //
             //    Complex headers with column visibility   //
-            // 
+            //
 
             $("#complex_head_col").DataTable({
                 columnDefs: [{
@@ -2225,9 +2225,9 @@
                 }, ],
             });
 
-            // 
+            //
             //    Setting defaults                         //
-            // 
+            //
             var defaults = {
                 searching: false,
                 ordering: false,
@@ -2235,9 +2235,9 @@
 
             $("#setting_defaults").dataTable($.extend(true, {}, defaults, {}));
 
-            // 
+            //
             //    Footer callback                          //
-            // 
+            //
             $("#footer_callback").DataTable({
                 footerCallback: function(row, data, start, end, display) {
                     var api = this.api(),
@@ -2277,9 +2277,9 @@
                 },
             });
 
-            // 
+            //
             //    Custom toolbar elements                  //
-            // 
+            //
 
             $("#custom_tool_ele").DataTable({
                 dom: '<"toolbar">frtip',
@@ -2287,9 +2287,9 @@
 
             $("div.toolbar").html("<b>Custom tool bar! Text/images etc.</b>");
 
-            // 
+            //
             //    Row created callback                     //
-            // 
+            //
             $("#row_create_call").DataTable({
                 createdRow: function(row, data, index) {
                     if (data[5].replace(/[\$,]/g, "") * 1 > 150000) {
